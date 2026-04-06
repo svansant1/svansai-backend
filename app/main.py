@@ -79,3 +79,10 @@ def test_search():
 @app.get("/api")
 def api_root():
     return {"ok": True, "service": "SVANSAI API"}
+
+
+@app.get("/learning/data")
+def get_learning_data():
+    from app.services.knowledge_store import load_knowledge
+
+    return {"ok": True, "entries": load_knowledge()}
