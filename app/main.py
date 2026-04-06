@@ -25,10 +25,16 @@ def learning_loop():
             if inside_learning_window():
                 mark_learning_started()
                 result = learn_topics_for_run(search_topic)
+
+                # Update status
                 mark_learning_completed(
                     topics_attempted=result["topics_attempted"],
                     entries_saved=result["entries_saved"],
                 )
+
+                # The backup is now handled automatically inside save_knowledge
+                # which is called by learn_topics_for_run -> merge_new_entries
+
             else:
                 status = load_learning_status()
                 if status.get("running"):
@@ -42,11 +48,11 @@ def learning_loop():
                 subject="SVANSAI Learning Error",
                 body=f"SVANSAI learning failed:\n\n{error}",
             )
+            # Emergency backup attempt on error
             from app.services.knowledge_store import load_knowledge
             from app.services.github_backup import backup_knowledge_to_github
 
-            backup_result = backup_knowledge_to_github(load_knowledge())
-            print("[SVANSAI Backup]", backup_result)
+            backup_knowledge_to_github(load_knowledge())
 
         time.sleep(settings.run_interval_minutes * 60)
 

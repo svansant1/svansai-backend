@@ -41,8 +41,19 @@ def load_knowledge() -> List[Dict[str, Any]]:
 
 
 def save_knowledge(entries: List[Dict[str, Any]]) -> None:
+    # 1. Save locally (immediate access for the current session)
     _write_json_file(KNOWLEDGE_FILE, entries)
     _write_json_file(BACKUP_FILE, entries)
+
+    # 2. Trigger the GitHub Backup immediately
+    from app.services.github_backup import backup_knowledge_to_github
+
+    try:
+        # We pass the entries directly to the backup service
+        backup_knowledge_to_github(entries)
+        print(f"[SVANSAI] Syncing {len(entries)} entries to GitHub...")
+    except Exception as e:
+        print(f"[SVANSAI] GitHub Sync failed: {e}")
 
 
 def merge_new_entries(new_entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
