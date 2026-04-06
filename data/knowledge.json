@@ -1,0 +1,942 @@
+[
+  {
+    "title": "Zero Trust Architecture - OWASP Cheat Sheet Series",
+    "content": "Zero Trust Architecture - OWASP Cheat Sheet Series Skip to content Zero Trust Architecture Cheat Sheet \u00b6 Introduction \u00b6 This cheat sheet will help you implement Zero Trust Architecture (ZTA) in your organization. Zero Trust means \"never trust, always verify\" - you don't trust anyone or anything by default, even if they're inside your network. Zero Trust is different - it checks every person and device every time they try to access something, just like having security guards at every door. Core Zero Trust Principles \u00b6 These principles come from NIST SP 800-207 : 1. Network location doesn't determine trust level. Core Zero Trust Architecture Components \u00b6 Zero Trust uses three main parts that work together: Policy Engine - This makes decisions about whether to allow or block access.",
+    "topic": "Zero trust basics",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Zero_Trust_Architecture_Cheat_Sheet.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T13:46:42.527237+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Thread (computing) - Wikipedia",
+    "content": "Thread (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia This article is about the concurrency concept. For multithreading in hardware, see Multithreading (computer architecture). For the form of code consisting entirely of subroutine calls, see Threaded code. For other uses, see Thread (disambiguation). Component of a computer process A process with two threads of execution, running on one processor Program vs. thread scheduling , preemption , context switching In computer science , a thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler , which is typically a part of the operating system.",
+    "topic": "Thread scheduling",
+    "url": "https://en.wikipedia.org/wiki/Thread_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T13:15:50.505803+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is Zero Trust? | Microsoft Learn",
+    "content": "What is Zero Trust? | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. What is Zero Trust? Feedback Summarize this article for me Zero Trust is a security strategy. These principles are the core of Zero Trust. Instead of believing everything behind the corporate firewall is safe, the Zero Trust model assumes breach and verifies each request as though it originated from an uncontrolled network. Regardless of where the request originates or what resource it accesses, the Zero Trust model teaches us to \"never trust, always verify.\" Zero Trust is designed to adapt to the complexities of the modern environment that embraces the mobile workforce. Zero Trust protects user accounts, devices, applications, and data wherever they're located.",
+    "topic": "Zero trust basics",
+    "url": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T13:05:30.404583+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Debugging - Wikipedia",
+    "content": "Debugging - Wikipedia Jump to content From Wikipedia, the free encyclopedia Fixing defects in an engineered system \"Debug\" redirects here. Part of a series on Software development Core activities Data modeling Processes Requirements Design Construction Engineering Testing Debugging Deployment Maintenance Paradigms and models Agile Cleanroom Incremental Prototyping Spiral V model Waterfall Methodologies and frameworks ASD DAD DevOps DSDM FDD IID Kanban Lean SD LeSS MDD MSF PSP RAD RUP SAFe Scrum SEMAT TDD TSP UP XP Supporting disciplines Configuration management Deployment management Documentation Project management Quality assurance User experience Practices ATDD BDD CCO CD CI DDD PP SBE Stand-up TDD Tools Build automation Compiler Debugger GUI builder IDE Infrastructure as code Profiler Release automation UML Modeling Standards and bodies of knowledge CMMI IEEE standards IREB ISO 9001 ISO/IEC standards ITIL OMG PMBOK SWEBOK Glossaries Artificial intelligence Computer science Electrical and electronics engineering Outlines Software development C programming language C sharp programming language C++ programming language Java programming language JavaScript programming language Python programming language Rust programming language v t e In engineering , debugging is the process of finding the root cause , workarounds , and possible fixes for bugs. For software , debugging tactics can involve interactive debugging, control flow analysis, log file analysis , monitoring at the application or system level, memory dumps , and profiling. Many programming languages and software development tools also offer programs to aid in debugging, known as debuggers. Similarly, the term debugging was used in aeronautics before entering the world of computers. The Oxford English Dictionary entry for debug uses the term debugging in reference to airplane engine testing in a 1945 article in the Journal of the Royal Aeronautical Society.",
+    "topic": "Debugging techniques",
+    "url": "https://en.wikipedia.org/wiki/Debugging",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T13:00:23.806606+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "6.JavaScriptfundamentals",
+    "content": "JavaScript fundamentals Skip to main content Skip to search 6.1 Variables 6.2 Math 6.3 Text 6.4 Arrays 6.5 Conditionals 6.6 Loops 6.7 Functions 6.8 JavaScript object basics 6.9 DOM scripting 6.10 Events 6.11 Async JavaScript basics 6.12 Network requests with fetch() 6.13 Working with JSON 6.14 Libraries and frameworks 6.15 Debugging JavaScript JavaScript is a huge topic, with so many different features, styles, and techniques to learn, and so many APIs and tools built on top of it. General resources: Learn JavaScript , Scrimba Course partner What is JavaScript? A first splash into JavaScript 6.1 Variables Learning outcomes: Understand what variables are and why they are so important in programming generally, not just JavaScript. Resources: Storing the information you need \u00e2\u0080\u0094 Variables 6.2 Math Learning outcomes: Basic number operations in JavaScript \u00e2\u0080\u0094 add, subtract, multiply, and divide. Resources: Basic math in JavaScript \u00e2\u0080\u0094 numbers and operators Numbers and dates 6.3 Text Learning outcomes: Creating string literals. Resources: Handling text \u00e2\u0080\u0094 strings in JavaScript Useful string methods 6.4 Arrays Learning outcomes: Understand what an array is \u00e2\u0080\u0094 a structure that holds a list of variables. Notes : There are many other types of loop in JavaScript that we haven't listed here.",
+    "topic": "JavaScript fundamentals",
+    "url": "https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T12:39:49.020956+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Encryption - Wikipedia",
+    "content": "Encryption - Wikipedia Jump to content From Wikipedia, the free encyclopedia Process of converting plaintext to ciphertext This article is about algorithms for encryption and decryption. For the music album, see Encryption (album). A simple illustration of public-key cryptography, one of the most widely used forms of encryption In cryptography , encryption (more specifically, encoding ) is the process of transforming information in a way that, ideally , only authorized parties can decode. Despite its goal, encryption does not itself prevent interference but denies the intelligible content to a would-be interceptor. For technical reasons, an encryption scheme usually uses a pseudo-random encryption key generated by an algorithm. It is possible to decrypt the message without possessing the key but, for a well-designed encryption scheme, considerable computational resources and skills are required.",
+    "topic": "Encryption basics",
+    "url": "https://en.wikipedia.org/wiki/Encryption",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T12:19:10.941557+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "ThePythonTutorial \u2014Python3.14.3 documentation",
+    "content": "The Python Tutorial \u2014 Python 3.14.3 documentation Navigation index modules | next | previous | Python \u00bb 3.14.3 Documentation \u00bb The Python Tutorial | Theme Auto Light Dark | The Python Tutorial \u00c2\u00b6 Tip This tutorial is designed for programmers that are new to the Python language, not beginners who are new to programming. Python is an easy to learn, powerful programming language. Python\u00e2\u0080\u0099s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python website, https://www.python.org/ , and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation. The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C).",
+    "topic": "Python basics",
+    "url": "https://docs.python.org/3/tutorial/index.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:58:39.784861+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Access SQL: basic concepts, vocabulary, and syntax - Microsoft Support",
+    "content": "Access SQL: basic concepts, vocabulary, and syntax - Microsoft Support Skip to main content Sign in with Microsoft Sign in or create an account. Access Queries SQL syntax SQL syntax Access SQL: basic concepts, vocabulary, and syntax Applies To Access for Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016 When you want to retrieve data from a database, you ask for the data by using Structured Query Language, or SQL. SQL is a computer language that closely resembles English, but that database programs understand. Every query that you run uses SQL behind the scenes. Understanding how SQL works can help you create better queries, and can make it easier for you to understand how to fix a query that is not returning the results that you want. This is one of a set of articles about Access SQL.",
+    "topic": "SQL fundamentals",
+    "url": "https://support.microsoft.com/en-us/office/access-sql-basic-concepts-vocabulary-and-syntax-444d0303-cde1-424e-9a74-e8dc3e460671",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:38:03.709601+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What isDNS? \u2013 Introduction toDNS- AWS | Amazon Web Services, Inc.",
+    "content": "What is DNS? \u2013 Introduction to DNS - AWS Skip to main content Amazon Route 53 Overview Pricing Networking and Content Delivery Amazon Route 53 What is DNS? What is DNS? What is DNS? DNS, or the Domain Name System, translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses (for example, 192.0.2.44). A DNS service such as Amazon Route 53 is a globally distributed service that translates human readable names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. The Internet\u2019s DNS system works much like a phone book by managing the mapping between names and numbers. DNS servers translate requests for names into IP addresses, controlling which server an end user will reach when they type a domain name into their web browser. Learn more DNS Basics All computers on the Internet, from your smart phone or laptop to the servers that serve content for massive retail websites, find and communicate with one another by using numbers. A DNS service such as Amazon Route 53 is a globally distributed service that translates human readable names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.",
+    "topic": "DNS basics",
+    "url": "https://aws.amazon.com/route53/what-is-dns/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:27:51.728110+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Accessibility fundamentals - Training | Microsoft Learn",
+    "content": "Accessibility fundamentals - Training | Microsoft Learn Read in English Accessibility fundamentals Learning Path 7 Modules At a glance Level Beginner Skill &nbsp; Product Microsoft 365 Role Administrator Student Subject Accessibility Technology can empower people to achieve more, help strengthen education opportunities, and make the workplace more inviting and inclusive for people with disabilities. And with more than 1 billion people with disabilities in the world, Microsoft believes accessibility and inclusion are essential to delivering on our mission to empower every person and every organization on the planet to achieve more. Don\u00e2\u0080\u0099t forget to share your awards on social media after completing each module! Prerequisites None Add Achievement Code Would you like to request an achievement code? Request achievement code Modules in this learning path Introduction to accessibility This module presents the core ideas and definitions needed to understand accessibility concepts. You'll learn what accessibility means, why it's important for technology to be accessible to everyone, and about different assistive technologies. Add Web accessibility principles and guidelines This module explores four principles used to evaluate and improve web accessibility. And learn how to check for accessibility issues and address them using the Accessibility Checker.",
+    "topic": "Accessibility basics",
+    "url": "https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:22:41.596870+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Learn Kubernetes Basics | Kubernetes",
+    "content": "Learn Kubernetes Basics | Kubernetes Edit this page Create child page Create an issue Print entire section Learn Kubernetes Basics Objectives This tutorial provides a walkthrough of the basics of the Kubernetes cluster orchestration system. Each module contains some background information on major Kubernetes features and concepts, and a tutorial for you to follow along. What can Kubernetes do for you? With modern web services, users expect applications to be available 24/7, and developers expect to deploy new versions of those applications several times a day. Kubernetes helps you make sure those containerized applications run where and when you want, and helps them find the resources and tools they need to work. Kubernetes is a production-ready, open source platform designed with Google's accumulated experience in container orchestration, combined with best-of-breed ideas from the community. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
+    "topic": "Kubernetes basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:12:26.299727+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Download TCP/IP Fundamentals for Microsoft Windows from Official Microsoft Download Center",
+    "content": "Download TCP/IP Fundamentals for Microsoft Windows from Official Microsoft Download Center This is the Trace Id: 4ec42e7503155c4b704602bef39984c9 Skip to main content Bring the world closer with Bing Wallpaper Download the free app and enjoy breathtaking views with a new background each day. Get Bing Wallpaper TCP/IP Fundamentals for Microsoft Windows This online book describes the fundamentals of TCP/IP in Windows Vista, Windows Server 2008, Windows XP, and Windows Server 2003. Select language English Download Expand all | Collapse all Details Version: 2.0 Date Published: 7/15/2024 File Name: TCPIP_Fund.pdf File Size: 5.3 MB This online book is a structured, introductory approach to the basic concepts and principles of the Transmission Control Protocol/Internet Protocol (TCP/IP) protocol suite, how the most important protocols function, and their basic configuration in the Microsoft Windows Vista, Windows Server 2008, Windows XP, and Windows Server 2003 families of operating systems. This book is primarily a discussion of concepts and principles to lay a conceptual foundation for the TCP/IP protocol suite and provides an integrated discussion of both Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Related Resources tcP/IP Fundamentals for Microsoft Windows: Overview next Generation TCP/IP Stack microsoft Windows Server 2003 TCP/IP Implementation Details microsoft IPv6 Web page Follow Microsoft Back To Top.",
+    "topic": "TCP/IP fundamentals",
+    "url": "https://www.microsoft.com/en-us/download/details.aspx?id=8781",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:12:23.393606+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is aContainer? |Docker",
+    "content": "What is a Container? | Docker Use containers to Build, Share and Run your applications Package Software into Standardized Units for Development, Shipment and Deployment A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Container images become containers at runtime and in the case of Docker containers \u2013 images become containers when they run on Docker Engine. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging. Docker containers that run on Docker Engine: Standard: Docker created the industry standard for containers, so they could be portable anywhere Lightweight: Containers share the machine\u2019s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry Learn more Docker Containers Are Everywhere: Linux, Windows, Data center, Cloud, Serverless, etc. Docker container technology was launched in 2013 as an open source Docker Engine.",
+    "topic": "Docker containers",
+    "url": "https://www.docker.com/resources/what-container/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T11:07:14.401976+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Scheduling threads - .NET | Microsoft Learn",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:51:51.209986+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Python For Beginners",
+    "content": "Python For Beginners | Python.org Notice: This page displays a fallback because interactive scripts did not run. Python >>> About >>> Getting Started Welcome! Are you completely new to programming ? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in ! Installing Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.",
+    "topic": "Python basics",
+    "url": "https://www.python.org/about/gettingstarted/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:36:28.123599+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Memory management - Wikipedia",
+    "content": "Memory management - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer memory management methodology \"Memory allocation\" redirects here. For memory allocation in the brain, see Neuronal memory allocation. This article is about memory management in an address space. For management of physical memory, see Memory management (operating systems). ( April 2014 ) ( Learn how and when to remove this message ) Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e Memory management (also dynamic memory management , dynamic storage allocation , or dynamic memory allocation ) is a form of resource management applied to computer memory. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed.",
+    "topic": "Memory management",
+    "url": "https://en.wikipedia.org/wiki/Memory_management",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:36:20.735316+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Computerarchitecture- Wikipedia",
+    "content": "Computer architecture - Wikipedia Jump to content From Wikipedia, the free encyclopedia Set of rules describing computer system This article's lead section may be too short to adequately summarize the key points. ( November 2023 ) Block diagram of a basic computer with uniprocessor CPU. In computer science and computer engineering , a computer architecture is the structure of a computer system made from component parts. [ 2 ] At a more detailed level, the description may include the instruction set architecture design, microarchitecture design, logic design , and implementation. [ 3 ] History [ edit ] The first documented computer architecture was in the correspondence between Charles Babbage and Ada Lovelace , describing the analytical engine. [ 7 ] The term \"architecture\" in computer literature can be traced to the work of Lyle R.",
+    "topic": "CPU architecture basics",
+    "url": "https://en.wikipedia.org/wiki/Computer_architecture",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:31:17.450842+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Debugging- Wikipedia",
+    "content": "Debugging - Wikipedia Jump to content From Wikipedia, the free encyclopedia Fixing defects in an engineered system \"Debug\" redirects here. Part of a series on Software development Core activities Data modeling Processes Requirements Design Construction Engineering Testing Debugging Deployment Maintenance Paradigms and models Agile Cleanroom Incremental Prototyping Spiral V model Waterfall Methodologies and frameworks ASD DAD DevOps DSDM FDD IID Kanban Lean SD LeSS MDD MSF PSP RAD RUP SAFe Scrum SEMAT TDD TSP UP XP Supporting disciplines Configuration management Deployment management Documentation Project management Quality assurance User experience Practices ATDD BDD CCO CD CI DDD PP SBE Stand-up TDD Tools Build automation Compiler Debugger GUI builder IDE Infrastructure as code Profiler Release automation UML Modeling Standards and bodies of knowledge CMMI IEEE standards IREB ISO 9001 ISO/IEC standards ITIL OMG PMBOK SWEBOK Glossaries Artificial intelligence Computer science Electrical and electronics engineering Outlines Software development C programming language C sharp programming language C++ programming language Java programming language JavaScript programming language Python programming language Rust programming language v t e In engineering , debugging is the process of finding the root cause , workarounds , and possible fixes for bugs. For software , debugging tactics can involve interactive debugging, control flow analysis, log file analysis , monitoring at the application or system level, memory dumps , and profiling. Many programming languages and software development tools also offer programs to aid in debugging, known as debuggers. Similarly, the term debugging was used in aeronautics before entering the world of computers. The Oxford English Dictionary entry for debug uses the term debugging in reference to airplane engine testing in a 1945 article in the Journal of the Royal Aeronautical Society.",
+    "topic": "Debugging techniques",
+    "url": "https://en.wikipedia.org/wiki/Debugging",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:15:52.566742+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Algorithm",
+    "content": "Algorithm - Wikipedia Jump to content From Wikipedia, the free encyclopedia Sequence of operations for a task \"Algorithms\" redirects here. For the subfield of computer science, see Analysis of algorithms. [ 1 ] Algorithms are used as specifications for performing calculations and data processing. More advanced algorithms can use conditionals to divert the code execution through various routes (referred to as automated decision-making ) and deduce valid inferences (referred to as automated reasoning ). [ 2 ] For example, although social media recommender systems are commonly called \"algorithms\", they actually rely on heuristics as there is no truly \"correct\" recommendation. The transition from one state to the next is not necessarily deterministic ; some algorithms, known as randomized algorithms , incorporate random input.",
+    "topic": "Algorithms",
+    "url": "https://en.wikipedia.org/wiki/Algorithm",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T10:00:29.186581+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Managementprocess- Wikipedia",
+    "content": "Management process - Wikipedia Jump to content From Wikipedia, the free encyclopedia Planning process A management process is a process of setting goals, planning and/or controlling the organising and leading the execution of any type of activity, [ 1 ] such as: A project ( project management process ), [ 2 ] or A process ( process management process, sometimes referred to as the process performance measurement and management system) [ 3 ] An organization 's senior management is responsible for carrying out its management process. However, this is not always the case for all management processes, for example, sometimes it is the responsibility of the project manager to carry out a project management process. [ 4 ] Steps [ edit ] Planning: Determines the objectives, evaluate the different alternatives and choose the best from them Organizing: Defines the group's functions, establish relationships and defining authority and responsibility Staffing: Recruitment or placement and selection or training takes place for the development of members in the firm Directing: Gives direction to the employees Controlling: Involves ensuring that performance does not deviate from standards Coordination: Ensures different departments and groups work in sync See also [ edit ] Business process Project management Project planning References [ edit ] ^ Kumar, Akhil (2 February 201). Management Process and Organizational Behaviour. Process Management: A Guide for the Design of Business Processes. ^ The Simplified Project Management Process Accessed: 2010-05-02.",
+    "topic": "Process management",
+    "url": "https://en.wikipedia.org/wiki/Management_process",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:55:18.077195+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is encryption? - IBM",
+    "content": "What is encryption? | IBM What is encryption? What is encryption? Encryption is the process of transforming readable plain text into unreadable ciphertext to mask sensitive information from unauthorized users. Organizations regularly use encryption in data security to protect sensitive data from unauthorized access and data breaches. Encryption works by using encryption algorithms to scramble data into an indecipherable format. Encryption can protect data at rest, in transit and while being processed, regardless of whether the data is in a computer system on-premises or in the cloud. For this reason, encryption has become critical to cloud security efforts and cybersecurity strategies more broadly. According to the IBM\u00ae 2025 Cost of a Data Breach report , organizations that use encryption can reduce the financial impact of a data breach by over USD 200,000.",
+    "topic": "Encryption basics",
+    "url": "https://www.ibm.com/think/topics/encryption",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:29:31.893350+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Data structure",
+    "content": "Data structure - Wikipedia Jump to content From Wikipedia, the free encyclopedia Particular way of storing and organizing data in a computer \u2039The template below is included via a redirect (Template:Hatgrp) that is under discussion. See redirects for discussion to help reach a consensus.\u203a Not to be confused with Data type or Data model. In computer science , a data structure is a data organization and storage format that is usually chosen for efficient access to data. [ 1 ] [ 2 ] [ 3 ] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data, [ 4 ] i.e., it is an algebraic structure about data. Usage [ edit ] Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type.",
+    "topic": "Data structures",
+    "url": "https://en.wikipedia.org/wiki/Data_structure",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:24:55.068709+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Network latency",
+    "content": "Network delay - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Network latency ) Time required for data to traverse a network This article needs additional citations for verification. Find sources: \"Network delay\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( October 2009 ) ( Learn how and when to remove this message ) Graphical depiction of contributions to network delay Network delay is a design and performance characteristic of a telecommunications network. It specifies the latency for a bit of data to travel across the network from one communication endpoint to another. This delay is extended by more variable levels of delay due to network congestion. IP network delays can range from a few milliseconds to several hundred milliseconds. For example, the hop count between two communication endpoints (such as server and client), may affect network delay.",
+    "topic": "Network latency",
+    "url": "https://en.wikipedia.org/wiki/Network_latency",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:09:34.872921+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Boot process",
+    "content": "Booting - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Boot process ) Process of starting a computer This article is about bootstrapping operating systems. For the general concept, see Bootstrapping. For other uses, see Boot (disambiguation). A flow diagram of a computer booting In computing , booting is the process of starting a computer as initiated via hardware such as a physical button on the computer or by a software command, first described in the 1950s as the \"bootstrap technique.\" [ 1 ] After it is switched on, a computer's central processing unit (CPU) has no software in its main memory , so some process must load software into memory before it can be executed. This may be done by hardware or firmware in the CPU, or by a separate processor in the computer system. On some systems, a power-on reset (POR) does not initiate booting, and the operator must initiate booting after POR completes.",
+    "topic": "Boot process",
+    "url": "https://en.wikipedia.org/wiki/Boot_process",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:09:32.157059+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Is Cloud Computing? | Microsoft Azure",
+    "content": "What Is Cloud Computing? | Microsoft Azure This is the Trace Id: de456f6ced3bd6e05fb4e1c9d533b2bf Skip to main content What is cloud computing? A beginner\u2019s guide Get started with Azure READ TIME 10 min Cloud computing defined Cloud computing is the delivery of computing services\u2014including servers, storage, databases, networking, software, analytics, and intelligence\u2014over the internet (\u201cthe cloud\u201d) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently, and scale as your business needs change. Key takeaways Types of cloud computing Discover the top benefits of cloud computing on cost, performance, security, and more. Understand the differences between public, private, and hybrid cloud deployment models. Learn about the four broad categories of cloud services: IaaS, PaaS, serverless, and SaaS. Explore cloud computing services from Microsoft\u2014and find out which cloud computing option best suits your needs.",
+    "topic": "Cloud computing basics",
+    "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T09:04:25.765406+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Virtual memory",
+    "content": "Virtual memory - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer memory management technique This article is about the computer memory management technique. For the technique of pooling multiple storage devices, see Storage virtualization. For the TBN game show, see Virtual Memory (game show). Virtual memory combines active RAM and inactive memory on DASD [ a ] to form a large range of contiguous addresses. In computing , virtual memory , or virtual storage , [ b ] is enabled by a memory management technique that provides an \"idealized abstraction of the storage resources that are actually available on a given machine\" [ 3 ] which \"creates the illusion to users of a very large (main) memory\". [ 4 ] The computer's operating system , using a combination of hardware and software, maps memory addresses used by a program, called virtual addresses , into physical addresses in computer memory.",
+    "topic": "Virtual memory",
+    "url": "https://en.wikipedia.org/wiki/Virtual_memory",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:59:15.136490+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Device driver",
+    "content": "Device driver - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software interface to attached devices This article is about device drivers for hardware. For other software drivers, see Driver (software). Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e A device driver is software that operates or controls a particular type of device that is attached to a computer. [ 1 ] A driver provides a software interface to hardware devices, enabling other software to access hardware functions without needing to know precise details about the hardware. A driver communicates with the device through the computer bus or communications subsystem to which the hardware connects. When a calling program invokes a routine in the driver, the driver issues commands to the device (drives it).",
+    "topic": "Device drivers",
+    "url": "https://en.wikipedia.org/wiki/Device_driver",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:54:09.409760+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Ram-type turret lathe",
+    "content": "Turret lathe - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Ram-type turret lathe ) Metalworking lathe Hartness 3x36 flat turret lathe with cross-sliding head, equipped for bar work, 1910 [ 1 ] A turret lathe is a form of metalworking lathe that is used for repetitive production of duplicate parts, which by the nature of their cutting process are usually interchangeable. [ 5 ] Types [ edit ] There are many variants of the turret lathe. In other times and places it has been held in technical contradistinction to \"turret lathe\", with the difference being in whether the turret's slide is fixed to the bed (ram-type turret) or slides on the bed's ways (saddle-type turret). CNC programming handbook : a comprehensive guide to practical CNC programming (2nd ed.). [1] External links [ edit ] Example cycle on a manual turret lathe, narrated by operator from YouTube Movement of the turrets and the taking of various cuts on a CNC vertical turret lathe from YouTube Movement of the turret and the taking of various cuts on a manual engine lathe retrofitted with a CNC turret from YouTube v t e Machine and metalworking tools Arbor press Automatic lathe Ball-peen hammer Broach Drill press End mill English wheel Gear shaper Grinding machine Hacksaw Hob Jig borer Lathe Machine tool Metal lathe Milling cutter Mill Oxy-fuel cutting torch Planer Plasma cutter Rotary transfer machine Shaper Tap and die Thread restorer Tool bit Turret lathe Welder Types of tools Cleaning Cutting and abrasive Forestry Garden Hand Kitchen Machine and metalworking Masonry Measuring and alignment Mining Power Textile Woodworking Retrieved from \" https://en.wikipedia.org/w/index.php?title=Turret_lathe&oldid=1335030994 \" Categories : Industrial history Lathes Industrial equipment Automation Hidden categories: Articles with short description Short description is different from Wikidata CS1 errors: ISBN date Search Search Turret lathe 8 languages Add topic.",
+    "topic": "RAM types",
+    "url": "https://en.wikipedia.org/wiki/Ram-type_turret_lathe",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:43:50.160038+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Built-in React Hooks \u2013 React",
+    "content": "Built-in React Hooks \u2013 React API Reference Copy page Copy Built-in React Hooks Hooks let you use different React features from your components. You can either use the built-in Hooks or combine them to build your own. This page lists all built-in Hooks in React. State Hooks State lets a component \u201cremember\u201d information like user input. To add state to a component, use one of these Hooks: useState declares a state variable that you can update directly. Context Hooks Context lets a component receive information from distant parents without passing it as props.",
+    "topic": "React hooks",
+    "url": "https://react.dev/reference/react/hooks",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:38:45.492512+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Azure Security Control - Logging and Monitoring | Microsoft Learn",
+    "content": "Azure Security Control - Logging and Monitoring | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Security Control: Logging and Monitoring Feedback Summarize this article for me Note The most up-to-date Azure Security Benchmark is available here. Security logging and monitoring focuses on activities related to enabling, acquiring, and storing audit logs for Azure services. How to configure time synchronization for Azure Windows compute resources How to configure time synchronization for Azure Linux compute resources 2.2: Configure central security log management Azure ID CIS IDs Responsibility 2.2 6.5, 6.6 Customer Ingest logs via Azure Monitor to aggregate security data generated by endpoint devices, network resources, and other security systems. Within Azure Monitor, use Log Analytics Workspace(s) to query and perform analytics, and use Azure Storage Accounts for long-term/archival storage. Alternatively, you may enable and on-board data to Azure Sentinel or a third-party SIEM.",
+    "topic": "Monitoring and logging",
+    "url": "https://learn.microsoft.com/en-us/security/benchmark/azure/security-control-logging-monitoring",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:38:42.332801+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Is Zero Trust? | IBM",
+    "content": "What Is Zero Trust? | IBM Upcoming webinar | 9 April 2026 Securing Agentic AI: Closing Access Gaps | Register now What is zero trust? By Gregg Lindemulder , Matthew Kosinski What is zero trust? Zero trust is a security strategy for modern multicloud networks. Instead of focusing on the network perimeter, a zero trust security model enforces security policies for each individual connection between users, devices, applications and data. Zero trust operates on the principle of \u201cnever trust, always verify\u201d rather than granting implicit trust to all users inside a network. An increasing number of organizations are adopting zero trust models to improve their security postures as their attack surfaces grow. According to a 2024 TechTarget Enterprise Strategy Group report, more than two thirds of organizations say that they are implementing zero trust policies across their enterprises. 1 Evolving legal and regulatory requirements are also driving zero trust adoption.",
+    "topic": "Zero trust basics",
+    "url": "https://www.ibm.com/think/topics/zero-trust",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:38:39.763183+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Virtual memory - Wikipedia",
+    "content": "Virtual memory - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer memory management technique This article is about the computer memory management technique. For the technique of pooling multiple storage devices, see Storage virtualization. For the TBN game show, see Virtual Memory (game show). Virtual memory combines active RAM and inactive memory on DASD [ a ] to form a large range of contiguous addresses. In computing , virtual memory , or virtual storage , [ b ] is enabled by a memory management technique that provides an \"idealized abstraction of the storage resources that are actually available on a given machine\" [ 3 ] which \"creates the illusion to users of a very large (main) memory\". [ 4 ] The computer's operating system , using a combination of hardware and software, maps memory addresses used by a program, called virtual addresses , into physical addresses in computer memory.",
+    "topic": "Virtual memory",
+    "url": "https://en.wikipedia.org/wiki/Virtual_memory",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:33:38.618089+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Describe the concepts of cybersecurity - Training | Microsoft Learn",
+    "content": "Describe the concepts of cybersecurity - Training | Microsoft Learn Read in English Describe the concepts of cybersecurity Learning Path 6 Modules At a glance Level Beginner Skill &nbsp; Product Azure Microsoft 365 Role Business Owner Business User Student Subject Security Knowing the fundamentals of cybersecurity is a first step toward protecting against cyberthreats. In this learning path you will learn about cybersecurity concepts and ways to protect yourself and your business from cyberattacks. Add Achievement Code Would you like to request an achievement code? Request achievement code Modules in this learning path Describe basic cybersecurity threats, attacks, and mitigations Cyberattacks are impacting individuals and businesses at alarming rates. Add Describe authentication and authorization in cybersecurity Secure authentication and authorization are a cornerstone of protecting against cybersecurity threats.",
+    "topic": "Cybersecurity basics",
+    "url": "https://learn.microsoft.com/en-us/training/paths/describe-basic-concepts-of-cybersecurity/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:33:36.571375+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "The Rest Is Politics",
+    "content": "The Rest Is Politics - Wikipedia Jump to content From Wikipedia, the free encyclopedia British podcast Podcast The Rest Is Politics Genre Talk Format Audio / Video podcast Language English Cast and voices Hosted by Alastair Campbell Rory Stewart Production Length 30\u201350 minutes Publication Original release 2 March 2022 Related Website https://therestispolitics.supportingcast.fm The Rest Is Politics is a British podcast and television series hosted by Alastair Campbell and Rory Stewart. Background [ edit ] The Rest is Politics launched in March 2022, hosted by Alastair Campbell and Rory Stewart. [ 7 ] The Rest is Politics has become one of the leading political podcasts in the United Kingdom. [ citation needed ] Goalhanger also produces the podcasts: The Rest Is History , hosted by Dominic Sandbrook and Tom Holland [ 9 ] Battleground, hosted by Saul David and Patrick Bishop We Have Ways Of Making You Talk hosted by Al Murray and James Holland The Rest Is Money , hosted by Robert Peston and Steph McGovern [ 10 ] The Rest is Football , hosted by Lineker, Alan Shearer , and Micah Richards The Rest Is Entertainment , hosted by Richard Osman and Marina Hyde [ 11 ] The Rest Is Science , hosted by Michael Stevens and Hannah Fry. [ 14 ] Specials [ edit ] 2024 election special [ edit ] Ahead of the 2024 general election , The Rest Is Politics was announced in Channel 4 's coverage line-up, presenting alongside Emily Maitlis. Since Leading released, The Rest Is Politics did not invite any special guests, with the exception of Israeli public intellectual Yuval Noah Harari and Palestinian ambassador Husam Zomlot during the Gaza war.",
+    "topic": "REST APIs",
+    "url": "https://en.wikipedia.org/wiki/The_Rest_Is_Politics",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:28:25.458188+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Are CI/CD And The CI/CD Pipeline? | IBM",
+    "content": "What Are CI/CD And The CI/CD Pipeline? | IBM Upcoming webinar | 7 April 2026 Fix vulnerabilities at the source in 30 minutes | Register now What is continuous integration/continuous delivery (CI/CD)? By Ian Smalley , Stephanie Susnjara What is the CI/CD pipeline? The continuous integration / continuous delivery (CI/CD) pipeline is an automated DevOps workflow that streamlines the software delivery process. A vital characteristic of the CI/CD pipeline is the use of automation to help ensure code quality. The ability to automate various phases of the CI/CD pipeline helps development teams improve quality, work faster and improve other DevOps metrics. CI/CD pipeline versus CI/CD: What's the difference? While the CI/CD pipeline refers to agile DevOps workflows, CI/CD stands for the combined practices of continuous integration and continuous delivery. CI/CD creates a faster, more precise way of combining the work of different people into 1 cohesive product. In DevOps environments, CI/CD streamlines application coding, testing and deployment processes.",
+    "topic": "CI/CD pipelines",
+    "url": "https://www.ibm.com/think/topics/ci-cd-pipeline",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:18:10.321469+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "IEEE 802.11 - Wikipedia",
+    "content": "IEEE 802.11 Wi-Fi networks are the most widely used wireless networks in the world, connecting devices like laptops (left) to the internet through a wireless router (right). IEEE 802.11 is part of the IEEE 802 set of local area network (LAN) technical standards , and specifies the set of medium access control (MAC) and physical layer (PHY) protocols for implementing wireless local area network (WLAN) computer communication. The standard and amendments provide the basis for wireless network products using the Wi-Fi brand and are the world's most widely used wireless computer networking standards. The standards are created and maintained by the Institute of Electrical and Electronics Engineers (IEEE) LAN/ MAN Standards Committee ( IEEE 802 ). Other standards in the family (c\u2013f, h, j) are service amendments that are used to extend the current scope of the existing standard, which amendments may also include corrections to a previous specification. [ 2 ] Generations [ edit ] Wi-Fi generations v t e Gen.",
+    "topic": "Wi-Fi standards",
+    "url": "https://en.wikipedia.org/wiki/IEEE_802.11",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:13:04.007615+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Firewall (computing) - Wikipedia",
+    "content": "Firewalls can be categorized as network-based or host-based. [ 6 ] The predecessors to firewalls for network security were routers used in the 1980s. Types of firewalls [ edit ] See also: Computer security Firewalls are categorized as a network-based or a host-based system. Network-based firewalls are positioned between two or more networks, typically between the local area network (LAN) and wide area network (WAN), [ 10 ] their basic function being to control the flow of data between connected networks. Host-based firewalls are deployed directly on the host itself to control network traffic or other computing resources. The bulk of Internet communication in 20th and early 21st century used either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) in conjunction with well-known ports , enabling firewalls of that era to distinguish between specific types of traffic such as web browsing, remote printing, email transmission, and file transfers.",
+    "topic": "Firewalls",
+    "url": "https://en.wikipedia.org/wiki/Firewall_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:13:02.953481+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "WindowsInternalsBook - Sysinternals | Microsoft Learn",
+    "content": "Windows Internals Book - Sysinternals | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Windows Internals Book Feedback Summarize this article for me Windows Internals 7th edition (Part 1) covers the architecture and core internals of Windows 10 and Windows Server 2016. This book helps you: Understand the Windows system architecture and its general components Explore internal data structures using tools like the kernel debugger Understand how Windows uses processes for management and isolation Understand and view thread scheduling and how CPU resources are managed Dig into the Windows security model including recent advances in security mitigations Understand how Windows manages virtual and physical memory Understand how the I/O system manages physical devices and device drivers The 7th edition was written by Pavel Yosifovich, Alex Ionescu, Mark Russinovich and David Solomon. New material has been added since the 6th edition (which covered Windows 7 and Windows Server 2008 R2). These include the boot process, new storage technologies, and Windows system and management mechanisms. History of the Book This is the seventh edition of a book that was originally called Inside Windows NT (Microsoft Press, 1992), written by Helen Custer (prior to the initial release of Microsoft Windows NT 3.1).",
+    "topic": "Windows internals basics",
+    "url": "https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:07:56.732759+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Python For Beginners | Python.org",
+    "content": "Python For Beginners | Python.org Notice: This page displays a fallback because interactive scripts did not run. Python >>> About >>> Getting Started Welcome! Are you completely new to programming ? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in ! Installing Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.",
+    "topic": "Python basics",
+    "url": "https://www.python.org/about/gettingstarted/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:02:49.230169+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Device driver - Wikipedia",
+    "content": "Device driver - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software interface to attached devices This article is about device drivers for hardware. For other software drivers, see Driver (software). Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e A device driver is software that operates or controls a particular type of device that is attached to a computer. [ 1 ] A driver provides a software interface to hardware devices, enabling other software to access hardware functions without needing to know precise details about the hardware. A driver communicates with the device through the computer bus or communications subsystem to which the hardware connects. When a calling program invokes a routine in the driver, the driver issues commands to the device (drives it).",
+    "topic": "Device drivers",
+    "url": "https://en.wikipedia.org/wiki/Device_driver",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:02:45.552610+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Linux commands",
+    "content": "List of POSIX commands - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Linux commands ) Utilities listed in POSIX.1-2017 This is a list of the shell commands of the most recent version of the Portable Operating System Interface ( POSIX ) \u2013 IEEE Std 1003.1-2024 which is part of the Single UNIX Specification (SUS). These commands are implemented in many shells on modern Unix , Unix-like and other operating systems. This list does not cover commands for all versions of Unix and Unix-like shells nor other versions of POSIX. Command Category Optionality Description First appeared admin SCCS Optional (XSI) Create and administer SCCS files PWB UNIX alias Misc Mandatory Manage command aliases ar Misc Mandatory Manage library archives Version 1 AT&T UNIX asa Text processing Optional (FR) Interpret carriage-control characters System V at Process management Mandatory Execute commands at a later time Version 7 AT&T UNIX awk Text processing Mandatory Pattern scanning and processing language Version 7 AT&T UNIX basename Filesystem Mandatory Report non-directory portion of a pathname Version 7 AT&T UNIX batch Process management Mandatory Schedule commands to be executed in a batch queue bc Misc Mandatory Arbitrary-precision arithmetic calculator Version 6 AT&T UNIX bg Process management Optional (UP) Move jobs to the background cc C programming Optional (CD) Compile C source code IEEE Std 1003.1-2024 cal Misc Optional (XSI) Print a calendar Version 5 AT&T UNIX cat Filesystem Mandatory Concatenate and print files PDP-7 UNIX cd Filesystem Mandatory Change the working directory Version 6 AT&T UNIX cflow C programming Optional (XSI) Generate a C-language call graph System V chgrp Filesystem Mandatory Change file group ownership PWB UNIX chmod Filesystem Mandatory Change file modes/attributes/permissions PDP-7 UNIX chown Filesystem Mandatory Change file ownership PDP-7 UNIX cksum Filesystem Mandatory Report file checksum and size 4.4BSD cmp Filesystem Mandatory Compare two files Version 1 AT&T UNIX comm Text processing Mandatory Select or reject lines common to two files Version 4 AT&T UNIX command Shell programming Mandatory Execute a simple command compress Filesystem Optional (XSI) Compress data 4.3BSD cp Filesystem Mandatory Copy files PDP-7 UNIX cron Misc Mandatory Schedule periodic background work System V csplit Text processing Mandatory Split files based on context PWB UNIX ctags C programming Optional (SD) Create a tags file 3BSD cu",
+    "topic": "Linux commands",
+    "url": "https://en.wikipedia.org/wiki/Linux_commands",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T08:02:44.351518+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Cloudcomputing- Wikipedia",
+    "content": "Cloud computing - Wikipedia Jump to content From Wikipedia, the free encyclopedia Form of shared internet-based computing \"Cloud Computing\" redirects here; not to be confused with Cloud Computing (horse). Cloud computing metaphor: the group of networked elements providing services does not need to be addressed or managed individually by users; instead, the entire provider-managed suite of hardware and software can be thought of as an amorphous cloud. Cloud computing is defined by the International Organization for Standardization (ISO) as \"a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand\". [ 1 ] It is commonly referred to as \"the cloud\". [ 2 ] Characteristics In 2011, the National Institute of Standards and Technology (NIST) identified five \"essential characteristics\" for cloud systems. [ 3 ] Below are the exact definitions according to NIST: [ 3 ] On-demand self-service: \"A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider.\" Broad network access: \"Capabilities are available over the network and accessed through standard mechanisms that promote use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops , and workstations).\" Resource pooling : \" The provider's computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand.\" Rapid elasticity: \"Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand.",
+    "topic": "Cloud computing basics",
+    "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:57:40.888414+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is TCP/IP and How Does it Work? - TechTarget",
+    "content": "What is TCP/IP and How Does it Work? | TechTarget Home Network infrastructure Share this item with your network: By Kinza Yasar, Technical Writer Mary E. Shacklett, Transworld Data Amy Novotny, Senior Managing Editor Published: Sep 26, 2024 TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP is also used as a communications protocol in a private computer network -- an intranet or extranet. The entire IP suite -- a set of rules and procedures -- is commonly referred to as TCP/IP. The TCP/IP protocol suite functions as an abstraction layer between internet applications and the routing and switching fabric. TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that identify how it should be broken into packets , addressed, transmitted, routed and received at the destination.",
+    "topic": "TCP/IP fundamentals",
+    "url": "https://www.techtarget.com/searchnetworking/definition/TCP-IP",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:57:38.116249+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Authentication and authorization infrastructure",
+    "content": "Authentication and authorization infrastructure - Wikipedia Jump to content From Wikipedia, the free encyclopedia Authentication and authorization infrastructure ( AAI ) refers to a service and a procedure that enables members of different institutions to access protected information that is distributed on different web servers. Traditional approaches to authorization and access control in computer systems are not sufficient to address the requirements of federated and distributed systems, where infrastructural support may be required. Authentication and authorization infrastructure solutions address such limitations. [ 1 ] [ 2 ] [ 3 ] [ 4 ] In Switzerland, the SWITCH Information Technology Services Foundation is developing a Shibboleth -based AAI system that helps Swiss universities in particular to make their e-learning offers accessible to students beyond their own institutional boundaries. [ 6 ] Projects [ edit ] CSTCloud AAI, China DFN-AAI, Germany ELIXIR AAI, UK EOSC-hub AAI, European Union GARR IDEM AAI, Italy GRNET AAI, Greece SWITCHaai, Switzerland See also [ edit ] Authentication Authorization Central Authentication Service Federated identity Identity as a service (IDaaS) Identity management Infrastructure as a service (IaaS) Keycloak List of single sign-on implementations OpenAthens Shibboleth Single Sign-on architecture References [ edit ] ^ \"Authentication and authorization infrastructures (AAIs): A comparative survey\". ^ \"Authentication and Authorization Infrastructure: Portal Architecture and Prototype Implementation\".",
+    "topic": "Authentication and authorization",
+    "url": "https://en.wikipedia.org/wiki/Authentication_and_authorization_infrastructure",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:57:34.982584+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Typography - Wikipedia",
+    "content": "Typography - Wikipedia Jump to content Checked From Wikipedia, the free encyclopedia This is the latest accepted revision , reviewed on 19 March 2026. A specimen sheet of the Trajan typeface, which is based on the letter forms of capitalis monumentalis or Roman square capitals used for the inscription at the base of Trajan's Column , from which the typeface takes its name Movable type being assembled on a composing stick using pieces that are stored in the type case shown below it Typography is the art and technique of arranging type to make written language legible , readable and appealing when displayed. [ 1 ] The term typography is also applied to the style, arrangement, and appearance of the letters, numbers, and symbols created by the process. Type design is a closely related craft, sometimes considered part of typography; most typographers do not design typefaces, and some type designers do not consider themselves typographers. [ 2 ] [ 3 ] Typography also may be used as an ornamental and decorative device, unrelated to the communication of information. Typography is also the work of graphic designers , art directors , manga artists , comic book artists , and, now, anyone who arranges words, letters, numbers, and symbols for publication, display, or distribution, from clerical workers and newsletter writers to anyone self-publishing materials.",
+    "topic": "Typography basics",
+    "url": "https://en.wikipedia.org/wiki/Typography",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:52:32.157198+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Windows Internals Book - Sysinternals | Microsoft Learn",
+    "content": "Windows Internals Book - Sysinternals | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Windows Internals Book Feedback Summarize this article for me Windows Internals 7th edition (Part 1) covers the architecture and core internals of Windows 10 and Windows Server 2016. This book helps you: Understand the Windows system architecture and its general components Explore internal data structures using tools like the kernel debugger Understand how Windows uses processes for management and isolation Understand and view thread scheduling and how CPU resources are managed Dig into the Windows security model including recent advances in security mitigations Understand how Windows manages virtual and physical memory Understand how the I/O system manages physical devices and device drivers The 7th edition was written by Pavel Yosifovich, Alex Ionescu, Mark Russinovich and David Solomon. New material has been added since the 6th edition (which covered Windows 7 and Windows Server 2008 R2). These include the boot process, new storage technologies, and Windows system and management mechanisms. History of the Book This is the seventh edition of a book that was originally called Inside Windows NT (Microsoft Press, 1992), written by Helen Custer (prior to the initial release of Microsoft Windows NT 3.1).",
+    "topic": "Windows internals basics",
+    "url": "https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:47:20.604029+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Routing: Defining Routes | Next.js",
+    "content": "--- title: Defining Routes description: Learn how to create your first route in Next.js. url: \"https://nextjs.org/docs/14/app/building-your-application/routing/defining-routes\" version: 14.2.35 lastUpdated: 2023-06-12 prerequisites: - \"Building Your Application: /docs/14/app/building-your-application\" - \"Routing: /docs/14/app/building-your-application/routing\" related: - app/building-your-application/routing/pages-and-layouts --- > We recommend reading the [Routing Fundamentals](/docs/app/building-your-application/routing) page before continuing. This page will guide you through how to define and organize routes in your Next.js application. ## Creating Routes Next.js uses a file-system based router where **folders** are used to define routes. Each folder represents a [**route** segment](/docs/app/building-your-application/routing#route-segments) that maps to a **URL** segment. To create a [nested route](/docs/app/building-your-application/routing#nested-routes), you can nest folders inside each other.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/14/app/building-your-application/routing/defining-routes",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:42:15.215879+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Is a REST API (RESTful API)? | IBM",
+    "content": "What Is a REST API (RESTful API)? | IBM What is REST API? By Phill Powell , Ian Smalley REST APIs defined A REST API is an application programming interface (API) that conforms to the design principles of the representational state transfer (REST) architectural style, a style used to connect distributed hypermedia systems. REST APIs are sometimes referred to as RESTful APIs or RESTful web APIs. Roy Fielding in his doctoral dissertation, REST provides developers with a relatively high level of flexibility, consistency, scalability and efficiency. REST APIs provide a lightweight way to build web APIs and are commonly used to facilitate data exchange between applications, web services and databases, and to connect components in microservices architectures. REST design principles At the most basic level, an API is a mechanism that enables an application or service to access a resource within another application, service or database. Some APIs, such as SOAP or XML-RPC, impose a strict framework on developers.",
+    "topic": "REST APIs",
+    "url": "https://www.ibm.com/think/topics/rest-apis",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:42:12.109866+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Systems design - Wikipedia",
+    "content": "Systems design - Wikipedia Jump to content From Wikipedia, the free encyclopedia This article needs additional citations for verification. Find sources: \"Systems design\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( April 2013 ) ( Learn how and when to remove this message ) Organizing components structures and behaviors for any simple to complex system The basic study of system design is the understanding of component parts and their subsequent interaction with one another. [ 1 ] Systems design has appeared in a variety of fields, including aeronautics, [ 2 ] sustainability, [ 3 ] computer/software architecture, [ 4 ] and sociology. [ 5 ] Product development [ edit ] If the broader topic of product development \"blends the perspective of marketing, design, and manufacturing into a single approach to product development,\" [ 6 ] then design is the act of taking the marketing information and creating the design of the product to be manufactured. Thus in product development, systems design involves the process of defining and developing systems, such as interfaces and data , for an electronic control system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development.",
+    "topic": "System design basics",
+    "url": "https://en.wikipedia.org/wiki/Systems_design",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:42:10.980510+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "asyncio \u2014 Asynchronous I/O \u2014 Python 3.14.3 documentation",
+    "content": "asyncio \u00e2\u0080\u0094 Asynchronous I/O \u2014 Python 3.14.3 documentation Navigation index modules | next | previous | Python \u00bb 3.14.3 Documentation \u00bb The Python Standard Library \u00bb Networking and Interprocess Communication \u00bb asyncio \u00e2\u0080\u0094 Asynchronous I/O | Theme Auto Light Dark | asyncio \u00e2\u0080\u0094 Asynchronous I/O \u00c2\u00b6 Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
+    "topic": "Python async programming",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:37:06.039161+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Graphic design - Wikipedia",
+    "content": "Graphic design - Wikipedia Jump to content From Wikipedia, the free encyclopedia Interdisciplinary branch of design and fine arts Due to its interdisciplinary nature, graphic design can be performed in different areas of application: branding, technical and artistic drawing, signage, photography, image and video editing, 3D modeling , animation, programming, among other fields. [ 1 ] Graphic design is a profession , [ 2 ] academic discipline [ 3 ] [ 4 ] [ 5 ] and applied art that involves creating visual communications intended to transmit specific messages to social groups, with specific objectives. [ 6 ] Graphic design is an interdisciplinary branch of design [ 1 ] and of the fine arts. Its practice involves creativity , innovation and lateral thinking using manual or digital tools , where it is usual to use text and graphics to communicate visually. The role of the graphic designer in the communication process is that of the encoder or interpreter of the message. In its nature, design pieces can be philosophical, aesthetic, emotional and political.",
+    "topic": "Graphic design fundamentals",
+    "url": "https://en.wikipedia.org/wiki/Graphic_design",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:37:04.967651+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Scheduling (computing) - Wikipedia",
+    "content": "Scheduling (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Method by which work is assigned This article is about scheduling of computing resources. For other uses, see Scheduling (disambiguation). In computing , scheduling is the action of assigning resources to perform tasks. The tasks may be threads , processes or data flows. The scheduling activity is carried out by a mechanism called a scheduler. Scheduling is fundamental to computation itself, and an intrinsic part of the execution model of a computer system; the concept of scheduling makes it possible to have computer multitasking with a single central processing unit (CPU).",
+    "topic": "Thread scheduling",
+    "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:37:03.951511+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "83 useful Linux commands | TechTarget",
+    "content": "83 useful Linux commands | TechTarget Home Data center ops, monitoring and management Sergey Nivens - Fotolia Share this item with your network: By Jessica Lulka, Site Editor Published: 12 Aug 2019 Linux administrator s cannot live by the GUI alone. That's why we've compiled useful Linux commands into this convenient guide. By learning how to use a few simple tools, command-line cowards can become scripting commandos and get the most out of Linux by executing kernel and shell commands. alias The alias command is a way to run a command or a series of Unix commands using a shorter name than those that are usually associated with such commands. cat A Unix/Linux command that can read, modify or concatenate text files. cd The cd command changes the current directory in Linux and can conveniently toggle between directories.",
+    "topic": "Linux commands",
+    "url": "https://www.techtarget.com/searchdatacenter/tutorial/77-Linux-commands-and-utilities-youll-actually-use",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:37:02.692550+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Booting - Wikipedia",
+    "content": "Booting - Wikipedia Jump to content From Wikipedia, the free encyclopedia Process of starting a computer This article is about bootstrapping operating systems. For the general concept, see Bootstrapping. For other uses, see Boot (disambiguation). A flow diagram of a computer booting In computing , booting is the process of starting a computer as initiated via hardware such as a physical button on the computer or by a software command, first described in the 1950s as the \"bootstrap technique.\" [ 1 ] After it is switched on, a computer's central processing unit (CPU) has no software in its main memory , so some process must load software into memory before it can be executed. This may be done by hardware or firmware in the CPU, or by a separate processor in the computer system. On some systems, a power-on reset (POR) does not initiate booting, and the operator must initiate booting after POR completes.",
+    "topic": "Boot process",
+    "url": "https://en.wikipedia.org/wiki/Booting",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:31:58.561488+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Memory management",
+    "content": "Memory management - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer memory management methodology \"Memory allocation\" redirects here. For memory allocation in the brain, see Neuronal memory allocation. This article is about memory management in an address space. For management of physical memory, see Memory management (operating systems). ( April 2014 ) ( Learn how and when to remove this message ) Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e Memory management (also dynamic memory management , dynamic storage allocation , or dynamic memory allocation ) is a form of resource management applied to computer memory. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed.",
+    "topic": "Memory management",
+    "url": "https://en.wikipedia.org/wiki/Memory_management",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:31:57.488453+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "6. JavaScript fundamentals - MDN Web Docs - Mozilla",
+    "content": "JavaScript fundamentals Skip to main content Skip to search 6.1 Variables 6.2 Math 6.3 Text 6.4 Arrays 6.5 Conditionals 6.6 Loops 6.7 Functions 6.8 JavaScript object basics 6.9 DOM scripting 6.10 Events 6.11 Async JavaScript basics 6.12 Network requests with fetch() 6.13 Working with JSON 6.14 Libraries and frameworks 6.15 Debugging JavaScript JavaScript is a huge topic, with so many different features, styles, and techniques to learn, and so many APIs and tools built on top of it. General resources: Learn JavaScript , Scrimba Course partner What is JavaScript? A first splash into JavaScript 6.1 Variables Learning outcomes: Understand what variables are and why they are so important in programming generally, not just JavaScript. Resources: Storing the information you need \u00e2\u0080\u0094 Variables 6.2 Math Learning outcomes: Basic number operations in JavaScript \u00e2\u0080\u0094 add, subtract, multiply, and divide. Resources: Basic math in JavaScript \u00e2\u0080\u0094 numbers and operators Numbers and dates 6.3 Text Learning outcomes: Creating string literals. Resources: Handling text \u00e2\u0080\u0094 strings in JavaScript Useful string methods 6.4 Arrays Learning outcomes: Understand what an array is \u00e2\u0080\u0094 a structure that holds a list of variables. Notes : There are many other types of loop in JavaScript that we haven't listed here.",
+    "topic": "JavaScript fundamentals",
+    "url": "https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:31:55.096042+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is encryption? | IBM",
+    "content": "What is encryption? | IBM What is encryption? What is encryption? Encryption is the process of transforming readable plain text into unreadable ciphertext to mask sensitive information from unauthorized users. Organizations regularly use encryption in data security to protect sensitive data from unauthorized access and data breaches. Encryption works by using encryption algorithms to scramble data into an indecipherable format. Encryption can protect data at rest, in transit and while being processed, regardless of whether the data is in a computer system on-premises or in the cloud. For this reason, encryption has become critical to cloud security efforts and cybersecurity strategies more broadly. According to the IBM\u00ae 2025 Cost of a Data Breach report , organizations that use encryption can reduce the financial impact of a data breach by over USD 200,000.",
+    "topic": "Encryption basics",
+    "url": "https://www.ibm.com/think/topics/encryption",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:31:53.915308+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "App Router: Getting Started | Next.js",
+    "content": "--- title: Getting Started description: Learn how to create full-stack web applications with the Next.js App Router. url: \"https://nextjs.org/docs/app/getting-started\" version: 16.2.2 lastUpdated: 2026-04-02 --- Welcome to the Next.js documentation! This **Getting Started** section will help you create your first Next.js app and learn the core features you'll use in every project. Before getting started, it'll help if you're comfortable with: * HTML * CSS * JavaScript * React If you're new to React or need a refresher, we recommend starting with our [React Foundations course](/learn/react-foundations), and the [Next.js Foundations course](/learn/dashboard-app) that has you building an application as you learn. ## Next Steps - [Installation](/docs/app/getting-started/installation) - Learn how to create a new Next.js application with the `create-next-app` CLI, and set up TypeScript, ESLint, and Module Path Aliases. - [Project Structure](/docs/app/getting-started/project-structure) - Learn the folder and file conventions in Next.js, and how to organize your project. - [Mutating Data](/docs/app/getting-started/mutating-data) - Learn how to mutate data using Server Functions and Server Actions in Next.js.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/app/getting-started",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:31:52.098315+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "asyncio \u2014 Asynchronous I/O",
+    "content": "asyncio \u00e2\u0080\u0094 Asynchronous I/O \u2014 Python 3.14.3 documentation Navigation index modules | next | previous | Python \u00bb 3.14.3 Documentation \u00bb The Python Standard Library \u00bb Networking and Interprocess Communication \u00bb asyncio \u00e2\u0080\u0094 Asynchronous I/O | Theme Auto Light Dark | asyncio \u00e2\u0080\u0094 Asynchronous I/O \u00c2\u00b6 Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
+    "topic": "Python async programming",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:26:50.987112+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is Encryption and How Does it Work? - TechTarget",
+    "content": "What is Encryption and How Does it Work? | Definition from TechTarget Home Data security and privacy Tech Accelerator What is data security? The ultimate guide Prev Next Download this guide 1 X Free Download What is data security? The ultimate guide Data is central to most every element of modern business -- employees and leaders alike need reliable data to make daily decisions and plan strategically. Share this item with your network: By Robert Sheldon Peter Loshin, Former Senior Technology Editor Michael Cobb Published: Feb 07, 2024 What is encryption? Encryption is the method by which information is converted into secret code that hides the information's true meaning. Encryption has long been used to protect sensitive information. In modern times, encryption is used to protect data both at rest and in motion. Encryption is used in a variety of circumstances. Every time someone carries out a transaction on an ATM or buys something online with a smartphone, encryption protects the transmitted data.",
+    "topic": "Encryption basics",
+    "url": "https://www.techtarget.com/searchsecurity/definition/encryption",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:26:50.040126+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Random-access memory - Wikipedia",
+    "content": "Random-access memory - Wikipedia Jump to content From Wikipedia, the free encyclopedia Form of computer data storage \"RAM\" redirects here. For other uses, see RAM (disambiguation). Example of writable volatile random-access memory: Synchronous dynamic RAM modules , primarily used as main memory in personal computers , workstations , and servers. Computer memory and data storage types General Memory cell Memory coherence Cache coherence Memory hierarchy Memory access pattern Memory map Secondary storage MOS memory floating-gate Continuous availability Areal density (computer storage) Block (data storage) Object storage Direct-attached storage Network-attached storage Storage area network Block-level storage Single-instance storage Data Structured data Unstructured data Big data Metadata Data compression Data corruption Data cleansing Data degradation Data integrity Data security Data validation Data validation and reconciliation Data recovery Storage Data cluster Directory Shared resource File sharing File system Clustered file system Distributed file system Distributed file system for cloud Distributed data store Distributed database Database Data bank Data storage Data store Data deduplication Data structure Data redundancy Replication (computing) Memory refresh Storage record Information repository Knowledge base Computer file Object file File deletion File copying Backup Core dump Hex dump Data communication Information transfer Temporary file Copy protection Digital rights management Volume (computing) Boot sector Master boot record Volume boot record GUID Partition Table Disk array Disk image Disk mirroring Disk aggregation Disk partitioning Memory segmentation Locality of reference Logical disk Storage virtualization Virtual memory Memory-mapped file Software entropy Software rot In-memory database In-memory processing Persistence (computer science) Persistent data structure RAID Non-RAID drive architectures Memory paging Bank switching Grid computing Cloud computing Cloud storage Fog computing Edge computing Dew computing The law Martiels law Volatile RAM Hardware cache CPU cache Scratchpad memory DRAM eDRAM SDRAM SGRAM DDR GDDR LPDDR QDRSRAM EDO DRAM XDR DRAM RDRAM HBM SRAM 1T-SRAM ReRAM QRAM Content-addressable memory (CAM) Computational RAM VRAM Dual-ported RAM Video RAM (dual-ported DRAM) Historical DC3MWCP (1946\u20131947) Delay-line memory (1947) Mellon optical memory (1951) Selectron tube (1952) Dekatron T-RAM (2009) Z-RAM (2002\u20132010) Non-volatile",
+    "topic": "RAM types",
+    "url": "https://en.wikipedia.org/wiki/Random-access_memory",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:26:48.040260+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "React (book)",
+    "content": "React (book) - Wikipedia Jump to content From Wikipedia, the free encyclopedia 2011 book by Rosa Mar\u00eda Artal React First edition (Spanish) Author Jos\u00e9 Luis Sampedro Baltasar Garz\u00f3n Federico Mayor Zaragoza Lourdes Luc\u00eda , e.a. Original title Reacciona Language Spanish Subject Economic crisis Politics Genre essay Published 2011 (Ediciones Aguilar) Publication place Spain Pages 176 ISBN 978-84-03-10200-2 React (from Spanish: Reacciona ) is a book by Rosa Mar\u00eda Artal published in Spain in 2011 by Aguilar, which compiles articles by Jos\u00e9 Luis Sampedro , Baltasar Garz\u00f3n , Federico Mayor Zaragoza , Javier P\u00e9rez de Alb\u00e9niz, Javier L\u00f3pez Facal, Carlos Mart\u00ednez Alonso , Ignacio Escolar , Rosa Mar\u00eda Artal, \u00c0ngels Mart\u00ednez Castells , Juan Torres Lopez and Lourdes Lucia. [ 1 ] [ 2 ] The collection of articles in the book React explain the current situation and show the need for a peaceful response by Spanish society to the current systemic economic, political and social crisis. The 10 authors, all from different disciplines, offer their answers to an idea that unites them: the need to position themselves and to act, to become aware and react. 3 - Reacting to advance - Baltasar Garz\u00f3n. 25/3/2011 , P\u00fablico (Espa\u00f1a) ^ -and-react / Sampedro is outraged and responds External links [ edit ] Reacciona, Publisher Aguilar Authority control databases Open Library Retrieved from \" https://en.wikipedia.org/w/index.php?title=React_(book)&oldid=1335439127 \" Categories : Economic history of Spain 2010 non-fiction books 2011 non-fiction books 2008 in economic history Stock market crashes 2000s in economic history Books about economic history Spanish essays Hidden categories: Articles with short description Short description is different from Wikidata All articles with unsourced statements Articles with unsourced statements from August 2011 Search Search React (book) 2 languages Add topic.",
+    "topic": "React hooks",
+    "url": "https://en.wikipedia.org/wiki/React_(book)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:26:45.918565+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Data structure - Wikipedia",
+    "content": "Data structure - Wikipedia Jump to content From Wikipedia, the free encyclopedia Particular way of storing and organizing data in a computer \u2039The template below is included via a redirect (Template:Hatgrp) that is under discussion. See redirects for discussion to help reach a consensus.\u203a Not to be confused with Data type or Data model. In computer science , a data structure is a data organization and storage format that is usually chosen for efficient access to data. [ 1 ] [ 2 ] [ 3 ] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data, [ 4 ] i.e., it is an algebraic structure about data. Usage [ edit ] Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type.",
+    "topic": "Data structures",
+    "url": "https://en.wikipedia.org/wiki/Data_structure",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:26:44.742515+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Firewall(computing) - Wikipedia",
+    "content": "Firewalls can be categorized as network-based or host-based. [ 6 ] The predecessors to firewalls for network security were routers used in the 1980s. Types of firewalls [ edit ] See also: Computer security Firewalls are categorized as a network-based or a host-based system. Network-based firewalls are positioned between two or more networks, typically between the local area network (LAN) and wide area network (WAN), [ 10 ] their basic function being to control the flow of data between connected networks. Host-based firewalls are deployed directly on the host itself to control network traffic or other computing resources. The bulk of Internet communication in 20th and early 21st century used either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) in conjunction with well-known ports , enabling firewalls of that era to distinguish between specific types of traffic such as web browsing, remote printing, email transmission, and file transfers.",
+    "topic": "Firewalls",
+    "url": "https://en.wikipedia.org/wiki/Firewall_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:43.735275+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Load balancing (computing) - Wikipedia",
+    "content": "Load balancing (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Digital workload distribution techniques Diagram illustrating user requests to an Elasticsearch cluster being distributed by a load balancer. (Example for Wikipedia .) In computing , load balancing is the process of distributing a set of tasks over a set of resources (computing units) with the aim of making their overall processing more efficient. Load balancing can optimize response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle. Load balancing is the subject of research in the field of parallel computers. Problem overview [ edit ] A load-balancing algorithm always tries to answer a specific problem. Nature of tasks [ edit ] The efficiency of load balancing algorithms critically depends on the nature of the tasks.",
+    "topic": "Load balancing",
+    "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:42.043643+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Accessibility on the web - Learn web development | MDN",
+    "content": "Accessibility on the web - Learn web development | MDN Skip to main content Skip to search Accessibility on the web Overview: Core learning modules Next Access to web content such as public services, education, e-commerce sites, and entertainment is a human right. Tutorials and challenges What is accessibility? This article starts off the module with a good look at what accessibility is \u00e2\u0080\u0094 this includes what groups of people we need to consider and why, what tools different people use to interact with the web, and how we can make accessibility part of our web development workflow. Accessibility tooling and assistive technology Next we turn our attention to accessibility tooling, providing information on the kinds of tools you can use to help solve accessibility issues, and the assistive technologies used by people with disabilities as they browse the web. HTML: A good basis for accessibility A great deal of web content can be made accessible just by making sure the correct HTML elements are always used for the correct purpose. This article looks in detail at how HTML can be used to ensure maximum accessibility. CSS and JavaScript accessibility best practices CSS and JavaScript, when used properly, also have the potential to allow for accessible web experiences, but if misused they can significantly harm accessibility.",
+    "topic": "Accessibility basics",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:39.248008+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Malware - Wikipedia",
+    "content": "Malware - Wikipedia Jump to content From Wikipedia, the free encyclopedia Malicious software Part of a series on Computer hacking History Phreaking Cryptovirology Hacking of consumer electronics List of hackers Hacker culture and ethic Hackathon Hacker Manifesto Hackerspace Hacktivism Maker culture Types of hackers Black hat Grey hat White hat Conferences Black Hat Briefings Chaos Communication Congress DEF CON Hackers on Planet Earth Security BSides ShmooCon Summercon Computer crime Crimeware List of computer criminals Script kiddie Hacking tools Exploit forensics-focused operating systems Payload Social engineering Vulnerability Practice sites HackThisSite Zone-H Malware Rootkit Backdoor Trojan horse Virus Worm Spyware Ransomware Logic bomb Botnet Keystroke logging HIDS Web shell RCE Infostealer Computer security Application security Cloud computing security Network security Groups Anonymous Chaos Computer Club Homebrew Computer Club (defunct) Legion of Doom (defunct) LulzSec (defunct) Masters of Deception (defunct) Red team / Blue team Publications 2600: The Hacker Quarterly Hacker News Nuts and Volts Phrack v t e Malware (a portmanteau of malicious software ) is any software intentionally designed to cause disruption to a computer , server , client , or computer network , leak private information, gain unauthorized access to information or systems, deprive access to information, or interfere with the user's computer security and privacy without their knowledge. [ 1 ] [ 2 ] [ 3 ] [ 4 ] Researchers tend to classify malware into one or more sub-types (i.e. [ citation needed ] Malware poses serious threats to individuals and businesses on the Internet. [ 5 ] [ 6 ] According to Symantec 's 2018 Internet Security Threat Report (ISTR), the number of malware variants increased to 669,947,865 in 2017, which is twice as many malware variants as in 2016. [ 7 ] Cybercrime , which includes malware attacks as well as other crimes committed by computer, was predicted to cost the global economy US$6 trillion in 2021, and is increasing at a rate of 15% per year. [ 8 ] Since 2021, malware has been designed to target computer systems that run critical infrastructure such as the electricity distribution network.",
+    "topic": "Malware types",
+    "url": "https://en.wikipedia.org/wiki/Malware",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:38.271874+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "CI/CD pipeline",
+    "content": "CI/CD - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from CI/CD pipeline ) Software development methodology For corporate communication topics, see Corporate identity and Corporate design. Part of a series on Software development Core activities Data modeling Processes Requirements Design Construction Engineering Testing Debugging Deployment Maintenance Paradigms and models Agile Cleanroom Incremental Prototyping Spiral V model Waterfall Methodologies and frameworks ASD DAD DevOps DSDM FDD IID Kanban Lean SD LeSS MDD MSF PSP RAD RUP SAFe Scrum SEMAT TDD TSP UP XP Supporting disciplines Configuration management Deployment management Documentation Project management Quality assurance User experience Practices ATDD BDD CCO CD CI DDD PP SBE Stand-up TDD Tools Build automation Compiler Debugger GUI builder IDE Infrastructure as code Profiler Release automation UML Modeling Standards and bodies of knowledge CMMI IEEE standards IREB ISO 9001 ISO/IEC standards ITIL OMG PMBOK SWEBOK Glossaries Artificial intelligence Computer science Electrical and electronics engineering Outlines Software development C programming language C sharp programming language C++ programming language Java programming language JavaScript programming language Python programming language Rust programming language v t e In software engineering , CI/CD or CICD is the combined practices of continuous integration (CI) and continuous delivery (CD) or, less often, continuous deployment. When these three processes occur in order, they may be described as a \"CI/CD pipeline\". [ 3 ] Motivation [ edit ] CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications. CI/CD services compile the incremental code changes made by developers, then link and package them into software deliverables. The CI/CD practice, or CI/CD pipeline , forms the backbone of modern day DevOps operations.",
+    "topic": "CI/CD pipelines",
+    "url": "https://en.wikipedia.org/wiki/CI/CD_pipeline",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:37.264953+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Kubernetes basics: A step-by-step implementation tutorial | TechTarget",
+    "content": "Kubernetes basics: A step-by-step implementation tutorial | TechTarget Home Containers and virtualization Tech Accelerator What is container management and why is it important? Prev Next Download this guide 1 X Free Download What is container management and why is it important? Container management refers to a set of practices that govern and maintain containerization software. Kubernetes, the de facto technology for container management and orchestration, is renowned for being complex to set up and implement. Let's get started with the key steps and Kubernetes commands for a basic Kubernetes implementation. Basic Kubernetes architecture First, it's useful to understand the foundation of a Kubernetes system, which revolves around four important concepts: nodes, pods, deployments and services. The master server acts as the control plane for the Kubernetes clusters. The main purpose of the various components in the control plane is to maintain a record of all Kubernetes objects and to continuously manage the desired state of the cluster by automatically responding to changes.",
+    "topic": "Kubernetes basics",
+    "url": "https://www.techtarget.com/searchitoperations/tutorial/A-step-by-step-tutorial-for-Kubernetes-implementation",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:21:35.922697+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Malware types",
+    "content": "Malware - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Malware types ) Malicious software Part of a series on Computer hacking History Phreaking Cryptovirology Hacking of consumer electronics List of hackers Hacker culture and ethic Hackathon Hacker Manifesto Hackerspace Hacktivism Maker culture Types of hackers Black hat Grey hat White hat Conferences Black Hat Briefings Chaos Communication Congress DEF CON Hackers on Planet Earth Security BSides ShmooCon Summercon Computer crime Crimeware List of computer criminals Script kiddie Hacking tools Exploit forensics-focused operating systems Payload Social engineering Vulnerability Practice sites HackThisSite Zone-H Malware Rootkit Backdoor Trojan horse Virus Worm Spyware Ransomware Logic bomb Botnet Keystroke logging HIDS Web shell RCE Infostealer Computer security Application security Cloud computing security Network security Groups Anonymous Chaos Computer Club Homebrew Computer Club (defunct) Legion of Doom (defunct) LulzSec (defunct) Masters of Deception (defunct) Red team / Blue team Publications 2600: The Hacker Quarterly Hacker News Nuts and Volts Phrack v t e Malware (a portmanteau of malicious software ) is any software intentionally designed to cause disruption to a computer , server , client , or computer network , leak private information, gain unauthorized access to information or systems, deprive access to information, or interfere with the user's computer security and privacy without their knowledge. [ 1 ] [ 2 ] [ 3 ] [ 4 ] Researchers tend to classify malware into one or more sub-types (i.e. [ citation needed ] Malware poses serious threats to individuals and businesses on the Internet. [ 5 ] [ 6 ] According to Symantec 's 2018 Internet Security Threat Report (ISTR), the number of malware variants increased to 669,947,865 in 2017, which is twice as many malware variants as in 2016. [ 7 ] Cybercrime , which includes malware attacks as well as other crimes committed by computer, was predicted to cost the global economy US$6 trillion in 2021, and is increasing at a rate of 15% per year. [ 8 ] Since 2021, malware has been designed to target computer systems that run critical infrastructure such as the electricity distribution network.",
+    "topic": "Malware types",
+    "url": "https://en.wikipedia.org/wiki/Malware_types",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:16:34.896960+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "File system",
+    "content": "File system - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer filing system This article is about how a computer organizes and accesses computer files. For library and office filing systems, see Library classification. Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e This article needs additional citations for verification. Find sources: \"File system\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( November 2025 ) ( Learn how and when to remove this message ) In computing , a file system or filesystem (often abbreviated to FS or fs ) governs file organization and access. A local file system is a capability of an operating system that services the applications running on the same computer. [ 1 ] [ 2 ] A distributed file system is a protocol that provides file access between networked computers.",
+    "topic": "File systems",
+    "url": "https://en.wikipedia.org/wiki/File_system",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:16:32.821500+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Using TypeScript \u2013 React",
+    "content": "Using TypeScript \u2013 React Learn React Setup Copy page Copy Using TypeScript TypeScript is a popular way to add type definitions to JavaScript codebases. Out of the box, TypeScript supports JSX and you can get full React Web support by adding @types/react and @types/react-dom to your project. You will learn TypeScript with React Components Examples of typing with Hooks Common types from @types/react Further learning locations Installation All production-grade React frameworks offer support for using TypeScript. Follow the framework specific guide for installation: Next.js Remix Gatsby Expo Adding TypeScript to an existing React project To install the latest version of React\u2019s type definitions: Terminal Copy npm install --save-dev @types/react @types/react-dom The following compiler options need to be set in your tsconfig.json : dom must be included in lib (Note: If no lib option is specified, dom is included by default). TypeScript with React Components Note Every file containing JSX must use the .tsx file extension. This is a TypeScript-specific extension that tells TypeScript that this file contains JSX.",
+    "topic": "TypeScript basics",
+    "url": "https://react.dev/learn/typescript",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:16:31.754024+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Python for Beginners | Microsoft Learn",
+    "content": "Python for Beginners | Microsoft Learn Read in English Add Add to plan Series Python for Beginners English Probably the largest hurdle when learning any new programming language is simply knowing where to get started. This is why we, Chris and Susan, decided to create this series about Python for Beginners! Even though we won't cover everything there is to know about Python in the course, we want to make ... This is why we, Chris and Susan, decided to create this series about Python for Beginners! Even though we won't cover everything there is to know about Python in the course, we want to make sure we give you the foundation on programming in Python, starting from common everyday code and scenarios.",
+    "topic": "Python basics",
+    "url": "https://learn.microsoft.com/en-us/shows/intro-to-python-development/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:16:30.795171+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Key UI/UX design principles - Dynamics 365 | Microsoft Learn",
+    "content": "Key UI/UX design principles - Dynamics 365 | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Key UI/UX design principles Feedback Summarize this article for me UI/UX design is the process of creating a user interface and experience that meets the needs and goals of users. A good UI/UX design helps users complete tasks efficiently, effectively, and enjoyably. Dynamics 365 apps follow a set of UI/UX design principles that guide their development. These principles are based on research, best practices, and user feedback. You can use these principles as a reference when you design your own apps with Power Apps.",
+    "topic": "UI design principles",
+    "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/develop/ui-ux-design-principles",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:11:27.558706+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "HTTPS - Wikipedia",
+    "content": "HTTPS - Wikipedia Jump to content Checked From Wikipedia, the free encyclopedia This is the latest accepted revision , reviewed on 17 March 2026. HTTP extension supporting TLS encryption HTTP Persistence Compression HTTPS QUIC Request methods OPTIONS GET HEAD POST PUT DELETE TRACE CONNECT PATCH Header fields Cookie ETag Location HTTP referer DNT X-Forwarded-For Upgrade Response status codes 301 Moved Permanently 302 Found 303 See Other 403 Forbidden 404 Not Found 451 Unavailable for Legal Reasons Security access control methods Basic access authentication Digest access authentication Security vulnerabilities HTTP header injection HTTP request smuggling HTTP response splitting HTTP parameter pollution v t e Internet protocol suite Application layer BGP DHCP ( v6 ) DNS FTP HTTP ( HTTP/3 ) HTTPS IMAP IPP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more... v t e Hypertext Transfer Protocol Secure ( HTTPS ) is an extension of the Hypertext Transfer Protocol (HTTP). It uses encryption for secure communication over a computer network , and is widely used on the Internet. [ 1 ] [ 2 ] In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS , [ 3 ] or HTTP over SSL.",
+    "topic": "HTTP and HTTPS",
+    "url": "https://en.wikipedia.org/wiki/HTTPS",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:11:26.569110+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is Docker? | Definition from TechTarget",
+    "content": "What is Docker? | Definition from TechTarget Home Containers and virtualization Tech Accelerator What is container management and why is it important? Prev Next Download this guide 1 X Free Download What is container management and why is it important? Container management refers to a set of practices that govern and maintain containerization software. Container management tools automate the creation, deployment, destruction and scaling of application or systems containers. Modern Linux container technology was popularized by the Docker project in 2013, and interest soon expanded beyond containerization itself to the intricacies of how to effectively and efficiently deploy and manage containers. Bigelow, Senior Technology Editor Published: May 15, 2025 Docker is an open source software platform used to create, deploy and manage applications in virtualized environments called containers. These containers are lightweight, portable and self-sufficient packages that include everything an application needs to run, such as code, libraries, runtime and system tools. Containers ensure consistent performance across different environments by encapsulating the application and its dependencies.",
+    "topic": "Docker containers",
+    "url": "https://www.techtarget.com/searchitoperations/definition/Docker",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:11:25.123533+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Architecture of macOS - Wikipedia",
+    "content": "Architecture of macOS - Wikipedia Jump to content From Wikipedia, the free encyclopedia Layers of the operating system This article has multiple issues. Find sources: \"Architecture of macOS\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( January 2018 ) ( Learn how and when to remove this message ) This article needs to be updated. ( January 2018 ) ( Learn how and when to remove this message ) Part of a series on macOS History and architecture Architecture Version history Transition to Intel processors Transition to Apple silicon Darwin Cocoa XNU Versions Version history Rhapsody (Developer Release) Hera (Server 1.0) Kodiak (Public Beta) Cheetah (10.0) Puma (10.1) Jaguar (10.2) Panther (10.3) Tiger (10.4) Leopard (10.5) Snow Leopard (10.6) Lion (10.7) Mountain Lion (10.8) Mavericks (10.9) Yosemite (10.10) El Capitan (10.11) Sierra (10.12) High Sierra (10.13) Mojave (10.14) Catalina (10.15) Big Sur (11) Monterey (12) Ventura (13) Sonoma (14) Sequoia (15) Tahoe (26) Applications App Store Automator Books Calculator Calendar Contacts Dashboard Dictionary FaceTime Finder Game Center Grapher iTunes ( history ) Mail Messages Music Notes Notification Center Photo Booth Podcasts Photos Preview QuickTime Reminders Safari Sherlock Stickies TextEdit Time Machine List of built-in apps List of compatible software List of compatible games Utilities Activity Monitor AirPort Utility Archive Utility Audio MIDI Setup Bluetooth File Exchange ColorSync Console Crash Reporter DigitalColor Meter Directory Utility DiskImageMounter Disk Utility Font Book Grab Help Viewer Image Capture Installer Keychain Access Migration Assistant Network Utility ODBC Administrator Remote Install Mac OS X System Preferences System Information Terminal Universal Access VoiceOver Related operating systems Classic Mac OS Copland NeXTSTEP Rhapsody Darwin v t e Additional diagram of macOS architecture (2017 update) The architecture of macOS describes the layers of the operating system that is the culmination of Apple Inc. After the failures of their previous attempts\u2014Pink, which started as an Apple project but evolved into a joint venture with IBM called Taligent , and Copland , which started in 1994 and was cancelled two years later\u2014Apple began development of Mac OS X, later renamed OS X and then macOS, with the acquisition of NeXT 's NeXTSTEP in 1997. Development [ edit ] Main article: History of macOS NeXTSTEP [ edit ] Main article: NeXTSTEP NeXTSTEP used a hybrid kernel that combined the Mach 2.5 k",
+    "topic": "macOS architecture basics",
+    "url": "https://en.wikipedia.org/wiki/Architecture_of_macOS",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:11:24.130876+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Authentication vs. Authorization: What's the Difference? | IBM",
+    "content": "Authorization: What's the Difference? | IBM Authentication versus authorization: What\u2019s the difference? Authentication and authorization are related but distinct processes in an organization\u2019s identity and access management (IAM) system. Authentication verifies a user\u2019s identity. Authorization gives the user the right level of access to system resources. The authentication process relies on credentials, such as passwords or fingerprint scans, that users present to prove they are who they claim to be. The authorization process uses user permissions to define what each user can do within a particular resource or network. Authentication and authorization processes apply to both human and nonhuman users, such as devices, automated workloads and web apps.",
+    "topic": "Authentication and authorization",
+    "url": "https://www.ibm.com/think/topics/authentication-vs-authorization",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:11:23.147983+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "The 5 Different Types of Firewalls Explained",
+    "content": "The 5 Different Types of Firewalls Explained Home Network security Sergey Nivens - Fotolia Share this item with your network: By Amy Larsen DeCarlo, GlobalData Published: 15 Aug 2024 Nearly 40 years after the concept of the network firewall entered the security conversation, the technology remains an essential tool in the enterprise network security arsenal. Along the way, the firewall has evolved into different types of firewalls. This article looks at five key types of firewalls that use different mechanisms to identify and filter out malicious traffic. In addition, enterprises might need more than one of the five firewalls to best secure their systems. The following are the five types of firewalls: Packet filtering firewall. While some types of firewalls work as multifunctional security devices, they need to be part of a multilayered architecture that executes effective enterprise security policies.",
+    "topic": "Firewalls",
+    "url": "https://www.techtarget.com/searchsecurity/feature/The-five-different-types-of-firewalls",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:06:19.499982+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is TCP/IP and How Does it Work? | TechTarget",
+    "content": "What is TCP/IP and How Does it Work? | TechTarget Home Network infrastructure Share this item with your network: By Kinza Yasar, Technical Writer Mary E. Shacklett, Transworld Data Amy Novotny, Senior Managing Editor Published: Sep 26, 2024 TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP is also used as a communications protocol in a private computer network -- an intranet or extranet. The entire IP suite -- a set of rules and procedures -- is commonly referred to as TCP/IP. The TCP/IP protocol suite functions as an abstraction layer between internet applications and the routing and switching fabric. TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that identify how it should be broken into packets , addressed, transmitted, routed and received at the destination.",
+    "topic": "TCP/IP fundamentals",
+    "url": "https://www.techtarget.com/searchnetworking/definition/TCP-IP",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:06:18.490362+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Educational SQL resources - SQL Server | Microsoft Learn",
+    "content": "Educational SQL resources - SQL Server | Microsoft Learn Table of contents Read in English Edit Share via Facebook x.com LinkedIn Email Educational SQL resources Tutorials, quickstarts, and other educational resources meant to teach you to work with SQL Server and Azure SQL Database. Learn SQL Training Azure SQL for beginners Azure SQL fundamentals Azure SQL hands-on labs Azure SQL bootcamp LinkedIn Learning Pluralsight SQL Server Training Upgrade SQL Server Use the Query Tuning Assistant SQL Server workshops Quickstart Connect & query with SSMS Writing Transact-SQL (T-SQL) Extended events Backup & restore on-premises Backup & restore to Azure Blob Storage Tutorial Availability group Transactional replication Merge replication Create in-memory table Sign stored procedure with certificate Azure Blob Storage Database tuning advisor Architecture Index architecture & design Pages & extents architecture Post migration validation & optimization Query processing Architecture Thread & task architecture Transaction log architecture Transaction locking & row versioning Memory management architecture SQL Server on Azure VM (IaaS) Quickstart Create VM with portal Create VM with PowerShell How-To Guide Register with resource provider Configure availability group with Az CLI Create FCI using premium file share Use Azure Storage for backup & restore Azure SQL Database (PaaS) Training Choose data storage approach Secure SQL Database Geographically distributed app ASP.NET App to query SQL Database Quickstart Create DB with portal or code Create DB with template Configure Server-level IP firewall rules Tutorial Migrate using Azure Database Migration Service Add single DB to a failover group Add elastic pool to a failover group Configure active geo-replication Configure security SQL Server on Linux Training Introduction Deploy Automatically tune Containers Quickstart Red Hat SUSE Ubuntu Containers On Azure Tutorial Migrate from Windows Migrate to Linux containers Create a job Setup Active Directory authentication Configure FCI Deploy a Pacemaker cluster Create & configure availability group Deploy container cluster on Azure Configure replication Azure SQL Managed Instance (PaaS) Quickstart Create instance with portal Create instance with PowerShell Create instance pool Configure public endpoint Connect a client VM Configure point-to-site connection Restore database backup Tutorial Migrate using Azure Database Migration Service Configure transactional replication Add to a fai",
+    "topic": "SQL fundamentals",
+    "url": "https://learn.microsoft.com/en-us/sql/sql-server/educational-sql-resources?view=sql-server-ver17",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:06:14.585754+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Is Latency? | IBM",
+    "content": "What Is Latency? | IBM What is latency? Authors Michael Goodwin Staff Editor, Automation & ITOps IBM Think What is latency? Latency is a measurement of delay in a system. Network latency is the amount of time it takes for data to travel from one point to another across a network. A network with high latency will have slower response times, while a low-latency network will have faster response times. Though in principle, data should traverse the internet at nearly the speed of light, in practice, data packets move across the internet at a slightly slower rate due to delays caused by distance, internet infrastructure, data packet size, network congestion and other variables. 1 The sum of these time delays comprises a network\u2019s latency. Organizations can reduce latency and improve productivity and user experience by: Using content delivery networks , edge computing and subnetting to distribute data and route traffic Maintaining capable, up-to-date infrastructure Using application performance management, resource allocation and workload placement solutions Keep your head in the cloud Get the weekly Think Newsletter for expert guidance on optimizing multicloud settings in the AI era.",
+    "topic": "Network latency",
+    "url": "https://www.ibm.com/think/topics/latency",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:06:13.978318+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Tutorial - User Guide - FastAPI",
+    "content": "Tutorial - User Guide - FastAPI Skip to content Join the FastAPI Cloud waiting list \ud83d\ude80 Follow @fastapi on X (Twitter) to stay updated Follow FastAPI on LinkedIn to stay updated Subscribe to the FastAPI and friends newsletter \ud83c\udf89 sponsor sponsor sponsor sponsor sponsor sponsor sponsor sponsor sponsor sponsor sponsor Tutorial - User Guide \u00b6 This tutorial shows you how to use FastAPI with most of its features, step by step. To run any of the examples, copy the code to a file main.py , and start fastapi dev : $ <font color = \"#4E9A06\" >fastapi</font> dev <span style=\"background-color:#009485\"><font color=\"#D3D7CF\"> FastAPI </font></span> Starting development server \ud83d\ude80 Searching for package file structure from directories with <font color=\"#3465A4\">__init__.py</font> files Importing from <font color=\"#75507B\">/home/user/code/</font><font color=\"#AD7FA8\">awesomeapp</font> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> module </font></span> \ud83d\udc0d main.py <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> code </font></span> Importing the FastAPI app object from the module with the following code: <u style=\"text-decoration-style:solid\">from </u><u style=\"text-decoration-style:solid\"><b>main</b></u><u style=\"text-decoration-style:solid\"> import </u><u style=\"text-decoration-style:solid\"><b>app</b></u> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> app </font></span> Using import string: <font color=\"#3465A4\">main:app</font> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> server </font></span> Server started at <font color=\"#729FCF\"><u style=\"text-decoration-style:solid\">http://127.0.0.1:8000</u></font> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> server </font></span> Documentation at <font color=\"#729FCF\"><u style=\"text-decoration-style:solid\">http://127.0.0.1:8000/docs</u></font> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> tip </font></span> Running in development mode, for production use: <b>fastapi run</b> Logs: <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> INFO </font></span> Will watch for changes in these directories: <b>[</b><font color=\"#4E9A06\">&apos;/home/user/code/awesomeapp&apos;</font><b>]</b> <span style=\"background-color:#007166\"><font color=\"#D3D7CF\"> INFO </font></span> Uvicorn running on <font color=\"#729FCF\"><u style=\"text-decoration-style:solid\">http://127.0.0.1:8000</u></font> <b>(</b>Press CTRL+C to quit<b>)</b> <span style=\"background-color:#007",
+    "topic": "FastAPI basics",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:11.803109+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What Is Debugging? | IBM",
+    "content": "What Is Debugging? | IBM Cloud What is debugging? Authors Camilo Quiroz-V\u00e1zquez IBM Staff Writer What is debugging? Debugging is the process of finding, isolating and resolving coding errors known as bugs in software programs. Debugging helps uncover the cause of coding errors, prevent software function issues and improve the overall performance of software. Unlike software testing , which enables developers to investigate the effects of these errors in a program\u2019s source code, debugging seeks the root cause and remediation of these errors. Through the debugging process, software developers conduct root cause analysis to make sure bugs that are found in computer programs are fixed and do not happen again. Debugging tools and strategies help optimize the debugging process. Subscribe today The debugging process Debugging typically involves six steps: -Reproduce the conditions -Find the bug -Determine the root cause -Fix the bug -Test to validate the fix -Document the process Step 1: Reproduce the conditions The debugging process requires specificity; engineers cannot rely on a second-hand description of the problem to accurately diagnose it.",
+    "topic": "Debugging techniques",
+    "url": "https://www.ibm.com/think/topics/debugging",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:10.873407+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Algorithm - Wikipedia",
+    "content": "Algorithm - Wikipedia Jump to content From Wikipedia, the free encyclopedia Sequence of operations for a task \"Algorithms\" redirects here. For the subfield of computer science, see Analysis of algorithms. [ 1 ] Algorithms are used as specifications for performing calculations and data processing. More advanced algorithms can use conditionals to divert the code execution through various routes (referred to as automated decision-making ) and deduce valid inferences (referred to as automated reasoning ). [ 2 ] For example, although social media recommender systems are commonly called \"algorithms\", they actually rely on heuristics as there is no truly \"correct\" recommendation. The transition from one state to the next is not necessarily deterministic ; some algorithms, known as randomized algorithms , incorporate random input.",
+    "topic": "Algorithms",
+    "url": "https://en.wikipedia.org/wiki/Algorithm",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:09.843408+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Introduction to Cloud Infrastructure: Describe Cloud Concepts - Training | Microsoft Learn",
+    "content": "Introduction to Cloud Infrastructure: Describe Cloud Concepts - Training | Microsoft Learn Read in English Introduction to Cloud Infrastructure: Describe cloud concepts Learning Path 3 Modules At a glance Level Beginner Skill &nbsp; Product Azure Role Administrator Developer DevOps Engineer Solution Architect Subject Architecture Cloud computing Technical infrastructure New to the cloud? Introduction to Cloud Infrastructure is a four-part series that teaches you basic cloud concepts, provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your first services for free. This is the first learning path in the series, Introduction to Cloud Infrastructure: Describe cloud concepts. Add Achievement Code Would you like to request an achievement code? Request achievement code Modules in this learning path Describe cloud computing This module introduces you to cloud computing. It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cloud. Add Describe the benefits of using cloud services This module introduces you to the benefits cloud computing can offer you or your organization. Add Describe cloud service types This module covers the different cloud service types and shares some of the use cases and benefits aligned with each service type.",
+    "topic": "Cloud computing basics",
+    "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:08.849866+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Graphics processing unit - Wikipedia",
+    "content": "Graphics processing unit - Wikipedia Jump to content From Wikipedia, the free encyclopedia Specialized electronic circuit that accelerates graphics \"GPU\" redirects here. For other uses, see GPU (disambiguation). A graphics processing unit ( GPU ) is a specialized electronic circuit designed for digital image processing and to accelerate computer graphics , being present either as a component on a discrete graphics card or embedded on motherboards , mobile phones , personal computers , workstations , and game consoles. GPUs are increasingly being used for artificial intelligence (AI) processing due to linear algebra acceleration, which is also used extensively in graphics processing. Although there is no single definition of the term, and it may be used to describe any video display system, in modern use a GPU includes the ability to internally perform the calculations needed for various graphics tasks, like rotating and scaling 3D images, and often the additional ability to run custom programs known as shaders. The modern GPU emerged during the 1990s, adding the ability to perform operations like drawing lines and text without CPU help, and later adding 3D functionality.",
+    "topic": "GPU basics",
+    "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:07.832885+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Domain Name System - Wikipedia",
+    "content": "Domain Name System - Wikipedia Jump to content From Wikipedia, the free encyclopedia System to identify resources on a network \"DNS\" redirects here. For other uses, see DNS (disambiguation). Domain Name System Communication protocol Abbreviation DNS Purpose To identify resources on networks Developer(s) Paul Mockapetris Introduction November 1983 ; 42 years ago ( 1983-11 ) OSI layer Application layer Port(s) 53 RFC(s) 1034 , 1035 Internet protocol suite Application layer BGP DHCP ( v6 ) DNS FTP HTTP ( HTTP/3 ) HTTPS IMAP IPP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more... v t e The Domain Name System ( DNS ) is a hierarchical and distributed name service that provides a naming system for computers , services, and other resources on the Internet or other Internet Protocol (IP) networks. In addition, the DNS specifies the technical functionality of the database service that is at its core. It defines the DNS protocol, a detailed specification of the data structures and data communication exchanges used in the DNS, as part of the Internet protocol suite.",
+    "topic": "DNS basics",
+    "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:06.674225+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Computer architecture - Wikipedia",
+    "content": "Computer architecture - Wikipedia Jump to content From Wikipedia, the free encyclopedia Set of rules describing computer system This article's lead section may be too short to adequately summarize the key points. ( November 2023 ) Block diagram of a basic computer with uniprocessor CPU. In computer science and computer engineering , a computer architecture is the structure of a computer system made from component parts. [ 2 ] At a more detailed level, the description may include the instruction set architecture design, microarchitecture design, logic design , and implementation. [ 3 ] History [ edit ] The first documented computer architecture was in the correspondence between Charles Babbage and Ada Lovelace , describing the analytical engine. [ 7 ] The term \"architecture\" in computer literature can be traced to the work of Lyle R.",
+    "topic": "CPU architecture basics",
+    "url": "https://en.wikipedia.org/wiki/Computer_architecture",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T07:01:05.646208+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "About Memory Management - Win32 apps | Microsoft Learn",
+    "content": "About Memory Management - Win32 apps | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. About Memory Management Feedback Summarize this article for me Each process on 32-bit Microsoft Windows has its own virtual address space that enables addressing up to 4 gigabytes of memory. However, threads cannot access memory that belongs to another process, which protects a process from being corrupted by another process. For information on the virtual address space and the memory management functions, see the following topics. Virtual Address Space Memory Pools Memory Performance Information Virtual Memory Functions Heap Functions File Mapping Large Memory Support Global and Local Functions Standard C Library Functions Comparing Memory Allocation Methods Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2021-01-07 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+    "topic": "Memory management",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/memory/about-memory-management",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T06:43:56.124167",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "File system - Wikipedia",
+    "content": "File system - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer filing system This article is about how a computer organizes and accesses computer files. For library and office filing systems, see Library classification. Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e This article needs additional citations for verification. Find sources: \"File system\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( November 2025 ) ( Learn how and when to remove this message ) In computing , a file system or filesystem (often abbreviated to FS or fs ) governs file organization and access. A local file system is a capability of an operating system that services the applications running on the same computer. [ 1 ] [ 2 ] A distributed file system is a protocol that provides file access between networked computers.",
+    "topic": "File systems",
+    "url": "https://en.wikipedia.org/wiki/File_system",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T06:33:48.840873",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Business process management - Wikipedia",
+    "content": "Business process management - Wikipedia Jump to content From Wikipedia, the free encyclopedia Business management discipline For related subjects, see Process management (disambiguation). Find sources: \"Business process management\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( June 2023 ) ( Learn how and when to remove this message ) Business administration Accounting Management accounting Financial accounting Audit Business entity ( list ) Corporate group Corporation sole Company Conglomerate Holding company Cooperative Corporation Joint-stock company Limited liability company Partnership Privately held company Sole proprietorship State-owned enterprise Corporate governance Annual general meeting Board of directors Supervisory board Advisory board Audit committee Corporate law Commercial law Constitutional documents Contract Corporate crime Corporate liability Insolvency law International trade law Mergers and acquisitions Corporate title Chairman Chief business officer / Chief brand officer Chief executive officer / Chief operating officer Chief financial officer Chief human resources officer Chief information officer / Chief marketing officer Chief product officer / Chief technology officer Economics Commodity Public economics Labour economics Development economics International economics Mixed economy Planned economy Econometrics Environmental economics Open economy Market economy Knowledge economy Microeconomics Macroeconomics Economic development Economic statistics Finance Financial statement Insurance Factoring Cash conversion cycle Insider dealing Capital budgeting Commercial bank Derivative Financial statement analysis Financial risk Public finance Corporate finance Managerial finance International finance Liquidation Stock market Financial market Tax Financial institution Capital management Venture capital Types of management Asset Brand Business intelligence Business development Capacity Capability Change innovation Commercial Marketing Communications Configuration Conflict Content Customer relationship Distributed Earned value Electronic business Enterprise resource planning management information system Financial Human resource development Incident Knowledge Legal Materials Network administrator Office Operations services Performance Power Process Product life-cycle Product Project Property Quality Records Resource Risk crisis Sales Security Service Strategic Supply chain Systems administrator Talent Technology Organization Architecture Beh",
+    "topic": "Process management",
+    "url": "https://en.wikipedia.org/wiki/Business_process_management",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T06:33:47.230541",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Operating system - Wikipedia",
+    "content": "Operating system - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software that manages computer hardware resources Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs. Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time , mass storage , peripherals, and other resources. For hardware functions such as input and output and memory allocation , the operating system acts as an intermediary between programs and the computer hardware, [ 1 ] [ 2 ] although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer \u2013 from cellular phones and video game consoles to web servers and supercomputers. As of November 2025 [update] , Android is the most popular operating system with a 38% market share, followed by Microsoft Windows at 33%, iOS and iPadOS at 15%, macOS at 4%, and Linux at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers.",
+    "topic": "Operating systems overview",
+    "url": "https://en.wikipedia.org/wiki/Operating_system",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T06:25:10.342041",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Kernel (operating system) - Wikipedia",
+    "content": "Kernel (operating system) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Core of a computer operating system \"Kernel (computer science)\" redirects here. For other computer related uses, see Kernel (disambiguation) \u00a7 Computing. For other uses, see Kernel (disambiguation). A simplification of how a kernel connects application software to the hardware of a computer A kernel is a computer program at the core of a computer 's operating system that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes. A full kernel controls all hardware resources (e.g.",
+    "topic": "Kernel architecture",
+    "url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T06:23:26.478136",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  }
+]
