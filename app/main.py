@@ -42,6 +42,11 @@ def learning_loop():
                 subject="SVANSAI Learning Error",
                 body=f"SVANSAI learning failed:\n\n{error}",
             )
+            from app.services.knowledge_store import load_knowledge
+            from app.services.github_backup import backup_knowledge_to_github
+
+            backup_result = backup_knowledge_to_github(load_knowledge())
+            print("[SVANSAI Backup]", backup_result)
 
         time.sleep(settings.run_interval_minutes * 60)
 
@@ -87,3 +92,25 @@ def get_learning_data():
 
     entries = load_knowledge()
     return {"ok": True, "count": len(entries), "entries": entries[:50]}
+
+
+@app.get("/learning/export")
+def export_learning():
+    from app.services.knowledge_store import load_knowledge
+
+    data = load_knowledge()
+    return {
+        "ok": True,
+        "count": len(data),
+        "entries": data,
+    }
+
+
+@app.post("/learning/backup")
+def backup_learning():
+    from app.services.knowledge_store import load_knowledge
+    from app.services.github_backup import backup_knowledge_to_github
+
+    data = load_knowledge()
+    result = backup_knowledge_to_github(data)
+    return result
