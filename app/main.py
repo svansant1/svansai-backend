@@ -85,4 +85,5 @@ def api_root():
 def get_learning_data():
     from app.services.knowledge_store import load_knowledge
 
-    return {"ok": True, "entries": load_knowledge()}
+    entries = load_knowledge()
+    return {"ok": True, "count": len(entries), "entries": entries[:50]}
