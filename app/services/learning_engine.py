@@ -230,18 +230,17 @@ def learn_topics_for_run(search_fn) -> Dict[str, Any]:
                 print(f"Error learning {topic}: {e}")
                 continue
 
-    if saved_entries:
+        if saved_entries:
+            all_entries = merge_new_entries(saved_entries)
 
-        merge_new_entries(saved_entries)
+            print("\n==============================")
+            print("SVANSAI SAVED KNOWLEDGE")
+            print(f"Entries Saved: {len(saved_entries)}")
+            print(f"Total Knowledge Entries: {len(all_entries)}")
+            print("==============================\n")
+        else:
 
-        print("\n==============================")
-        print("SVANSAI SAVED KNOWLEDGE")
-        print(f"Entries Saved: {len(saved_entries)}")
-        print("==============================\n")
-
-    else:
-
-        print("\nNo new knowledge saved this run\n")
+            print("\nNo new knowledge saved this run\n")
 
     print("SVANSAI LEARNING COMPLETE\n")
 
