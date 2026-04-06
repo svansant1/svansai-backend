@@ -14,7 +14,7 @@ class Settings(BaseModel):
 
     daily_topic_goal: int = 10
     topics_per_run: int = 20
-    run_interval_seconds: int = 10
+    run_interval_minutes: int = 1
 
     resend_api_key: str = os.getenv("RESEND_API_KEY", "")
     alert_email_to: str = os.getenv("ALERT_EMAIL_TO", "")
