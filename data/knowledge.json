@@ -938,5 +938,64 @@
     "createdAt": "2026-04-06T06:23:26.478136",
     "validation_status": "trusted",
     "confidence": 0.85
+  },
+      {
+      "title": "Internet protocol suite - Wikipedia",
+      "content": "v t e The Internet protocol suite , commonly known as TCP/IP , is a framework for organizing the communication protocols used in the Internet and similar computer networks according to functional criteria. Initially referred to as the DOD Internet Architecture Model , [ 27 ] together with the Transmission Control Protocol, it became commonly known as TCP/IP. [ 29 ] Adoption [ edit ] In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking. [ 33 ] The migration of the ARPANET from NCP to TCP/IP was officially completed on flag day January 1, 1983, when the new protocols were permanently activated. [ 30 ] [ 34 ] In 1985, the Internet Advisory Board (later Internet Architecture Board ) held a three-day TCP/IP workshop for the computer industry, attended by 250 vendor representatives, promoting the protocol and leading to its increasing commercial use. In 1985, the first Interop conference focused on network interoperability by broader adoption of TCP/IP.",
+      "topic": "TCP/IP fundamentals",
+      "url": "https://en.wikipedia.org/wiki/Internet_protocol_suite",
+      "source": "trusted_web",
+      "createdAt": "2026-04-06T20:59:32.606994+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Building Your Application: Routing - Next.js",
+      "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-02 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
+      "topic": "Next.js routing",
+      "url": "https://nextjs.org/docs/pages/building-your-application/routing",
+      "source": "trusted_web",
+      "createdAt": "2026-04-06T20:57:53.772616+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Docker (software) - Wikipedia",
+      "content": "Docker (software) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software for deploying containerized applications This article is about the containerization software. Docker Screenshot of Docker Engine commands Original author Solomon Hykes Developer Docker, Inc. Initial release March 20, 2013 ; 13 years ago ( 2013-03-20 ) [ 1 ] Stable release 29.3.0 [ 2 ] / 5 March 2026 Written in Go [ 3 ] Operating system Linux , Windows , macOS Platform x86-64 , ARM , s390x , ppc64le Type OS-level virtualization License Apache-2.0 license (Docker Engine, for Linux only) End-user license agreement (Docker Desktop) [ 4 ] Website www .docker .com Former logo Docker is a set of products that uses operating system-level virtualization to deliver software in packages called containers. Docker automates the deployment of applications within lightweight containers, enabling them to run consistently across different computing environments. The core software that runs and manages these containers is called Docker Engine. Docker was first released in 2013 and continues to be developed by Docker, Inc.",
+      "topic": "Docker containers",
+      "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+      "source": "trusted_web",
+      "createdAt": "2026-04-06T20:55:50.987564+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "6. JavaScript fundamentals - MDN Web Docs",
+      "content": "JavaScript fundamentals Skip to main content Skip to search 6.1 Variables 6.2 Math 6.3 Text 6.4 Arrays 6.5 Conditionals 6.6 Loops 6.7 Functions 6.8 JavaScript object basics 6.9 DOM scripting 6.10 Events 6.11 Async JavaScript basics 6.12 Network requests with fetch() 6.13 Working with JSON 6.14 Libraries and frameworks 6.15 Debugging JavaScript JavaScript is a huge topic, with so many different features, styles, and techniques to learn, and so many APIs and tools built on top of it. General resources: Learn JavaScript , Scrimba Course partner What is JavaScript? A first splash into JavaScript 6.1 Variables Learning outcomes: Understand what variables are and why they are so important in programming generally, not just JavaScript. Resources: Storing the information you need â Variables 6.2 Math Learning outcomes: Basic number operations in JavaScript â add, subtract, multiply, and divide. Resources: Basic math in JavaScript â numbers and operators Numbers and dates 6.3 Text Learning outcomes: Creating string literals. Resources: Handling text â strings in JavaScript Useful string methods 6.4 Arrays Learning outcomes: Understand what an array is â a structure that holds a list of variables. Notes : There are many other types of loop in JavaScript that we haven't listed here.",
+      "topic": "JavaScript fundamentals",
+      "url": "https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/",
+      "source": "trusted_web",
+      "createdAt": "2026-04-06T20:54:11.692171+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+    "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...(CPU) Thread Scheduling - stevengong.coScheduling - Win32 apps | Microsoft LearnHow to ScheduleThreadsPosts in 2026 — Complete GuideThread SchedulingEssentials - numberanalytics.com",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-06T20:53:58.089681+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+    },
+    {
+    "title": "Tutorials |Kubernetes",
+    "content": "Tutorials | Kubernetes Edit this page Create child page Create an issue Print entire section Tutorials This section of the Kubernetes documentation contains tutorials. Basics Kubernetes Basics is an in-depth interactive tutorial that helps you understand the Kubernetes system and try out some basic Kubernetes features. Introduction to Kubernetes (edX) Hello Minikube Configuration Configuring Redis Using a ConfigMap Authoring Pods Adopting Sidecar Containers Stateless Applications Exposing an External IP Address to Access an Application in a Cluster Example: Deploying PHP Guestbook application with Redis Stateful Applications StatefulSet Basics Example: WordPress and MySQL with Persistent Volumes Example: Deploying Cassandra with Stateful Sets Running ZooKeeper, A CP Distributed System Services Connecting Applications with Services Using Source IP Security Apply Pod Security Standards at Cluster level Apply Pod Security Standards at Namespace level Restrict a Container's Access to Resources with AppArmor Seccomp Cluster Management Configuring Swap Memory on Kubernetes Nodes Running Kubelet in Standalone Mode Install Drivers and Allocate Devices with DRA What's next If you would like to write a tutorial, see Content Page Types for information about the tutorial page type. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
+    "topic": "Kubernetes basics",
+    "url": "https://kubernetes.io/docs/tutorials/",      "source": "trusted_web",
+    "createdAt": "2026-04-06T20:53:43.996524+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
   }
 ]
