@@ -8,24 +8,46 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 KNOWLEDGE_FILE = DATA_DIR / "knowledge.json"
+BACKUP_FILE = DATA_DIR / "render_knowledge_backup.json"
 
 
-def load_knowledge() -> List[Dict[str, Any]]:
-    if not KNOWLEDGE_FILE.exists():
+def _read_json_file(path: Path) -> List[Dict[str, Any]]:
+    if not path.exists():
         return []
 
     try:
-        return json.loads(KNOWLEDGE_FILE.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict) and "entries" in data:
+            return data["entries"]
+        if isinstance(data, list):
+            return data
+        return []
     except Exception:
         return []
 
 
+def _write_json_file(path: Path, entries: List[Dict[str, Any]]) -> None:
+    path.write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def load_knowledge() -> List[Dict[str, Any]]:
+    knowledge_entries = _read_json_file(KNOWLEDGE_FILE)
+    backup_entries = _read_json_file(BACKUP_FILE)
+
+    if len(backup_entries) > len(knowledge_entries):
+        return backup_entries
+
+    return knowledge_entries
+
+
 def save_knowledge(entries: List[Dict[str, Any]]) -> None:
-    KNOWLEDGE_FILE.write_text(json.dumps(entries, indent=2), encoding="utf-8")
+    _write_json_file(KNOWLEDGE_FILE, entries)
+    _write_json_file(BACKUP_FILE, entries)
 
 
 def merge_new_entries(new_entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     existing = load_knowledge()
+
     seen = {
         (
             str(item.get("title", "")).strip().lower(),
@@ -34,14 +56,22 @@ def merge_new_entries(new_entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]
         for item in existing
     }
 
+    added_count = 0
+
     for entry in new_entries:
         key = (
             str(entry.get("title", "")).strip().lower(),
             str(entry.get("topic", "")).strip().lower(),
         )
+
         if key not in seen:
             existing.insert(0, entry)
             seen.add(key)
+            added_count += 1
 
     save_knowledge(existing)
+
+    print(f"[SVANSAI] Added {added_count} new entries")
+    print(f"[SVANSAI] Total stored entries: {len(existing)}")
+
     return existing
