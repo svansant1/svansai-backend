@@ -1,5 +1,15 @@
 [
   {
+    "title": "What is a Container? | Docker",
+    "content": "What is a Container? | Docker Use containers to Build, Share and Run your applications Package Software into Standardized Units for Development, Shipment and Deployment A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging. Docker containers that run on Docker Engine: Standard: Docker created the industry standard for containers, so they could be portable anywhere Lightweight: Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry Learn more Docker Containers Are Everywhere: Linux, Windows, Data center, Cloud, Serverless, etc. Docker container technology was launched in 2013 as an open source Docker Engine.",
+    "topic": "Docker containers",
+    "url": "https://www.docker.com/resources/what-container/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:53:41.413653+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Building Your Application:Routing|Next.js",
     "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-02 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
     "topic": "Next.js routing",
