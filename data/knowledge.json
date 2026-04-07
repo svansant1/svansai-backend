@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft Learn(CPU) Thread Scheduling - stevengong.coThread Scheduling Essentials - numberanalytics.comScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete Guide6.S081:Scheduling- Massachusetts Institute of Technology",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T11:33:18.050353+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "HTTP vs HTTPS - Difference Between Transfer Protocols - AWS",
     "content": "HTTP vs HTTPS - Difference Between Transfer Protocols - AWS Skip to main content What is Cloud Computing? Cloud Comparisons Hub Networking & Content Delivery What’s the Difference Between HTTP and HTTPS? What’s the Difference Between HTTP and HTTPS? Create an AWS Account Page topics What’s the difference between HTTP and HTTPS? How does HTTP protocol work? How does HTTPS protocol work? What’s the difference between HTTP/2, HTTP/3, and HTTPS? Why choose HTTPS over HTTP? Is HTTPS setup more expensive than HTTP? Summary of differences: HTTP vs. HTTPS How can AWS support your HTTPS requirements? What’s the difference between HTTP and HTTPS? Hypertext transfer protocol (HTTP) is a protocol or set of communication rules for client-server communication. When you visit a website, your browser sends a HTTP request to the web server, which responds with an HTTP response. The web server and your browser exchange data as plaintext. In short, HTTP protocol is the underlying technology that powers network communication. As the name suggests, hypertext transfer protocol secure (HTTPS) is a more secure version or an extension of HTTP.",
     "topic": "HTTP and HTTPS",
