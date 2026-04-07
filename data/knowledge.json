@@ -1,5 +1,15 @@
 [
   {
+    "title": "LearnKubernetesBasics|Kubernetes",
+    "content": "Learn Kubernetes Basics | Kubernetes Edit this page Create child page Create an issue Print entire section Learn Kubernetes Basics Objectives This tutorial provides a walkthrough of the basics of the Kubernetes cluster orchestration system. Each module contains some background information on major Kubernetes features and concepts, and a tutorial for you to follow along. What can Kubernetes do for you? With modern web services, users expect applications to be available 24/7, and developers expect to deploy new versions of those applications several times a day. Kubernetes helps you make sure those containerized applications run where and when you want, and helps them find the resources and tools they need to work. Kubernetes is a production-ready, open source platform designed with Google's accumulated experience in container orchestration, combined with best-of-breed ideas from the community. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
+    "topic": "Kubernetes basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:24:26.268453+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "asyncio — Asynchronous I/O —Python3.14.3 documentation",
     "content": "asyncio â Asynchronous I/O — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
     "topic": "Python async programming",
