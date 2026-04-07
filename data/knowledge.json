@@ -1,5 +1,15 @@
 [
   {
+    "title": "The official home of thePythonProgramming Language",
+    "content": "Python For Beginners | Python.org Notice: This page displays a fallback because interactive scripts did not run. Python >>> About >>> Getting Started Welcome! Are you completely new to programming ? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in ! Installing Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.",
+    "topic": "Python basics",
+    "url": "https://www.python.org/about/gettingstarted/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T03:20:15.728235+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Coroutines and tasks — Python 3.14.3 documentation",
     "content": "Coroutines and tasks — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O » Coroutines and tasks | Theme Auto Light Dark | Coroutines and tasks Â¶ This section outlines high-level asyncio APIs to work with coroutines and Tasks. Coroutines Â¶ Source code: Lib/asyncio/coroutines.py Coroutines declared with the async/await syntax is the preferred way of writing asyncio applications. For example, the following snippet of code prints âhelloâ, waits 1 second, and then prints âworldâ: >>> import asyncio >>> async def main (): ... run ( main ()) hello world Note that simply calling a coroutine will not schedule it to be executed: >>> main () <coroutine object main at 0x1053bb7c8> To actually run a coroutine, asyncio provides the following mechanisms: The asyncio.run() function to run the top-level entry point âmain()â function (see the above example.) Awaiting on a coroutine. The following snippet of code will print âhelloâ after waiting for 1 second, and then print âworldâ after waiting for another 2 seconds: import asyncio import time async def say_after ( delay , what ): await asyncio. sleep ( delay ) print ( what ) async def main (): print ( f \"started at { time.",
     "topic": "Python async programming",
