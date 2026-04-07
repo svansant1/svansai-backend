@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeks(CPU) Thread Scheduling - stevengong.coScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete GuideThread SchedulingEssentials - numberanalytics.com6.S081:Scheduling- Massachusetts Institute of Technology",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T02:00:53.003512+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "What is a Container? | Docker",
     "content": "What is a Container? | Docker Use containers to Build, Share and Run your applications Package Software into Standardized Units for Development, Shipment and Deployment A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging. Docker containers that run on Docker Engine: Standard: Docker created the industry standard for containers, so they could be portable anywhere Lightweight: Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry Learn more Docker Containers Are Everywhere: Linux, Windows, Data center, Cloud, Serverless, etc. Docker container technology was launched in 2013 as an open source Docker Engine.",
     "topic": "Docker containers",
