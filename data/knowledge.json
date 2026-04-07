@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT Kanpur(CPU) Thread Scheduling - stevengong.coOS - Thread Scheduling | i2tutorials",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T17:04:28.765239+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Debugging code for absolute beginners - Visual Studio (Windows)",
     "content": "Debugging code for absolute beginners - Visual Studio (Windows) | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Sometimes it does something completely different! When the unexpected happens, the next task is to figure out why, and although we might be tempted to just keep staring at our code for hours, it's easier and more efficient to use a debugging tool or debugger. Debugging means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code and debugging tools often allow you to make temporary changes so you can continue running the program. In this article, we introduce the core principles of debugging and provide tips to get you started. We expect that you already ran into a problem in your code, otherwise you wouldn't be here trying to figure out how to debug it! So, before you start debugging, make sure you've identified the problem you're trying to solve: What did you expect your code to do? What happened instead? If you run into an error (exception) while running your app, it can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind.",
     "topic": "Debugging techniques",
