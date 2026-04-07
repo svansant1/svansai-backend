@@ -1,5 +1,15 @@
 [
   {
+    "title": "ZeroTrust| Cybersecurity and Infrastructure Security Agency CISA",
+    "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
+    "topic": "Zero trust basics",
+    "url": "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T04:26:24.230320+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Central processing unit - Wikipedia",
     "content": "Central processing unit - Wikipedia Jump to content From Wikipedia, the free encyclopedia Central computer component that executes instructions \"CPU\" redirects here. For other uses, see CPU (disambiguation). A high-end consumer CPU made by Intel : an Intel Core i9-14900KF Inside a central processing unit: The integrated circuit of Intel's Xeon 3060 , first manufactured in 2006 A central processing unit ( CPU ), also known as a central processor , main processor , or simply processor , is the primary processor in a given computer. The form, design , and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged. [ 7 ] Principal components of a CPU include the arithmetic–logic unit (ALU) that performs arithmetic and logic operations , processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) , decoding and execution (of instructions) by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area to caches and instruction-level parallelism to increase performance and to CPU modes to support operating systems and virtualization.",
     "topic": "CPU architecture basics",
