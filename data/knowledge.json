@@ -1,5 +1,15 @@
 [
   {
+    "title": "Coroutines and tasks — Python 3.14.3 documentation",
+    "content": "Coroutines and tasks — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O » Coroutines and tasks | Theme Auto Light Dark | Coroutines and tasks Â¶ This section outlines high-level asyncio APIs to work with coroutines and Tasks. Coroutines Â¶ Source code: Lib/asyncio/coroutines.py Coroutines declared with the async/await syntax is the preferred way of writing asyncio applications. For example, the following snippet of code prints âhelloâ, waits 1 second, and then prints âworldâ: >>> import asyncio >>> async def main (): ... run ( main ()) hello world Note that simply calling a coroutine will not schedule it to be executed: >>> main () <coroutine object main at 0x1053bb7c8> To actually run a coroutine, asyncio provides the following mechanisms: The asyncio.run() function to run the top-level entry point âmain()â function (see the above example.) Awaiting on a coroutine. The following snippet of code will print âhelloâ after waiting for 1 second, and then print âworldâ after waiting for another 2 seconds: import asyncio import time async def say_after ( delay , what ): await asyncio. sleep ( delay ) print ( what ) async def main (): print ( f \"started at { time.",
+    "topic": "Python async programming",
+    "url": "https://docs.python.org/3/library/asyncio-task.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T03:20:06.620271+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Getting Started with AWS Cloud Essentials",
     "content": "Getting Started with AWS Cloud Essentials Skip to main content Getting Started Resource Center Get Started Learn Get Connected Developer Tools More Resources More Home Getting Started AWS Cloud Essentials Introduction Taking the first steps as you start building on the cloud can seem overwhelming. Adjusting to a cloud-native approach can take time, especially if you are accustomed to the traditional on-premises way of provisioning hardware and building applications. Gaining familiarity with core concepts of cloud computing and the AWS Cloud will help give you confidence as you begin your cloud journey. In the following sections, we answer common questions about cloud computing and explore best practices for building on AWS. What is cloud computing? On-premises and cloud computing Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform through the internet with pay-as-you-go pricing. A cloud services platform provides rapid access to flexible and low-cost IT resources that you can use to build and maintain software and databases, and create applications to delight customers.",
     "topic": "Cloud computing basics",
