@@ -1,5 +1,15 @@
 [
   {
+    "title": "Functions: useRouter |Next.js",
+    "content": "--- title: useRouter description: Learn more about the API of the Next.js Router, and access the router instance in your page with the useRouter hook. * `query`: `Object` - The query string parsed to an object, including [dynamic route](/docs/pages/building-your-application/routing/dynamic-routes) parameters. Before Next.js 9.5.3 this was used for dynamic routes. Defaults to `true` * [`shallow`](/docs/pages/building-your-application/routing/linking-and-navigating#shallow-routing): Update the path of the current page without rerunning [`getStaticProps`](/docs/pages/building-your-application/data-fetching/get-static-props), [`getServerSideProps`](/docs/pages/building-your-application/data-fetching/get-server-side-props) or [`getInitialProps`](/docs/pages/api-reference/functions/get-initial-props). } ``` #### Resetting state after navigation When navigating to the same page in Next.js, the page's state **will not** be reset by default as React does not unmount unless the parent component has changed. Next.js doesn't prefetch pages in development.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/pages/api-reference/functions/use-router",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T08:46:34.402032+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling threads - .NET | Microsoft LearnScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete Guide(CPU) Thread Scheduling - stevengong.coThread Scheduling Essentials - numberanalytics.com6.S081:Scheduling- Massachusetts Institute of Technology",
     "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
     "topic": "Thread scheduling",
