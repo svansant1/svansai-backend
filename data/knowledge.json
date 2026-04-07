@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT Kanpur(CPU) Thread Scheduling - stevengong.coOS - Thread Scheduling | i2tutorials",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T14:55:01.922318+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "A Conceptual Overview of asyncio — Python 3.14.3 documentation",
     "content": "A Conceptual Overview of asyncio — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » Python HOWTOs » A Conceptual Overview of asyncio | Theme Auto Light Dark | A Conceptual Overview of asyncio Â¶ This HOWTO article seeks to help you build a sturdy mental model of how asyncio fundamentally works, helping you understand the how and why behind the recommended patterns. You might be curious about some key asyncio concepts. By the end of this article, youâll be able to comfortably answer these questions: Whatâs happening behind the scenes when an object is awaited? How does asyncio differentiate between a task which doesnât need CPU time (such as a network request or file read) as opposed to a task that does (such as computing n-factorial)? How to write an asynchronous variant of an operation, such as an async sleep or database request. This in-depth YouTube tutorial series on asyncio created by Python core team member, Åukasz Langa. 500 Lines or Less: A Web Crawler With asyncio Coroutines by A. A conceptual overview part 1: the high-level Â¶ In part 1, weâll cover the main, high-level building blocks of asyncio : the event loop, coroutine functions, coroutine objects, tasks, and await.",
     "topic": "Python async programming",
