@@ -1,5 +1,15 @@
 [
   {
+    "title": "The Python Tutorial — Python 3.14.3 documentation",
+    "content": "The Python Tutorial — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Tutorial | Theme Auto Light Dark | The Python Tutorial Â¶ Tip This tutorial is designed for programmers that are new to the Python language, not beginners who are new to programming. Python is an easy to learn, powerful programming language. Pythonâs elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python website, https://www.python.org/ , and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation. The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C).",
+    "topic": "Python basics",
+    "url": "https://docs.python.org/3/tutorial/index.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T21:58:56.878746+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Building Your Application: Routing | Next.js",
     "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-07 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
     "topic": "Next.js routing",
