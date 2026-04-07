@@ -1,5 +1,15 @@
 [
   {
+    "title": "DebuggingTechniques- Windows drivers | Microsoft Learn",
+    "content": "Debugging Techniques - Windows drivers | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Debugging Techniques Feedback Summarize this article for me This section discusses two types of debugging techniques: standard and specialized. Standard techniques apply to most debugging scenarios, and examples include setting breakpoints, inspecting the call stack, and finding a memory leak. Specialized techniques apply to particular technologies or types of code, and examples are Plug and Play debugging, Kernel Mode Driver Framework debugging, and RPC debugging. Standard Debugging Techniques Specialized Debugging Techniques Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2021-12-15 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+    "topic": "Debugging techniques",
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-techniques",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:15:00.589918+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "BasicTypeScript",
     "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
     "topic": "TypeScript basics",
