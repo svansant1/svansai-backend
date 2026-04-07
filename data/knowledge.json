@@ -1,5 +1,15 @@
 [
   {
+    "title": "Kernel(operating system) - Wikipedia",
+    "content": "Kernel (operating system) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Core of a computer operating system \"Kernel (computer science)\" redirects here. For other computer related uses, see Kernel (disambiguation) § Computing. For other uses, see Kernel (disambiguation). A simplification of how a kernel connects application software to the hardware of a computer A kernel is a computer program at the core of a computer 's operating system that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes. A full kernel controls all hardware resources (e.g.",
+    "topic": "Kernel architecture",
+    "url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:32:59.275184+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "BasicTypeScript",
     "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
     "topic": "TypeScript basics",
