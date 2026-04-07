@@ -1,35 +1,5 @@
 [
   {
-    "title": "Getting Started: Layouts and Pages |Next.js",
-    "content": "url: \"https://nextjs.org/docs/app/getting-started/layouts-and-pages\" version: 16.2.2 lastUpdated: 2026-04-02 prerequisites: - \"Getting Started: /docs/app/getting-started\" related: - app/getting-started/linking-and-navigating - app/api-reference/file-conventions/layout - app/api-reference/file-conventions/page - app/api-reference/components/link - app/api-reference/file-conventions/dynamic-routes --- Next.js uses **file-system based routing**, meaning you can use folders and files to define routes. For example, to create an index page (`/`): ![page.js special file](https://h8DxKfmAPhn8O0p3.public.blob.vercel-storage.com/docs/light/page-special-file.png) ```tsx filename=\"app/page.tsx\" switcher export default function Page() { return Hello Next.js! } ``` ```jsx filename=\"app/page.js\" switcher export default function Page() { return Hello Next.js! } ``` ## Creating a layout A layout is UI that is **shared** between multiple pages. For example, the `/blog/[slug]` route is composed of three segments: * `/` (Root Segment) * `blog` (Segment) * `[slug]` (Leaf Segment) In Next.js: * **Folders** are used to define the route segments that map to URL segments. ` ` is a built-in Next.js component that extends the HTML ` ` tag to provide [prefetching](/docs/app/getting-started/linking-and-navigating#prefetching) and [client-side navigation](/docs/app/getting-started/linking-and-navigating#client-side-transitions). For example, to generate a list of blog posts, import ` ` from `next/link` and pass a `href` prop to the component: ```tsx filename=\"app/ui/post.tsx\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` ```jsx filename=\"app/ui/post.js\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` > **Good to know**: ` ` is the primary way to navigate between routes in Next.js. ## Route Props Helpers Next.js exposes utility types that infer `params` and named slots from your route structure: * [**PageProps**](/docs/app/api-reference/file-conventions/page#page-props-helper): Props for `page` components, including `params` and `searchParams`.",
-    "topic": "Next.js routing",
-    "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
-    "source": "trusted_web",
-    "createdAt": "2026-04-07T01:06:22.725533+00:00",
-    "validation_status": "trusted",
-    "confidence": 0.85
-  },
-  {
-    "title": "Scheduling(computing) - Wikipedia",
-    "content": "Scheduling (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Method by which work is assigned This article is about scheduling of computing resources. For other uses, see Scheduling (disambiguation). In computing , scheduling is the action of assigning resources to perform tasks. The tasks may be threads , processes or data flows. The scheduling activity is carried out by a mechanism called a scheduler. Scheduling is fundamental to computation itself, and an intrinsic part of the execution model of a computer system; the concept of scheduling makes it possible to have computer multitasking with a single central processing unit (CPU).",
-    "topic": "Thread scheduling",
-    "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)",
-    "source": "trusted_web",
-    "createdAt": "2026-04-07T01:05:39.456875+00:00",
-    "validation_status": "trusted",
-    "confidence": 0.85
-  },
-  {
-    "title": "HTTP- Wikipedia",
-    "content": "HTTP - Wikipedia Jump to content Checked From Wikipedia, the free encyclopedia This is the latest accepted revision , reviewed on 5 April 2026. Application layer protocol HTTP International standard RFC 1945 HTTP/1.0 RFC 9110 HTTP Semantics RFC 9111 HTTP Caching RFC 9112 HTTP/1.1 RFC 9113 HTTP/2 RFC 7541 HTTP/2: HPACK Header Compression RFC 8164 HTTP/2: Opportunistic Security for HTTP/2 RFC 8336 HTTP/2: The ORIGIN HTTP/2 Frame RFC 8441 HTTP/2: Bootstrapping WebSockets with HTTP/2 RFC 9114 HTTP/3 RFC 9204 HTTP/3: QPACK: Field Compression Developed by Initially CERN ; IETF , W3C Introduced 1991 ; 35 years ago ( 1991 ) Website httpwg .org /specs / HTTP Persistence Compression HTTPS QUIC Request methods OPTIONS GET HEAD POST PUT DELETE TRACE CONNECT PATCH Header fields Cookie ETag Location HTTP referer DNT X-Forwarded-For Upgrade Response status codes 301 Moved Permanently 302 Found 303 See Other 403 Forbidden 404 Not Found 451 Unavailable for Legal Reasons Security access control methods Basic access authentication Digest access authentication Security vulnerabilities HTTP header injection HTTP request smuggling HTTP response splitting HTTP parameter pollution v t e Internet protocol suite Application layer BGP DHCP ( v6 ) DNS FTP HTTP ( HTTP/3 ) HTTPS IMAP IPP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more... v t e HTTP ( Hypertext Transfer Protocol ) is an application layer protocol in the Internet protocol suite for distributed, collaborative, hypermedia information systems. [ 1 ] HTTP is the foundation of data communication for the World Wide Web , where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. HTTP is a request–response protocol in the client–server model. A transaction starts with a client submitting a request to the server, the server attempts to satisfy the request and returns a response to the client that describes the disposition of the request and optionally contains a requested resource such as an HTML document or other content.",
-    "topic": "HTTP and HTTPS",
-    "url": "https://en.wikipedia.org/wiki/HTTP",
-    "source": "trusted_web",
-    "createdAt": "2026-04-07T01:05:16.264232+00:00",
-    "validation_status": "trusted",
-    "confidence": 0.85
-  },
-  {
     "title": "Zero Trust Architecture - OWASP Cheat Sheet Series",
     "content": "Zero Trust Architecture - OWASP Cheat Sheet Series Skip to content Zero Trust Architecture Cheat Sheet ¶ Introduction ¶ This cheat sheet will help you implement Zero Trust Architecture (ZTA) in your organization. Zero Trust means \"never trust, always verify\" - you don't trust anyone or anything by default, even if they're inside your network. Zero Trust is different - it checks every person and device every time they try to access something, just like having security guards at every door. Core Zero Trust Principles ¶ These principles come from NIST SP 800-207 : 1. Network location doesn't determine trust level. Core Zero Trust Architecture Components ¶ Zero Trust uses three main parts that work together: Policy Engine - This makes decisions about whether to allow or block access.",
     "topic": "Zero trust basics",
