@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+*.log
+render_knowledge_backup.json
+*.sqlite3
