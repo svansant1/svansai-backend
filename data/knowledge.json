@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling - Win32 apps | Microsoft Learn",
+    "content": "Scheduling - Win32 apps | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling Feedback Summarize this article for me The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice. The scheduler determines which thread runs next using scheduling priorities. For more information, see the following topics: Scheduling Priorities Context Switches Priority Boosts Priority Inversion Multiple Processors NUMA Support Thread Ordering Service Multimedia Class Scheduler Service Processor Groups Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2025-07-14 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T03:14:40.582243+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA",
     "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
     "topic": "Zero trust basics",
