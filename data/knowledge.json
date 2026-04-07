@@ -1,11 +1,31 @@
 [
   {
+    "title": "BasicTypeScript",
+    "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
+    "topic": "TypeScript basics",
+    "url": "https://web.mit.edu/6.102/www/sp24/tools/typescript/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:14:30.084940+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Loadbalancing(computing) - Wikipedia",
     "content": "Load balancing (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Digital workload distribution techniques Diagram illustrating user requests to an Elasticsearch cluster being distributed by a load balancer. (Example for Wikipedia .) In computing , load balancing is the process of distributing a set of tasks over a set of resources (computing units) with the aim of making their overall processing more efficient. Load balancing can optimize response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle. Load balancing is the subject of research in the field of parallel computers. Problem overview [ edit ] A load-balancing algorithm always tries to answer a specific problem. Nature of tasks [ edit ] The efficiency of load balancing algorithms critically depends on the nature of the tasks.",
     "topic": "Load balancing",
     "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
     "source": "trusted_web",
-    "createdAt": "2026-04-07T01:13:36.314924+00:00",
+    "createdAt": "2026-04-07T01:14:18.288190+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "The official home of thePythonProgramming Language",
+    "content": "Python For Beginners | Python.org Notice: This page displays a fallback because interactive scripts did not run. Python >>> About >>> Getting Started Welcome! Are you completely new to programming ? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in ! Installing Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.",
+    "topic": "Python basics",
+    "url": "https://www.python.org/about/gettingstarted/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:07:53.045997+00:00",
     "validation_status": "trusted",
     "confidence": 0.85
   },
