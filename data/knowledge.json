@@ -1,5 +1,15 @@
 [
   {
+    "title": "URL - Wikipedia",
+    "content": "URL Uniform resource locator Abbreviation URL Status Published First published 1994 ; 32 years ago ( 1994 ) Latest version Living Standard 2023 Organization Internet Engineering Task Force (IETF) Committee Web Hypertext Application Technology Working Group (WHATWG) Series Request for Comments (RFC) Editors Anne van Kesteren Authors Tim Berners-Lee Base standards RFC 3986 – \" Uniform Resource Identifier (URI): Generic Syntax, \" [ 1 ] Internet Standard 66. RFC 4248 – \" The telnet URI Scheme, \" [ 2 ] RFC 4266 – \" The gopher URI Scheme, \" [ 3 ] RFC 6068 – \" The 'mailto' URI Scheme, \" [ 4 ] RFC 6270 – \" The 'tn3270' URI Scheme, \" [ 5 ] Related standards URI , URN Domain World Wide Web License CC BY 4.0 Website url .spec .whatwg .org A uniform resource locator ( URL ), colloquially known as a web address , [ 6 ] is a reference to a resource on the World Wide Web. A URL specifies the location of a resource on a computer network and a mechanism for retrieving it. [ 8 ] [ a ] A URL is most commonly used to reference a web page ( HTTP / HTTPS ) but is also used for file transfer ( FTP ), email ( mailto ), database access ( JDBC ), and many other applications. As an example of a web page URL, https://www.example.com/index.html indicates protocol https , hostname www.example.com , and file name index.html. History The Uniform Resource Locator was defined in RFC 1738 [ 10 ] in 1994 by Tim Berners-Lee , the inventor of the World Wide Web, and the URI working group of the Internet Engineering Task Force (IETF), [ 11 ] as an outcome of collaboration started at the IETF Living Documents birds of a feather session in 1992.",
+    "topic": "HTTP and HTTPS",
+    "url": "https://en.wikipedia.org/wiki/URL",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T07:05:17.606485+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling threads - .NET | Microsoft LearnProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...(CPU) Thread Scheduling - stevengong.coScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete GuideThread SchedulingEssentials - numberanalytics.com",
     "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
     "topic": "Thread scheduling",
