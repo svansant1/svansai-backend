@@ -1,5 +1,15 @@
 [
   {
+    "title": "BasicTypeScript",
+    "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
+    "topic": "TypeScript basics",
+    "url": "https://web.mit.edu/6.102/www/sp24/tools/typescript/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:07:10.148448+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Loadbalancing(computing) - Wikipedia",
     "content": "Load balancing (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Digital workload distribution techniques Diagram illustrating user requests to an Elasticsearch cluster being distributed by a load balancer. (Example for Wikipedia .) In computing , load balancing is the process of distributing a set of tasks over a set of resources (computing units) with the aim of making their overall processing more efficient. Load balancing can optimize response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle. Load balancing is the subject of research in the field of parallel computers. Problem overview [ edit ] A load-balancing algorithm always tries to answer a specific problem. Nature of tasks [ edit ] The efficiency of load balancing algorithms critically depends on the nature of the tasks.",
     "topic": "Load balancing",
