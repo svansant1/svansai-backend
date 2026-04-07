@@ -1,5 +1,15 @@
 [
   {
+    "title": "Cybersecurity Basics | NIST",
+    "content": "Cybersecurity Basics | NIST Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics Information Technology Laboratory Small Business Cybersecurity Corner Connect with us X (Twitter) Cybersecurity Basics Share Facebook Linkedin X.com Email Cybersecurity is a continuous process. Because your business, technologies, regulations/laws, and cybersecurity threats continue to change, your goal should be to always strive for continuous improvement in your cybersecurity risk management. There are many ways you can improve your business’ cybersecurity. Here are a few basic steps to get you started: Understand that cyber threats are a business risk, and having strong cybersecurity is a competitive advantage. Train employees on basic cybersecurity hygiene.",
+    "topic": "Cybersecurity basics",
+    "url": "https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T04:08:10.880128+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Docker: AcceleratedContainerApplication Development",
     "content": "Docker: Accelerated Container Application Development A safer container ecosystem, for everyone Free hardened images give every developer a trusted starting point, with enterprise options for SLAs, compliance, and extended lifecycle security. Get started with DHI Download Docker Desktop Download for Mac – Apple Silicon Download for Mac – Intel Chip Download for Windows – AMD64 Download for Windows – ARM64 Download for Linux Security MCP Agents Containers Near-zero CVE images, now accessible to everyone Open-source, Apache 2.0–licensed images built for trust while delivering near-zero CVEs, complete SBOMs, and SLSA Level 3 provenance. Learn more about Docker Hardened Images Apache 2.0 freedom Docker Hardened Images are fully open source and free to use, share, and build on, with no licensing surprises and complete transparency. Up to 95% CVE reduction Eliminate vulnerabilities before they reach production with continuously rebuilt images from Docker’s hardened pipeline and verified SBOMs. Start secure, customize easily Add your own tools, packages, certificates, or settings while inheriting Docker’s hardened pipeline, signed builds, and secure defaults. The easiest, most secure way to run MCP for your LLMs Docker MCP makes it easy for AI agents to securely call MCP servers.",
     "topic": "Docker containers",
