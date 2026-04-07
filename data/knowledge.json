@@ -1,5 +1,15 @@
 [
   {
+    "title": "What is an ApplicationLoadBalancer? - ElasticLoadBalancing",
+    "content": "What is an Application Load Balancer? - Elastic Load Balancing What is an Application Load Balancer? - Elastic Load Balancing Documentation Elastic Load Balancing Application Load Balancers Application Load Balancer components Application Load Balancer overview Benefits of migrating from a Classic Load Balancer Related services Pricing What is an Application Load Balancer? Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. Elastic Load Balancing scales your load balancer as your incoming traffic changes over time. It can automatically scale to the vast majority of workloads. Elastic Load Balancing supports the following load balancers: Application Load Balancers, Network Load Balancers, Gateway Load Balancers, and Classic Load Balancers. You can select the type of load balancer that best suits your needs. This guide discusses Application Load Balancers.",
+    "topic": "Load balancing",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T14:26:04.942765+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Zero Trust | Cybersecurity and Infrastructure Security ... - CISA",
     "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
     "topic": "Zero trust basics",
