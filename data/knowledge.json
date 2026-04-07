@@ -1,5 +1,15 @@
 [
   {
+    "title": "Getting Started with AWS Cloud Essentials",
+    "content": "Getting Started with AWS Cloud Essentials Skip to main content Getting Started Resource Center Get Started Learn Get Connected Developer Tools More Resources More Home Getting Started AWS Cloud Essentials Introduction Taking the first steps as you start building on the cloud can seem overwhelming. Adjusting to a cloud-native approach can take time, especially if you are accustomed to the traditional on-premises way of provisioning hardware and building applications. Gaining familiarity with core concepts of cloud computing and the AWS Cloud will help give you confidence as you begin your cloud journey. In the following sections, we answer common questions about cloud computing and explore best practices for building on AWS. What is cloud computing? On-premises and cloud computing Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform through the internet with pay-as-you-go pricing. A cloud services platform provides rapid access to flexible and low-cost IT resources that you can use to build and maintain software and databases, and create applications to delight customers.",
+    "topic": "Cloud computing basics",
+    "url": "https://aws.amazon.com/getting-started/cloud-essentials/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T03:16:26.091485+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling - Win32 apps | Microsoft Learn",
     "content": "Scheduling - Win32 apps | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling Feedback Summarize this article for me The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice. The scheduler determines which thread runs next using scheduling priorities. For more information, see the following topics: Scheduling Priorities Context Switches Priority Boosts Priority Inversion Multiple Processors NUMA Support Thread Ordering Service Multimedia Class Scheduler Service Processor Groups Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2025-07-14 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
     "topic": "Thread scheduling",
