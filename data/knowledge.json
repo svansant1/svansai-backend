@@ -1,5 +1,15 @@
 [
   {
+    "title": "Building Your Application: Routing | Next.js",
+    "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-07 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/pages/building-your-application/routing",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T21:01:41.815619+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT Kanpur(CPU) Thread Scheduling - stevengong.coOS - Thread Scheduling | i2tutorials",
     "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
     "topic": "Thread scheduling",
