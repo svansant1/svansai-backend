@@ -1,5 +1,15 @@
 [
   {
+    "title": "LearnKubernetesBasics|Kubernetes",
+    "content": "Learn Kubernetes Basics | Kubernetes Edit this page Create child page Create an issue Print entire section Learn Kubernetes Basics Objectives This tutorial provides a walkthrough of the basics of the Kubernetes cluster orchestration system. Each module contains some background information on major Kubernetes features and concepts, and a tutorial for you to follow along. What can Kubernetes do for you? With modern web services, users expect applications to be available 24/7, and developers expect to deploy new versions of those applications several times a day. Kubernetes helps you make sure those containerized applications run where and when you want, and helps them find the resources and tools they need to work. Kubernetes is a production-ready, open source platform designed with Google's accumulated experience in container orchestration, combined with best-of-breed ideas from the community. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
+    "topic": "Kubernetes basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T02:18:30.142973+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Getting Started: Layouts and Pages |Next.js",
     "content": "url: \"https://nextjs.org/docs/app/getting-started/layouts-and-pages\" version: 16.2.2 lastUpdated: 2026-04-02 prerequisites: - \"Getting Started: /docs/app/getting-started\" related: - app/getting-started/linking-and-navigating - app/api-reference/file-conventions/layout - app/api-reference/file-conventions/page - app/api-reference/components/link - app/api-reference/file-conventions/dynamic-routes --- Next.js uses **file-system based routing**, meaning you can use folders and files to define routes. For example, to create an index page (`/`): ![page.js special file](https://h8DxKfmAPhn8O0p3.public.blob.vercel-storage.com/docs/light/page-special-file.png) ```tsx filename=\"app/page.tsx\" switcher export default function Page() { return Hello Next.js! } ``` ```jsx filename=\"app/page.js\" switcher export default function Page() { return Hello Next.js! } ``` ## Creating a layout A layout is UI that is **shared** between multiple pages. For example, the `/blog/[slug]` route is composed of three segments: * `/` (Root Segment) * `blog` (Segment) * `[slug]` (Leaf Segment) In Next.js: * **Folders** are used to define the route segments that map to URL segments. ` ` is a built-in Next.js component that extends the HTML ` ` tag to provide [prefetching](/docs/app/getting-started/linking-and-navigating#prefetching) and [client-side navigation](/docs/app/getting-started/linking-and-navigating#client-side-transitions). For example, to generate a list of blog posts, import ` ` from `next/link` and pass a `href` prop to the component: ```tsx filename=\"app/ui/post.tsx\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` ```jsx filename=\"app/ui/post.js\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` > **Good to know**: ` ` is the primary way to navigate between routes in Next.js. ## Route Props Helpers Next.js exposes utility types that infer `params` and named slots from your route structure: * [**PageProps**](/docs/app/api-reference/file-conventions/page#page-props-helper): Props for `page` components, including `params` and `searchParams`.",
     "topic": "Next.js routing",
@@ -1169,84 +1179,84 @@
     "validation_status": "trusted",
     "confidence": 0.85
   },
-     {
-      "title": "Cybersecurity for Beginners - NICCS",
-      "content": "Cybersecurity for Beginners | NICCS Skip to main content Due to the lapse in federal funding, this website will not be actively managed. https://go.dhs.gov/lapse-2026 Cybersecurity for Beginners Are you interested in a career in cybersecurity but don’t know where to begin? Whether you are a recent college graduate, changing careers, or just entering the field of cyber, NICCS has tools and resources to help you get started. Cybersecurity Awareness: Get Familiar with Cybersecurity Below are some great resources from CISA to increase your basic cybersecurity knowledge and awareness: Learn the cyber basics of staying safe online ( Secure Our World ) Download Cybersecurity Awareness Program Toolkits Build the cyber resilience needed before incidents occur ( Shields Ready ) Prepare for, respond to, and mitigate the impact of cyber-attacks ( Shields Up ) Use the Tools on NICCS to Get Started in Cybersecurity The NICE Workforce Framework for Cybersecurity Familiarize yourself with the NICE Workforce Framework for Cybersecurity , commonly referred to as the NICE Framework, which serves as the common lexicon for describing cybersecurity work. The NICE Framework enables you to investigate cybersecurity career options by helping you learn about the tasks, knowledge, and skills (TKS) needed for specific cybersecurity Work Roles. The tool can help you understand what types of work might be available to you at the beginner, intermediate, and expert levels of cybersecurity based on the education, skills, and experience you have today. With thousands of cyber-related courses across the country and online, the Education & Training Catalog has something for everyone! Start Studying Cyber If you are exploring your options for cybersecurity education, check out the 400+ colleges and universities with nationally recognized cybersecurity degree programs, many of which offer scholarships for undergraduate and graduate students, up to $27,000 and $37,000 respectively.",
-      "topic": "Cybersecurity basics",
-      "url": "https://niccs.cisa.gov/audience/cybersecurity-beginners",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T01:46:41.391760+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "DebuggingTechniques- Windows drivers | Microsoft Learn",
-      "content": "Debugging Techniques - Windows drivers | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Debugging Techniques Feedback Summarize this article for me This section discusses two types of debugging techniques: standard and specialized. Standard techniques apply to most debugging scenarios, and examples include setting breakpoints, inspecting the call stack, and finding a memory leak. Specialized techniques apply to particular technologies or types of code, and examples are Plug and Play debugging, Kernel Mode Driver Framework debugging, and RPC debugging. Standard Debugging Techniques Specialized Debugging Techniques Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2021-12-15 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
-      "topic": "Debugging techniques",
-      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-techniques",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T01:43:39.660966+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "Systemsdesign- Wikipedia",
-      "content": "Systems design - Wikipedia Jump to content From Wikipedia, the free encyclopedia This article needs additional citations for verification. Find sources: \"Systems design\" – news · newspapers · books · scholar · JSTOR ( April 2013 ) ( Learn how and when to remove this message ) Organizing components structures and behaviors for any simple to complex system The basic study of system design is the understanding of component parts and their subsequent interaction with one another. [ 1 ] Systems design has appeared in a variety of fields, including aeronautics, [ 2 ] sustainability, [ 3 ] computer/software architecture, [ 4 ] and sociology. [ 5 ] Product development [ edit ] If the broader topic of product development \"blends the perspective of marketing, design, and manufacturing into a single approach to product development,\" [ 6 ] then design is the act of taking the marketing information and creating the design of the product to be manufactured. Thus in product development, systems design involves the process of defining and developing systems, such as interfaces and data , for an electronic control system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development.",
-      "topic": "System design basics",
-      "url": "https://en.wikipedia.org/wiki/Systems_design",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T01:36:24.329105+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-      {
-      "title": "Getting Started: Layouts and Pages |Next.js",
-      "content": "url: \"https://nextjs.org/docs/app/getting-started/layouts-and-pages\" version: 16.2.2 lastUpdated: 2026-04-02 prerequisites: - \"Getting Started: /docs/app/getting-started\" related: - app/getting-started/linking-and-navigating - app/api-reference/file-conventions/layout - app/api-reference/file-conventions/page - app/api-reference/components/link - app/api-reference/file-conventions/dynamic-routes --- Next.js uses **file-system based routing**, meaning you can use folders and files to define routes. For example, to create an index page (`/`): ![page.js special file](https://h8DxKfmAPhn8O0p3.public.blob.vercel-storage.com/docs/light/page-special-file.png) ```tsx filename=\"app/page.tsx\" switcher export default function Page() { return Hello Next.js! } ``` ```jsx filename=\"app/page.js\" switcher export default function Page() { return Hello Next.js! } ``` ## Creating a layout A layout is UI that is **shared** between multiple pages. For example, the `/blog/[slug]` route is composed of three segments: * `/` (Root Segment) * `blog` (Segment) * `[slug]` (Leaf Segment) In Next.js: * **Folders** are used to define the route segments that map to URL segments. ` ` is a built-in Next.js component that extends the HTML ` ` tag to provide [prefetching](/docs/app/getting-started/linking-and-navigating#prefetching) and [client-side navigation](/docs/app/getting-started/linking-and-navigating#client-side-transitions). For example, to generate a list of blog posts, import ` ` from `next/link` and pass a `href` prop to the component: ```tsx filename=\"app/ui/post.tsx\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) =\u003E ( {post.title} ))} ) } ``` ```jsx filename=\"app/ui/post.js\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) =\u003E ( {post.title} ))} ) } ``` \u003E **Good to know**: ` ` is the primary way to navigate between routes in Next.js. ## Route Props Helpers Next.js exposes utility types that infer `params` and named slots from your route structure: * [**PageProps**](/docs/app/api-reference/file-conventions/page#page-props-helper): Props for `page` components, including `params` and `searchParams`.",
-      "topic": "Next.js routing",
-      "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T02:04:27.446028+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "Zero Trust | Cybersecurity and Infrastructure Security Agency ...",
-      "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
-      "topic": "Zero trust basics",
-      "url": "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T02:01:09.490017+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeks(CPU) Thread Scheduling - stevengong.coScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete GuideThread SchedulingEssentials - numberanalytics.com6.S081:Scheduling- Massachusetts Institute of Technology",
-      "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
-      "topic": "Thread scheduling",
-      "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T02:00:53.003512+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "What is a Container? | Docker",
-      "content": "What is a Container? | Docker Use containers to Build, Share and Run your applications Package Software into Standardized Units for Development, Shipment and Deployment A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging. Docker containers that run on Docker Engine: Standard: Docker created the industry standard for containers, so they could be portable anywhere Lightweight: Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry Learn more Docker Containers Are Everywhere: Linux, Windows, Data center, Cloud, Serverless, etc. Docker container technology was launched in 2013 as an open source Docker Engine.",
-      "topic": "Docker containers",
-      "url": "https://www.docker.com/resources/what-container/",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T01:53:41.413653+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    },
-    {
-      "title": "Building Your Application:Routing|Next.js",
-      "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-02 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
-      "topic": "Next.js routing",
-      "url": "https://nextjs.org/docs/pages/building-your-application/routing",
-      "source": "trusted_web",
-      "createdAt": "2026-04-07T01:51:49.148860+00:00",
-      "validation_status": "trusted",
-      "confidence": 0.85
-    }
+  {
+    "title": "Cybersecurity for Beginners - NICCS",
+    "content": "Cybersecurity for Beginners | NICCS Skip to main content Due to the lapse in federal funding, this website will not be actively managed. https://go.dhs.gov/lapse-2026 Cybersecurity for Beginners Are you interested in a career in cybersecurity but don’t know where to begin? Whether you are a recent college graduate, changing careers, or just entering the field of cyber, NICCS has tools and resources to help you get started. Cybersecurity Awareness: Get Familiar with Cybersecurity Below are some great resources from CISA to increase your basic cybersecurity knowledge and awareness: Learn the cyber basics of staying safe online ( Secure Our World ) Download Cybersecurity Awareness Program Toolkits Build the cyber resilience needed before incidents occur ( Shields Ready ) Prepare for, respond to, and mitigate the impact of cyber-attacks ( Shields Up ) Use the Tools on NICCS to Get Started in Cybersecurity The NICE Workforce Framework for Cybersecurity Familiarize yourself with the NICE Workforce Framework for Cybersecurity , commonly referred to as the NICE Framework, which serves as the common lexicon for describing cybersecurity work. The NICE Framework enables you to investigate cybersecurity career options by helping you learn about the tasks, knowledge, and skills (TKS) needed for specific cybersecurity Work Roles. The tool can help you understand what types of work might be available to you at the beginner, intermediate, and expert levels of cybersecurity based on the education, skills, and experience you have today. With thousands of cyber-related courses across the country and online, the Education & Training Catalog has something for everyone! Start Studying Cyber If you are exploring your options for cybersecurity education, check out the 400+ colleges and universities with nationally recognized cybersecurity degree programs, many of which offer scholarships for undergraduate and graduate students, up to $27,000 and $37,000 respectively.",
+    "topic": "Cybersecurity basics",
+    "url": "https://niccs.cisa.gov/audience/cybersecurity-beginners",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:46:41.391760+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "DebuggingTechniques- Windows drivers | Microsoft Learn",
+    "content": "Debugging Techniques - Windows drivers | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Debugging Techniques Feedback Summarize this article for me This section discusses two types of debugging techniques: standard and specialized. Standard techniques apply to most debugging scenarios, and examples include setting breakpoints, inspecting the call stack, and finding a memory leak. Specialized techniques apply to particular technologies or types of code, and examples are Plug and Play debugging, Kernel Mode Driver Framework debugging, and RPC debugging. Standard Debugging Techniques Specialized Debugging Techniques Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2021-12-15 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+    "topic": "Debugging techniques",
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-techniques",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:43:39.660966+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Systemsdesign- Wikipedia",
+    "content": "Systems design - Wikipedia Jump to content From Wikipedia, the free encyclopedia This article needs additional citations for verification. Find sources: \"Systems design\" – news · newspapers · books · scholar · JSTOR ( April 2013 ) ( Learn how and when to remove this message ) Organizing components structures and behaviors for any simple to complex system The basic study of system design is the understanding of component parts and their subsequent interaction with one another. [ 1 ] Systems design has appeared in a variety of fields, including aeronautics, [ 2 ] sustainability, [ 3 ] computer/software architecture, [ 4 ] and sociology. [ 5 ] Product development [ edit ] If the broader topic of product development \"blends the perspective of marketing, design, and manufacturing into a single approach to product development,\" [ 6 ] then design is the act of taking the marketing information and creating the design of the product to be manufactured. Thus in product development, systems design involves the process of defining and developing systems, such as interfaces and data , for an electronic control system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development.",
+    "topic": "System design basics",
+    "url": "https://en.wikipedia.org/wiki/Systems_design",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:36:24.329105+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Getting Started: Layouts and Pages |Next.js",
+    "content": "url: \"https://nextjs.org/docs/app/getting-started/layouts-and-pages\" version: 16.2.2 lastUpdated: 2026-04-02 prerequisites: - \"Getting Started: /docs/app/getting-started\" related: - app/getting-started/linking-and-navigating - app/api-reference/file-conventions/layout - app/api-reference/file-conventions/page - app/api-reference/components/link - app/api-reference/file-conventions/dynamic-routes --- Next.js uses **file-system based routing**, meaning you can use folders and files to define routes. For example, to create an index page (`/`): ![page.js special file](https://h8DxKfmAPhn8O0p3.public.blob.vercel-storage.com/docs/light/page-special-file.png) ```tsx filename=\"app/page.tsx\" switcher export default function Page() { return Hello Next.js! } ``` ```jsx filename=\"app/page.js\" switcher export default function Page() { return Hello Next.js! } ``` ## Creating a layout A layout is UI that is **shared** between multiple pages. For example, the `/blog/[slug]` route is composed of three segments: * `/` (Root Segment) * `blog` (Segment) * `[slug]` (Leaf Segment) In Next.js: * **Folders** are used to define the route segments that map to URL segments. ` ` is a built-in Next.js component that extends the HTML ` ` tag to provide [prefetching](/docs/app/getting-started/linking-and-navigating#prefetching) and [client-side navigation](/docs/app/getting-started/linking-and-navigating#client-side-transitions). For example, to generate a list of blog posts, import ` ` from `next/link` and pass a `href` prop to the component: ```tsx filename=\"app/ui/post.tsx\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` ```jsx filename=\"app/ui/post.js\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) => ( {post.title} ))} ) } ``` > **Good to know**: ` ` is the primary way to navigate between routes in Next.js. ## Route Props Helpers Next.js exposes utility types that infer `params` and named slots from your route structure: * [**PageProps**](/docs/app/api-reference/file-conventions/page#page-props-helper): Props for `page` components, including `params` and `searchParams`.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T02:04:27.446028+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Zero Trust | Cybersecurity and Infrastructure Security Agency ...",
+    "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
+    "topic": "Zero trust basics",
+    "url": "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T02:01:09.490017+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeks(CPU) Thread Scheduling - stevengong.coScheduling - Win32 apps | Microsoft LearnHow to Schedule Threads Posts in 2026 — Complete GuideThread SchedulingEssentials - numberanalytics.com6.S081:Scheduling- Massachusetts Institute of Technology",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T02:00:53.003512+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "What is a Container? | Docker",
+    "content": "What is a Container? | Docker Use containers to Build, Share and Run your applications Package Software into Standardized Units for Development, Shipment and Deployment A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging. Docker containers that run on Docker Engine: Standard: Docker created the industry standard for containers, so they could be portable anywhere Lightweight: Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry Learn more Docker Containers Are Everywhere: Linux, Windows, Data center, Cloud, Serverless, etc. Docker container technology was launched in 2013 as an open source Docker Engine.",
+    "topic": "Docker containers",
+    "url": "https://www.docker.com/resources/what-container/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:53:41.413653+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
+    "title": "Building Your Application:Routing|Next.js",
+    "content": "--- title: Routing description: Learn the fundamentals of routing for front-end applications with the Pages Router. url: \"https://nextjs.org/docs/pages/building-your-application/routing\" version: 16.2.2 lastUpdated: 2026-04-02 router: Pages Router prerequisites: - \"Building Your Application: /docs/pages/building-your-application\" --- The Pages Router has a file-system based router built on concepts of pages. Learn more about routing in the Pages Router: - [Pages and Layouts](/docs/pages/building-your-application/routing/pages-and-layouts) - Create your first page and shared layout with the Pages Router. - [Dynamic Routes](/docs/pages/building-your-application/routing/dynamic-routes) - Dynamic Routes are pages that allow you to add custom params to your URLs. - [Linking and Navigating](/docs/pages/building-your-application/routing/linking-and-navigating) - Learn how navigation works in Next.js, and how to use the Link Component and `useRouter` hook. - [Custom App](/docs/pages/building-your-application/routing/custom-app) - Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.",
+    "topic": "Next.js routing",
+    "url": "https://nextjs.org/docs/pages/building-your-application/routing",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:51:49.148860+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  }
 ]
