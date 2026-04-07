@@ -20,11 +20,17 @@ def backup_knowledge_to_github(entries):
 
     # 1. Get the current file's SHA (required by GitHub to update)
     res = requests.get(url, headers=headers)
-    sha = res.json().get("sha") if res.status_code == 200 else None
+    if res.status_code == 200:
+        remote_data = json.loads(
+            base64.b64decode(res.json()["content"]).decode("utf-8")
+        )
+        sha = res.json().get("sha")
 
     # 2. Prepare the new content
     content_str = json.dumps(entries, indent=2, ensure_ascii=False)
     encoded_content = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
+    if len(entries) <= len(remote_data):
+        return f"Skipped: GitHub already has {len(remote_data)} entries (Local has {len(entries)})"
 
     # 3. Push to GitHub
     payload = {

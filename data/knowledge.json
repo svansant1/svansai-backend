@@ -1108,5 +1108,165 @@
     "createdAt": "2026-04-06T20:53:43.996524+00:00",
     "validation_status": "trusted",
     "confidence": 0.85
-  }
+  },
+  {
+      "title": "BasicTypeScript",
+      "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
+      "topic": "TypeScript basics",
+      "url": "https://web.mit.edu/6.102/www/sp24/tools/typescript/",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:36:55.293396+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Scheduling - Win32 apps | Microsoft Learn",
+      "content": "Scheduling - Win32 apps | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling Feedback Summarize this article for me The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice. The scheduler determines which thread runs next using scheduling priorities. For more information, see the following topics: Scheduling Priorities Context Switches Priority Boosts Priority Inversion Multiple Processors NUMA Support Thread Ordering Service Multimedia Class Scheduler Service Processor Groups Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2025-07-14 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+      "topic": "Thread scheduling",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:36:24.301179+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA",
+      "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
+      "topic": "Zero trust basics",
+      "url": "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:32:57.093975+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Getting Started with AWS Cloud Essentials",
+      "content": "Getting Started with AWS Cloud Essentials Skip to main content Getting Started Resource Center Get Started Learn Get Connected Developer Tools More Resources More Home Getting Started AWS Cloud Essentials Introduction Taking the first steps as you start building on the cloud can seem overwhelming. Adjusting to a cloud-native approach can take time, especially if you are accustomed to the traditional on-premises way of provisioning hardware and building applications. Gaining familiarity with core concepts of cloud computing and the AWS Cloud will help give you confidence as you begin your cloud journey. In the following sections, we answer common questions about cloud computing and explore best practices for building on AWS. What is cloud computing? On-premises and cloud computing Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform through the internet with pay-as-you-go pricing. A cloud services platform provides rapid access to flexible and low-cost IT resources that you can use to build and maintain software and databases, and create applications to delight customers.",
+      "topic": "Cloud computing basics",
+      "url": "https://aws.amazon.com/getting-started/cloud-essentials/",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:28:47.300694+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Zero Trust | Cybersecurity and Infrastructure Security Agency ...",
+      "content": "Zero Trust | Cybersecurity and Infrastructure Security Agency CISA Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Read More no-cost Cyber Services Secure by design Secure Your Business Shields Up Report A Cyber Issue Share: Zero Trust Zero trust architecture dynamically secures users, devices, and resources, moving beyond static perimeter defenses. Cybersecurity Best Practices Artificial Intelligence Edge Device Security Cybersecurity for K-12 Education Cybersecurity Awareness Month Federal Cyber Defense Skilling Academy Multifactor Authentication Open Source Software Security President's Cup Cybersecurity Competition Secure by Design Organizations and Cyber Safety Identify Theft and Personal Cyber Threats Zero Trust IT environments require robust defenses to reduce risk to the cyber and physical infrastructure Americans rely on every day. Driving zero trust (ZT) progress is an important part of CISA's mission of operational collaboration and information sharing. What Zero Trust Means for Cybersecurity ZT principles assume the entire network is compromised. CISA's Zero Trust Maturity Model CISA’s Zero Trust Maturity Model is one of many roadmaps that agencies can reference as they transition towards a ZT architecture.",
+      "topic": "Zero trust basics",
+      "url": "https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:25:28.796136+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Kernel(operating system) - Wikipedia",
+      "content": "Kernel (operating system) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Core of a computer operating system \"Kernel (computer science)\" redirects here. For other computer related uses, see Kernel (disambiguation) § Computing. For other uses, see Kernel (disambiguation). A simplification of how a kernel connects application software to the hardware of a computer A kernel is a computer program at the core of a computer 's operating system that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes. A full kernel controls all hardware resources (e.g.",
+      "topic": "Kernel architecture",
+      "url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:25:20.000831+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "asyncio — Asynchronous I/O —Python3.14.3 documentation",
+      "content": "asyncio â Asynchronous I/O — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
+      "topic": "Python async programming",
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:24:51.396726+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "DockerHubContainerImage Library | App Containerization",
+      "content": "Docker Hub Container Image Library | App Containerization Back Back Docker Hardened Images - Now Free Near zero CVE hardened images with built in security, compliance, and continuous updates. Start enterprise trial Use for free Generative AI AI Models MCP Servers Trusted content Docker Hardened Images Docker Official Images Verified Publisher Sponsored OSS Categories Networking Security Languages & frameworks Integration & delivery Message queues API management Internet of things Machine learning & AI Developer tools Data science Web servers Operating systems Content management system Databases & storage Monitoring & observability Web analytics Spotlight AI meets Compose Build AI Agents Faster with Docker Compose Use the workflow you know to develop and deploy across local, cloud, and multi-cloud environments with Docker Compose. MCP E2B + Docker: Trusted AI Every E2B sandbox includes direct access to Docker's MCP Catalog, a collection of 200+ tools such as GitHub, Perplexity, Browserbase, and ElevenLabs, all enabled by the Docker MCP Gateway. Software supply chain Secure Your Supply Chain with Docker Hardened Images Use Docker's enterprise-grade base images: secure, stable, and backed by SLAs for Ubuntu, Debian, Java, and more. Machine Learning & AI image + 1 more python Docker Official Image Python is an interpreted, interactive, object-oriented, open-source programming language. 15d 1B+ 10K+ Trending this week model ai/qwen3 Docker Qwen3 is the latest Qwen LLM, built for top-tier coding, math, reasoning, and language tasks.",
+      "topic": "Docker containers",
+      "url": "https://hub.docker.com/",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:23:29.195533+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Loadbalancing(computing) - Wikipedia",
+      "content": "Load balancing (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Digital workload distribution techniques Diagram illustrating user requests to an Elasticsearch cluster being distributed by a load balancer. (Example for Wikipedia .) In computing , load balancing is the process of distributing a set of tasks over a set of resources (computing units) with the aim of making their overall processing more efficient. Load balancing can optimize response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle. Load balancing is the subject of research in the field of parallel computers. Problem overview [ edit ] A load-balancing algorithm always tries to answer a specific problem. Nature of tasks [ edit ] The efficiency of load balancing algorithms critically depends on the nature of the tasks.",
+      "topic": "Load balancing",
+      "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:48:21.406082+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "ArchitectureofmacOS- Wikipedia",
+      "content": "Architecture of macOS - Wikipedia Jump to content From Wikipedia, the free encyclopedia Layers of the operating system This article has multiple issues. Find sources: \"Architecture of macOS\" – news · newspapers · books · scholar · JSTOR ( January 2018 ) ( Learn how and when to remove this message ) This article needs to be updated. ( January 2018 ) ( Learn how and when to remove this message ) Part of a series on macOS History and architecture Architecture Version history Transition to Intel processors Transition to Apple silicon Darwin Cocoa XNU Versions Version history Rhapsody (Developer Release) Hera (Server 1.0) Kodiak (Public Beta) Cheetah (10.0) Puma (10.1) Jaguar (10.2) Panther (10.3) Tiger (10.4) Leopard (10.5) Snow Leopard (10.6) Lion (10.7) Mountain Lion (10.8) Mavericks (10.9) Yosemite (10.10) El Capitan (10.11) Sierra (10.12) High Sierra (10.13) Mojave (10.14) Catalina (10.15) Big Sur (11) Monterey (12) Ventura (13) Sonoma (14) Sequoia (15) Tahoe (26) Applications App Store Automator Books Calculator Calendar Contacts Dashboard Dictionary FaceTime Finder Game Center Grapher iTunes ( history ) Mail Messages Music Notes Notification Center Photo Booth Podcasts Photos Preview QuickTime Reminders Safari Sherlock Stickies TextEdit Time Machine List of built-in apps List of compatible software List of compatible games Utilities Activity Monitor AirPort Utility Archive Utility Audio MIDI Setup Bluetooth File Exchange ColorSync Console Crash Reporter DigitalColor Meter Directory Utility DiskImageMounter Disk Utility Font Book Grab Help Viewer Image Capture Installer Keychain Access Migration Assistant Network Utility ODBC Administrator Remote Install Mac OS X System Preferences System Information Terminal Universal Access VoiceOver Related operating systems Classic Mac OS Copland NeXTSTEP Rhapsody Darwin v t e Additional diagram of macOS architecture (2017 update) The architecture of macOS describes the layers of the operating system that is the culmination of Apple Inc. After the failures of their previous attempts—Pink, which started as an Apple project but evolved into a joint venture with IBM called Taligent , and Copland , which started in 1994 and was cancelled two years later—Apple began development of Mac OS X, later renamed OS X and then macOS, with the acquisition of NeXT 's NeXTSTEP in 1997. Development [ edit ] Main article: History of macOS NeXTSTEP [ edit ] Main article: NeXTSTEP NeXTSTEP used a hybrid kernel that combined the Mach 2.5 k",
+      "topic": "macOS architecture basics",
+      "url": "https://en.wikipedia.org/wiki/Architecture_of_macOS",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:44:11.802954+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "BasicTypeScript",
+      "content": "Basic TypeScript Basic TypeScript Objectives Learn basic JavaScript and TypeScript syntax and semantics Transition from writing Python to writing TypeScript Getting started with TypeScript In Praxis Tutor in Visual Studio Code, complete the first two categories: Basic TypeScript and Numbers & Strings. (Later, when you are not using the Tutor, you can collapse its tab so that you can use the Explorer pane to see other files instead.) After you have done these categories, your Praxis Tutor pane in Visual Studio Code should show the categories fully checked off with a green checkmark: â Basic TypeScript 2/2 â Numbers & Strings 2/2 Snapshot diagrams It will be useful for us to draw pictures of whatâs happening at runtime, in order to understand subtle questions. Although the diagrams in this course use examples from TypeScript, the notation can be applied to any modern programming language, e.g., Python, Java, C++, Ruby. Unreassignable references TypeScript also gives us immutability for references: variables that are assigned once and never reassigned. If the TypeScript compiler isnât convinced that your const variable will only be assigned once at runtime, then it will produce a compiler error. Arrays, Maps, and Sets A TypeScript Array is similar to a Python list.",
+      "topic": "TypeScript basics",
+      "url": "https://web.mit.edu/6.102/www/sp24/tools/typescript/",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T00:36:55.293396+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+     {
+      "title": "asyncio — Asynchronous I/O —Python3.14.3 documentation",
+      "content": "asyncio â Asynchronous I/O — Python 3.14.3 documentation Navigation index modules | next | previous | Python » 3.14.3 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
+      "topic": "Python async programming",
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T01:17:35.969197+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Cybersecurity for Beginners - NICCS",
+      "content": "Cybersecurity for Beginners | NICCS Skip to main content Due to the lapse in federal funding, this website will not be actively managed. https://go.dhs.gov/lapse-2026 Cybersecurity for Beginners Are you interested in a career in cybersecurity but don’t know where to begin? Whether you are a recent college graduate, changing careers, or just entering the field of cyber, NICCS has tools and resources to help you get started. Cybersecurity Awareness: Get Familiar with Cybersecurity Below are some great resources from CISA to increase your basic cybersecurity knowledge and awareness: Learn the cyber basics of staying safe online ( Secure Our World ) Download Cybersecurity Awareness Program Toolkits Build the cyber resilience needed before incidents occur ( Shields Ready ) Prepare for, respond to, and mitigate the impact of cyber-attacks ( Shields Up ) Use the Tools on NICCS to Get Started in Cybersecurity The NICE Workforce Framework for Cybersecurity Familiarize yourself with the NICE Workforce Framework for Cybersecurity , commonly referred to as the NICE Framework, which serves as the common lexicon for describing cybersecurity work. The NICE Framework enables you to investigate cybersecurity career options by helping you learn about the tasks, knowledge, and skills (TKS) needed for specific cybersecurity Work Roles. The tool can help you understand what types of work might be available to you at the beginner, intermediate, and expert levels of cybersecurity based on the education, skills, and experience you have today. With thousands of cyber-related courses across the country and online, the Education & Training Catalog has something for everyone! Start Studying Cyber If you are exploring your options for cybersecurity education, check out the 400+ colleges and universities with nationally recognized cybersecurity degree programs, many of which offer scholarships for undergraduate and graduate students, up to $27,000 and $37,000 respectively.",
+      "topic": "Cybersecurity basics",
+      "url": "https://niccs.cisa.gov/audience/cybersecurity-beginners",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T01:15:26.576748+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+      {
+      "title": "DebuggingTechniques- Windows drivers | Microsoft Learn",
+      "content": "Debugging Techniques - Windows drivers | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Debugging Techniques Feedback Summarize this article for me This section discusses two types of debugging techniques: standard and specialized. Standard techniques apply to most debugging scenarios, and examples include setting breakpoints, inspecting the call stack, and finding a memory leak. Specialized techniques apply to particular technologies or types of code, and examples are Plug and Play debugging, Kernel Mode Driver Framework debugging, and RPC debugging. Standard Debugging Techniques Specialized Debugging Techniques Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2021-12-15 Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix?.",
+      "topic": "Debugging techniques",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-techniques",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T01:34:41.210551+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "Getting Started: Layouts and Pages |Next.js",
+      "content": "url: \"https://nextjs.org/docs/app/getting-started/layouts-and-pages\" version: 16.2.2 lastUpdated: 2026-04-02 prerequisites: - \"Getting Started: /docs/app/getting-started\" related: - app/getting-started/linking-and-navigating - app/api-reference/file-conventions/layout - app/api-reference/file-conventions/page - app/api-reference/components/link - app/api-reference/file-conventions/dynamic-routes --- Next.js uses **file-system based routing**, meaning you can use folders and files to define routes. For example, to create an index page (`/`): ![page.js special file](https://h8DxKfmAPhn8O0p3.public.blob.vercel-storage.com/docs/light/page-special-file.png) ```tsx filename=\"app/page.tsx\" switcher export default function Page() { return Hello Next.js! } ``` ```jsx filename=\"app/page.js\" switcher export default function Page() { return Hello Next.js! } ``` ## Creating a layout A layout is UI that is **shared** between multiple pages. For example, the `/blog/[slug]` route is composed of three segments: * `/` (Root Segment) * `blog` (Segment) * `[slug]` (Leaf Segment) In Next.js: * **Folders** are used to define the route segments that map to URL segments. ` ` is a built-in Next.js component that extends the HTML ` ` tag to provide [prefetching](/docs/app/getting-started/linking-and-navigating#prefetching) and [client-side navigation](/docs/app/getting-started/linking-and-navigating#client-side-transitions). For example, to generate a list of blog posts, import ` ` from `next/link` and pass a `href` prop to the component: ```tsx filename=\"app/ui/post.tsx\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) =\u003E ( {post.title} ))} ) } ``` ```jsx filename=\"app/ui/post.js\" highlight={1,10} switcher import Link from 'next/link' export default async function Post({ post }) { const posts = await getPosts() return ( {posts.map((post) =\u003E ( {post.title} ))} ) } ``` \u003E **Good to know**: ` ` is the primary way to navigate between routes in Next.js. ## Route Props Helpers Next.js exposes utility types that infer `params` and named slots from your route structure: * [**PageProps**](/docs/app/api-reference/file-conventions/page#page-props-helper): Props for `page` components, including `params` and `searchParams`.",
+      "topic": "Next.js routing",
+      "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T01:33:48.380251+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    },
+    {
+      "title": "ClassicMacOS- Wikipedia",
+      "content": "Operating system Classic Mac OS Developer Apple Computer OS family Macintosh Working state Historic, not supported Source model Closed source Initial release January 24, 1984 ; 42 years ago ( 1984-01-24 ) [ 1 ] [ 2 ] Final release 9.2.2 / December 5, 2001 ; 24 years ago ( 2001-12-05 ) [ 3 ] Marketing target Personal computing Supported platforms Motorola 68k ( 1.0 – 8.1 ) PowerPC ( 7.1.2 – 9.2.2 ) Kernel type Monolithic for 68k, nanokernel for PowerPC Default user interface Graphical License Commercial software , proprietary software Succeeded by Mac OS X Support status Historical, unsupported as of February 1, 2002 Part of a series on Classic Mac OS Versions System 1 System 2, 3, and 4 System 5 System 6 System 7 Mac OS 7 Mac OS 8 Mac OS 9 Applications Calculator Chooser Drive Setup DVD Player Finder Graphing Calculator Keychain Access PictureViewer PowerTalk QuickTime Player Network Browser Scrapbook Sherlock Software Update Stickies System Information SimpleText Developer HyperCard MacsBug Macintosh Programmer's Workshop ResEdit Technology Alias Appearance Manager Apple menu At Ease Balloon help Bomb error Command key (⌘) Control Panel Control Strip Creator code Dogcow Extensions Hierarchical File System HFS Plus Keychain Labels Macintosh File System Macintosh Toolbox Managers MultiFinder Option key (⌥) OSType PICT QuickDraw QuickTime Resource fork Sosumi sound Startup sequence System folder System suitcase Type code WorldScript Related Memory management Old World ROM New World ROM Software Transition to PowerPC processors v t e Part of a series on macOS History and architecture Architecture Version history Transition to Intel processors Transition to Apple silicon Darwin Cocoa XNU Versions Version history Rhapsody (Developer Release) Hera (Server 1.0) Kodiak (Public Beta) Cheetah (10.0) Puma (10.1) Jaguar (10.2) Panther (10.3) Tiger (10.4) Leopard (10.5) Snow Leopard (10.6) Lion (10.7) Mountain Lion (10.8) Mavericks (10.9) Yosemite (10.10) El Capitan (10.11) Sierra (10.12) High Sierra (10.13) Mojave (10.14) Catalina (10.15) Big Sur (11) Monterey (12) Ventura (13) Sonoma (14) Sequoia (15) Tahoe (26) Applications App Store Automator Books Calculator Calendar Contacts Dashboard Dictionary FaceTime Finder Game Center Grapher iTunes ( history ) Mail Messages Music Notes Notification Center Photo Booth Podcasts Photos Preview QuickTime Reminders Safari Sherlock Stickies TextEdit Time Machine List of built-in apps List of compatible software List of compatible",
+      "topic": "macOS architecture basics",
+      "url": "https://en.wikipedia.org/wiki/Classic_Mac_OS",
+      "source": "trusted_web",
+      "createdAt": "2026-04-07T01:24:54.876449+00:00",
+      "validation_status": "trusted",
+      "confidence": 0.85
+    }
 ]
