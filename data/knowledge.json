@@ -1,5 +1,15 @@
 [
   {
+    "title": "Processmanagement(computing) - Wikipedia",
+    "content": "Process management (computing) - Wikipedia Jump to content From Wikipedia, the free encyclopedia Computer system for maintaining order among running programs This article has multiple issues. Find sources: \"Process management\" computing – news · newspapers · books · scholar · JSTOR ( October 2025 ) ( Learn how and when to remove this message ) This article has an unclear citation style. ( October 2025 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e A process is a program in execution, and an integral part of any modern-day operating system (OS). The OS must allocate resources to processes , enable processes to share and exchange information, protect the resources of each process from other processes and enable synchronization among processes. To meet these requirements, The OS must maintain a data structure for each process, which describes the state and resource ownership of that process, and which enables the operating system to exert control over each process. [ relevant? ] At a given instant, the processor can only be executing one instruction from one program, but several processes can be sustained over a period of time by assigning each process to the processor at intervals while the remainder become temporarily inactive.",
+    "topic": "Process management",
+    "url": "https://en.wikipedia.org/wiki/Process_management_(computing)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T09:30:16.178831+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "What is a NetworkLoadBalancer? - ElasticLoadBalancing",
     "content": "What is a Network Load Balancer? - Elastic Load Balancing What is a Network Load Balancer? - Elastic Load Balancing Documentation Elastic Load Balancing Network Load Balancers Network Load Balancer components Network Load Balancer overview Benefits of migrating from a Classic Load Balancer Getting started Pricing What is a Network Load Balancer? Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. Elastic Load Balancing scales your load balancer as your incoming traffic changes over time. It can automatically scale to the vast majority of workloads. Elastic Load Balancing supports the following load balancers: Application Load Balancers, Network Load Balancers, Gateway Load Balancers, and Classic Load Balancers. You can select the type of load balancer that best suits your needs. This guide discusses Network Load Balancers.",
     "topic": "Load balancing",
