@@ -1,5 +1,15 @@
 [
   {
+    "title": "Systemsdesign- Wikipedia",
+    "content": "Systems design - Wikipedia Jump to content From Wikipedia, the free encyclopedia This article needs additional citations for verification. Find sources: \"Systems design\" – news · newspapers · books · scholar · JSTOR ( April 2013 ) ( Learn how and when to remove this message ) Organizing components structures and behaviors for any simple to complex system The basic study of system design is the understanding of component parts and their subsequent interaction with one another. [ 1 ] Systems design has appeared in a variety of fields, including aeronautics, [ 2 ] sustainability, [ 3 ] computer/software architecture, [ 4 ] and sociology. [ 5 ] Product development [ edit ] If the broader topic of product development \"blends the perspective of marketing, design, and manufacturing into a single approach to product development,\" [ 6 ] then design is the act of taking the marketing information and creating the design of the product to be manufactured. Thus in product development, systems design involves the process of defining and developing systems, such as interfaces and data , for an electronic control system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development.",
+    "topic": "System design basics",
+    "url": "https://en.wikipedia.org/wiki/Systems_design",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T01:36:24.329105+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Learn Kubernetes Basics",
     "content": "Learn Kubernetes Basics | Kubernetes Edit this page Create child page Create an issue Print entire section Learn Kubernetes Basics Objectives This tutorial provides a walkthrough of the basics of the Kubernetes cluster orchestration system. Each module contains some background information on major Kubernetes features and concepts, and a tutorial for you to follow along. What can Kubernetes do for you? With modern web services, users expect applications to be available 24/7, and developers expect to deploy new versions of those applications several times a day. Kubernetes helps you make sure those containerized applications run where and when you want, and helps them find the resources and tools they need to work. Kubernetes is a production-ready, open source platform designed with Google's accumulated experience in container orchestration, combined with best-of-breed ideas from the community. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
     "topic": "Kubernetes basics",
