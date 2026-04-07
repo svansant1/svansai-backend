@@ -1,5 +1,15 @@
 [
   {
+    "title": "Central processing unit - Wikipedia",
+    "content": "Central processing unit - Wikipedia Jump to content From Wikipedia, the free encyclopedia Central computer component that executes instructions \"CPU\" redirects here. For other uses, see CPU (disambiguation). A high-end consumer CPU made by Intel : an Intel Core i9-14900KF Inside a central processing unit: The integrated circuit of Intel's Xeon 3060 , first manufactured in 2006 A central processing unit ( CPU ), also known as a central processor , main processor , or simply processor , is the primary processor in a given computer. The form, design , and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged. [ 7 ] Principal components of a CPU include the arithmetic–logic unit (ALU) that performs arithmetic and logic operations , processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) , decoding and execution (of instructions) by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area to caches and instruction-level parallelism to increase performance and to CPU modes to support operating systems and virtualization.",
+    "topic": "CPU architecture basics",
+    "url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+    "source": "trusted_web",
+    "createdAt": "2026-04-07T04:11:04.106199+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Cybersecurity Basics | NIST",
     "content": "Cybersecurity Basics | NIST Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics Information Technology Laboratory Small Business Cybersecurity Corner Connect with us X (Twitter) Cybersecurity Basics Share Facebook Linkedin X.com Email Cybersecurity is a continuous process. Because your business, technologies, regulations/laws, and cybersecurity threats continue to change, your goal should be to always strive for continuous improvement in your cybersecurity risk management. There are many ways you can improve your business’ cybersecurity. Here are a few basic steps to get you started: Understand that cyber threats are a business risk, and having strong cybersecurity is a competitive advantage. Train employees on basic cybersecurity hygiene.",
     "topic": "Cybersecurity basics",
