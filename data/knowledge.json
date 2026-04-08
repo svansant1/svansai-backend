@@ -1,5 +1,15 @@
 [
   {
+    "title": "ThePythonTutorial —Python3.14.4 documentation",
+    "content": "The Python Tutorial — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Tutorial | Theme Auto Light Dark | The Python Tutorial Â¶ Tip This tutorial is designed for programmers that are new to the Python language, not beginners who are new to programming. Python is an easy to learn, powerful programming language. Pythonâs elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python website, https://www.python.org/ , and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation. The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C).",
+    "topic": "Python basics",
+    "url": "https://docs.python.org/3/tutorial/index.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T06:53:52.932998+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Process management (project management) - Wikipedia",
     "content": "Process management (project management) - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Process management (Project Management) ) Concept in project management This article has multiple issues. Find sources: \"Process management\" project management – news · newspapers · books · scholar · JSTOR ( June 2017 ) ( Learn how and when to remove this message ) This article may contain original research. ( June 2017 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) In civil engineering and project management , process management is the management of \"systematic series of activities directed towards causing an end result such that one or more inputs will be acted upon to create one or more outputs\". [ 1 ] Process management offers project organizations a means of applying the same quality improvement and defect reduction techniques used in business and manufacturing processes by taking a process view of project activity; modeling discrete activities and high-level processes. [ 2 ] [ 1 ] [ 3 ] Overview [ edit ] The term process management usually refers to the management of engineering processes and project management processes where a process is a collection of related, structured tasks that produce a specific service or product to address a certain goal for a particular organization, actor or set of actors. [ 4 ] Processes can be executed with procedures.",
     "topic": "Process management",
