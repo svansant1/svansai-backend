@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...(CPU) Thread Scheduling - stevengong.coThread Scheduling - IIT KanpurOS - Thread Scheduling | i2tutorials",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T02:31:21.334086+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Tutorials | Kubernetes",
     "content": "Tutorials | Kubernetes Edit this page Create child page Create an issue Print entire section Tutorials This section of the Kubernetes documentation contains tutorials. Basics Kubernetes Basics is an in-depth interactive tutorial that helps you understand the Kubernetes system and try out some basic Kubernetes features. Introduction to Kubernetes (edX) Hello Minikube Configuration Configuring Redis Using a ConfigMap Authoring Pods Adopting Sidecar Containers Stateless Applications Exposing an External IP Address to Access an Application in a Cluster Example: Deploying PHP Guestbook application with Redis Stateful Applications StatefulSet Basics Example: WordPress and MySQL with Persistent Volumes Example: Deploying Cassandra with Stateful Sets Running ZooKeeper, A CP Distributed System Services Connecting Applications with Services Using Source IP Security Apply Pod Security Standards at Cluster level Apply Pod Security Standards at Namespace level Restrict a Container's Access to Resources with AppArmor Seccomp Cluster Management Configuring Swap Memory on Kubernetes Nodes Running Kubelet in Standalone Mode Install Drivers and Allocate Devices with DRA What's next If you would like to write a tutorial, see Content Page Types for information about the tutorial page type. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow.",
     "topic": "Kubernetes basics",
