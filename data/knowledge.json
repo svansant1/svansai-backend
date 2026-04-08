@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT KanpurOS - Thread Scheduling | i2tutorials(CPU) Thread Scheduling - stevengong.co",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T08:53:57.563078+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT KanpurOS - Thread Scheduling | i2tutorials(CPU) Thread Scheduling - stevengong.co",
     "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
     "topic": "Thread scheduling",
