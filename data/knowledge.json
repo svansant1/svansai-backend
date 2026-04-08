@@ -1,5 +1,15 @@
 [
   {
+    "title": "Process management (project management) - Wikipedia",
+    "content": "Process management (project management) - Wikipedia Jump to content From Wikipedia, the free encyclopedia (Redirected from Process management (Project Management) ) Concept in project management This article has multiple issues. Find sources: \"Process management\" project management – news · newspapers · books · scholar · JSTOR ( June 2017 ) ( Learn how and when to remove this message ) This article may contain original research. ( June 2017 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) In civil engineering and project management , process management is the management of \"systematic series of activities directed towards causing an end result such that one or more inputs will be acted upon to create one or more outputs\". [ 1 ] Process management offers project organizations a means of applying the same quality improvement and defect reduction techniques used in business and manufacturing processes by taking a process view of project activity; modeling discrete activities and high-level processes. [ 2 ] [ 1 ] [ 3 ] Overview [ edit ] The term process management usually refers to the management of engineering processes and project management processes where a process is a collection of related, structured tasks that produce a specific service or product to address a certain goal for a particular organization, actor or set of actors. [ 4 ] Processes can be executed with procedures.",
+    "topic": "Process management",
+    "url": "https://en.wikipedia.org/wiki/Process_management_(Project_Management)",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T04:34:54.284073+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Scheduling threads - .NET | Microsoft LearnOS -Thread Scheduling| i2tutorialsThread Scheduling- an overview | ScienceDirect TopicsThread Scheduling- GeeksforGeeksThread Scheduling- GeeksforGeeksThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...(CPU) Thread Scheduling - stevengong.coThread Scheduling - IIT KanpurOS - Thread Scheduling | i2tutorials",
     "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
     "topic": "Thread scheduling",
