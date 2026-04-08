@@ -1,5 +1,15 @@
 [
   {
+    "title": "What is ElasticLoadBalancing? - ElasticLoadBalancing",
+    "content": "What is Elastic Load Balancing? - Elastic Load Balancing What is Elastic Load Balancing? - Elastic Load Balancing Documentation Elastic Load Balancing User Guide Load balancer benefits Features of Elastic Load Balancing Accessing Elastic Load Balancing Related services Pricing What is Elastic Load Balancing? Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic. Load balancer benefits A load balancer distributes workloads across multiple compute resources, such as virtual servers. Using a load balancer increases the availability and fault tolerance of your applications. You can add and remove compute resources from your load balancer as your needs change, without disrupting the overall flow of requests to your applications. You can configure health checks, which monitor the health of the compute resources, so that the load balancer sends requests only to the healthy ones.",
+    "topic": "Load balancing",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T11:06:18.914610+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "7.Accessibility",
     "content": "Accessibility Skip to main content Skip to search 7.1 Accessibility basics 7.2 Accessible styling 7.3 Accessible JavaScript 7.4 Assistive technology 7.5 WAI-ARIA Access to web content such as public services, education, e-commerce sites, and entertainment is a human right. General resources: Let's learn to make the web accessible , Scrimba Course Partner 7.1 Accessibility basics Learning outcomes: Understand the point of accessibility â increased usability for everyone, better SEO, and a wider target audience. Understand that accessibility should be considered from the start of a project, and not bolted on at the end. Understand the Web Content Accessibility Guidelines (WCAG) conformance criteria. Use semantic HTML, aka \"The right element for the right job\", because the browser provides so many built-in accessibility hooks. Keyboard accessibility: Understand why apps need to be keyboard accessible â many people have difficulty using a mouse or other pointing device.",
     "topic": "Accessibility basics",
