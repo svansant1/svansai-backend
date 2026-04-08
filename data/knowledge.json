@@ -1,5 +1,15 @@
 [
   {
+    "title": "Async/await - Wikipedia",
+    "content": "Async/await - Wikipedia Jump to content From Wikipedia, the free encyclopedia Feature of programming languages In computer programming , the async/await pattern is a syntactic feature of many programming languages that allows an asynchronous , non-blocking function to be structured in a way similar to an ordinary synchronous function. It is semantically related to the concept of a coroutine and is often implemented using similar techniques, and is primarily intended to provide opportunities for the program to execute other code while waiting for a long-running, asynchronous task to complete, usually represented by promises or similar data structures. The feature is found in C# , [ 1 ] : 10 C++ , Python , F# , Hack , Julia , Dart , Kotlin , Rust , [ 2 ] Nim , [ 3 ] JavaScript , and Swift. [ 4 ] History [ edit ] F# added asynchronous workflows with await points in version 2.0 in 2007. [ 5 ] This influenced the async/await mechanism added to C#. [ 6 ] Microsoft first released a version of C# with async/await in the Async CTP (2011).",
+    "topic": "Python async programming",
+    "url": "https://en.wikipedia.org/wiki/Async/await",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T13:14:39.773987+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Internetprotocolsuite - Wikipedia",
     "content": "v t e The Internet protocol suite , commonly known as TCP/IP , is a framework for organizing the communication protocols used in the Internet and similar computer networks according to functional criteria. Initially referred to as the DOD Internet Architecture Model , [ 27 ] together with the Transmission Control Protocol, it became commonly known as TCP/IP. [ 29 ] Adoption [ edit ] In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking. [ 33 ] The migration of the ARPANET from NCP to TCP/IP was officially completed on flag day January 1, 1983, when the new protocols were permanently activated. [ 30 ] [ 34 ] In 1985, the Internet Advisory Board (later Internet Architecture Board ) held a three-day TCP/IP workshop for the computer industry, attended by 250 vendor representatives, promoting the protocol and leading to its increasing commercial use. In 1985, the first Interop conference focused on network interoperability by broader adoption of TCP/IP.",
     "topic": "TCP/IP fundamentals",
