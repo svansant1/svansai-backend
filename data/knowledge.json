@@ -1,5 +1,15 @@
 [
   {
+    "title": "Internetprotocolsuite - Wikipedia",
+    "content": "v t e The Internet protocol suite , commonly known as TCP/IP , is a framework for organizing the communication protocols used in the Internet and similar computer networks according to functional criteria. Initially referred to as the DOD Internet Architecture Model , [ 27 ] together with the Transmission Control Protocol, it became commonly known as TCP/IP. [ 29 ] Adoption [ edit ] In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking. [ 33 ] The migration of the ARPANET from NCP to TCP/IP was officially completed on flag day January 1, 1983, when the new protocols were permanently activated. [ 30 ] [ 34 ] In 1985, the Internet Advisory Board (later Internet Architecture Board ) held a three-day TCP/IP workshop for the computer industry, attended by 250 vendor representatives, promoting the protocol and leading to its increasing commercial use. In 1985, the first Interop conference focused on network interoperability by broader adoption of TCP/IP.",
+    "topic": "TCP/IP fundamentals",
+    "url": "https://en.wikipedia.org/wiki/Internet_protocol_suite",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T13:11:07.238828+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "asyncio — Asynchronous I/O —Python3.14.4 documentation",
     "content": "asyncio â Asynchronous I/O — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
     "topic": "Python async programming",
