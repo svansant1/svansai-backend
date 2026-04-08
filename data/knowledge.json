@@ -1,5 +1,15 @@
 [
   {
+    "title": "KubernetesDocumentation |Kubernetes",
+    "content": "Kubernetes Documentation | Kubernetes Edit this page Create child page Create an issue Print entire section Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. Understand Kubernetes Learn about Kubernetes and its fundamental concepts. Why Kubernetes? Components of a cluster The Kubernetes API Objects In Kubernetes kubectl Containers Workloads and Pods View Concepts Try Kubernetes Follow tutorials to learn how to deploy applications in Kubernetes. Hello Minikube Walkthrough the basics Stateless Example: PHP Guestbook with Redis Stateful Example: Wordpress with Persistent Volumes View Tutorials Set up a K8s cluster Get Kubernetes running based on your resources and needs. Learning environment Production environment Install the kubeadm setup tool Metrics Logs Traces Securing a cluster kubeadm command reference Set up Kubernetes Learn how to use Kubernetes Look up common tasks and how to perform them using a short sequence of steps. Glossary kubectl command line tool Labels, annotations and taints Kubernetes API reference Overview of API Feature Gates View Reference Contribute to Kubernetes Find out how you can help make Kubernetes better.",
+    "topic": "Kubernetes basics",
+    "url": "https://kubernetes.io/docs/home/",
+    "source": "trusted_web",
+    "createdAt": "2026-04-08T15:20:03.149332+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Operatingsystem- Wikipedia",
     "content": "Operating system - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software that manages computer hardware resources Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs. Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time , mass storage , peripherals, and other resources. For hardware functions such as input and output and memory allocation , the operating system acts as an intermediary between programs and the computer hardware, [ 1 ] [ 2 ] although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers. As of November 2025 [update] , Android is the most popular operating system with a 38% market share, followed by Microsoft Windows at 33%, iOS and iPadOS at 15%, macOS at 4%, and Linux at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers.",
     "topic": "Operating systems overview",
