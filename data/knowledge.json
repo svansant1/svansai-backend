@@ -1,5 +1,15 @@
 [
   {
+    "title": "Scheduling threads - .NET | Microsoft LearnThread Scheduling - an overview | ScienceDirect TopicsProcess/Thread Scheduling | Operating Systems: updated 11 Jan ...Thread Scheduling - IIT KanpurOS - Thread Scheduling | i2tutorialsMysteries of the Windows Kernel Pt.2 - Thread Scheduling ...",
+    "content": "Scheduling threads - .NET | Microsoft Learn Table of contents Exit editor mode Ask Learn Ask Learn Focus mode Table of contents Read in English Add Add to plan Edit Share via Facebook x.com LinkedIn Email Copy Markdown Print Note Access to this page requires authorization. Scheduling threads Feedback Summarize this article for me Every thread has a thread priority assigned to it. Threads created within the common language runtime are initially assigned the priority of ThreadPriority.Normal. Threads created outside the runtime retain the priority they had before they entered the managed environment. You can get or set the priority of any thread with the Thread.Priority property. Threads are scheduled for execution based on their priority.",
+    "topic": "Thread scheduling",
+    "url": "https://learn.microsoft.com/en-us/dotnet/standard/threading/scheduling-threads",
+    "source": "trusted_web",
+    "createdAt": "2026-04-09T05:46:23.157167+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "asyncio — Asynchronous I/O — Python 3.14.4 documentation",
     "content": "asyncio â Asynchronous I/O — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
     "topic": "Python async programming",
