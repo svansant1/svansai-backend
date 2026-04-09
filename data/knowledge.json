@@ -1,5 +1,15 @@
 [
   {
+    "title": "REST - Wikipedia",
+    "content": "REST - Wikipedia Jump to content From Wikipedia, the free encyclopedia Architectural style for client-server applications For other uses, see Rest (disambiguation). REST ( Representational State Transfer ) is a software architectural style that was created to describe the design and guide the development of the architecture for the World Wide Web. REST defines a set of constraints for how the architecture of a distributed, Internet -scale hypermedia system, such as the Web, should behave. The REST architectural style emphasizes uniform interfaces , independent deployment of components , the scalability of interactions between them, and creating a layered architecture to promote caching to reduce user-perceived latency , enforce security , and encapsulate legacy systems. [ 1 ] REST has been employed throughout the software industry to create stateless , reliable, web-based applications. An application that adheres to the REST architectural constraints may be informally described as RESTful , although this term is more commonly associated with the design of HTTP -based APIs and what are widely considered best practices regarding the \"verbs\" ( HTTP methods ) a resource responds to, while having little to do with REST as originally formulated—and is often even at odds with the concept.",
+    "topic": "REST APIs",
+    "url": "https://en.wikipedia.org/wiki/REST",
+    "source": "trusted_web",
+    "createdAt": "2026-04-09T02:15:53.008995+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "A Conceptual Overview of asyncio — Python 3.14.4 documentation",
     "content": "A Conceptual Overview of asyncio — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » Python HOWTOs » A Conceptual Overview of asyncio | Theme Auto Light Dark | A Conceptual Overview of asyncio Â¶ This HOWTO article seeks to help you build a sturdy mental model of how asyncio fundamentally works, helping you understand the how and why behind the recommended patterns. You might be curious about some key asyncio concepts. By the end of this article, youâll be able to comfortably answer these questions: Whatâs happening behind the scenes when an object is awaited? How does asyncio differentiate between a task which doesnât need CPU time (such as a network request or file read) as opposed to a task that does (such as computing n-factorial)? How to write an asynchronous variant of an operation, such as an async sleep or database request. This in-depth YouTube tutorial series on asyncio created by Python core team member, Åukasz Langa. 500 Lines or Less: A Web Crawler With asyncio Coroutines by A. A conceptual overview part 1: the high-level Â¶ In part 1, weâll cover the main, high-level building blocks of asyncio : the event loop, coroutine functions, coroutine objects, tasks, and await.",
     "topic": "Python async programming",
