@@ -1,5 +1,15 @@
 [
   {
+    "title": "asyncio — Asynchronous I/O — Python 3.14.4 documentation",
+    "content": "asyncio â Asynchronous I/O — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Standard Library » Networking and Interprocess Communication » asyncio â Asynchronous I/O | Theme Auto Light Dark | asyncio â Asynchronous I/O Â¶ Hello World! import asyncio async def main (): print ( 'Hello ...' ) await asyncio. run ( main ()) asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc. asyncio is often a perfect fit for IO-bound and high-level structured network code. See also A Conceptual Overview of asyncio Explanation of the fundamentals of asyncio. asyncio provides a set of high-level APIs to: run Python coroutines concurrently and have full control over their execution; perform network IO and IPC ; control subprocesses ; distribute tasks via queues ; synchronize concurrent code; Additionally, there are low-level APIs for library and framework developers to: create and manage event loops , which provide asynchronous APIs for networking , running subprocesses , handling OS signals , etc; implement efficient protocols using transports ; bridge callback-based libraries and code with async/await syntax.",
+    "topic": "Python async programming",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-09T02:18:50.022011+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "REST - Wikipedia",
     "content": "REST - Wikipedia Jump to content From Wikipedia, the free encyclopedia Architectural style for client-server applications For other uses, see Rest (disambiguation). REST ( Representational State Transfer ) is a software architectural style that was created to describe the design and guide the development of the architecture for the World Wide Web. REST defines a set of constraints for how the architecture of a distributed, Internet -scale hypermedia system, such as the Web, should behave. The REST architectural style emphasizes uniform interfaces , independent deployment of components , the scalability of interactions between them, and creating a layered architecture to promote caching to reduce user-perceived latency , enforce security , and encapsulate legacy systems. [ 1 ] REST has been employed throughout the software industry to create stateless , reliable, web-based applications. An application that adheres to the REST architectural constraints may be informally described as RESTful , although this term is more commonly associated with the design of HTTP -based APIs and what are widely considered best practices regarding the \"verbs\" ( HTTP methods ) a resource responds to, while having little to do with REST as originally formulated—and is often even at odds with the concept.",
     "topic": "REST APIs",
