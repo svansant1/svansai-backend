@@ -1,5 +1,15 @@
 [
   {
+    "title": "Welcome To Windows - support.microsoft.com",
+    "content": "Welcome To Windows Skip to main content Sign in with Microsoft Sign in or create an account. Get to know Windows 11 Try Windows 11 on your Windows 10 PC What's new in recent Windows updates Meet Windows 11 Upgrade to Windows 11: FAQ Get Windows 11 Compare Windows 10 and 11 Moving to a new PC Gettting ready for the Windows 11 upgrade What is a Microsoft account Backing up your Windows PC Get help with your Microsoft account OS and device lifecycles Common PC and device terms Surface device servicing lifecycles Troubleshoot problems updating Windows Shop new PCs How to know it's time for a new PC Help me choose a new Windows 11 PC Help me choose a laptop designed by Microsoft End of support FAQs Serviced versions of Windows 10: Frequently asked questions Get ready for the Windows 11 upgrade End of support for Windows 10, Windows 8.1, and Windows 7 Windows 8.1 support ended on January 10, 2023 More support options Learn about the Get Help app Open the Get Help app Open the Get Started app.",
+    "topic": "Windows internals basics",
+    "url": "https://support.microsoft.com/en-us/welcometowindows",
+    "source": "trusted_web",
+    "createdAt": "2026-04-10T18:23:20.733911+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "ApplicationLoadBalancers- ElasticLoadBalancing",
     "content": "Application Load Balancers - Elastic Load Balancing Application Load Balancers - Elastic Load Balancing Documentation Elastic Load Balancing Application Load Balancers Subnets for your load balancer Load balancer security groups Load balancer state Load balancer attributes IP address type Application Load Balancer IP Address Management IPAM IP address pools Load balancer connections Cross-zone load balancing DNS name Application Load Balancers A load balancer serves as the single point of contact for clients. Clients send requests to the load balancer, and the load balancer sends them to targets, such as EC2 instances. To configure your load balancer, you create target groups , and then register targets with your target groups. For more information, see How Elastic Load Balancing works in the Elastic Load Balancing User Guide. Contents Subnets for your load balancer Load balancer security groups Load balancer state Load balancer attributes IP address type Application Load Balancer IP Address Management IPAM IP address pools Load balancer connections Cross-zone load balancing DNS name Create a load balancer Update Availability Zones Update security groups Update the IP address type Update the IPAM IP address pools Edit load balancer attributes Tag a load balancer Delete a load balancer View the resource map Zonal shift LCU reservations Load balancer integrations Subnets for your load balancer When you create an Application Load Balancer, you must enable the zones that contain your targets. Elastic Load Balancing creates a load balancer node in each zone that you specify.",
     "topic": "Load balancing",
