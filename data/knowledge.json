@@ -1,5 +1,15 @@
 [
   {
+    "title": "Operating system-Wikipedia",
+    "content": "Operating system - Wikipedia Jump to content From Wikipedia, the free encyclopedia Software that manages computer hardware resources Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs. Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time , mass storage , peripherals, and other resources. For hardware functions such as input and output and memory allocation , the operating system acts as an intermediary between programs and the computer hardware, [ 1 ] [ 2 ] although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers. As of November 2025 [update] , Android is the most popular operating system with a 38% market share, followed by Microsoft Windows at 33%, iOS and iPadOS at 15%, macOS at 4%, and Linux at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers.",
+    "topic": "Operating systems overview",
+    "url": "https://en.wikipedia.org/wiki/Operating_system",
+    "source": "trusted_web",
+    "createdAt": "2026-04-11T08:09:12.920411+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Monitoring and evaluation- Wikipedia",
     "content": "Monitoring and evaluation - Wikipedia Jump to content From Wikipedia, the free encyclopedia Business process Monitoring and evaluation (often combined and referred to as \" M&E \") are processes used by organizations such as companies , government agencies , international organisations and NGOs , with the goal of improving their management of outputs, outcomes and impact. Monitoring and evaluation can be distinguished: monitoring includes the continuous assessment of programmes based on early detailed information on the progress or delay of the ongoing assessed activities. [ 1 ] evaluation involves the examination of the relevance, effectiveness, efficiency and impact of activities in the light of specified objectives. [ 2 ] Monitoring and evaluation processes can be managed by the donors financing the assessed activities, by an independent branch of the implementing organization, by the project managers or implementing team themselves and/or by a private company. The credibility and objectivity of monitoring and evaluation reports depend very much on the independence of the evaluators. Their expertise and independence is of major importance for the process to be successful.",
     "topic": "Monitoring and logging",
