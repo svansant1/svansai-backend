@@ -1,5 +1,15 @@
 [
   {
+    "title": "Central processing unit-Wikipedia",
+    "content": "Central processing unit - Wikipedia Jump to content From Wikipedia, the free encyclopedia Central computer component that executes instructions \"CPU\" redirects here. For other uses, see CPU (disambiguation). A high-end consumer CPU made by Intel : an Intel Core i9-14900KF Inside a central processing unit: The integrated circuit of Intel's Xeon 3060 , first manufactured in 2006 A central processing unit ( CPU ), also known as a central processor , main processor , or simply processor , is the primary processor in a given computer. The form, design , and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged. [ 7 ] Principal components of a CPU include the arithmetic–logic unit (ALU) that performs arithmetic and logic operations , processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) , decoding and execution (of instructions) by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area to caches and instruction-level parallelism to increase performance and to CPU modes to support operating systems and virtualization.",
+    "topic": "CPU architecture basics",
+    "url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+    "source": "trusted_web",
+    "createdAt": "2026-04-11T08:38:59.852643+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "0-Wikipedia",
     "content": "0 - Wikipedia Jump to content From Wikipedia, the free encyclopedia Number \"Zero\" redirects here. For other uses, see 0 (disambiguation) and Zero (disambiguation). For the concept in set theory, see Zero sharp. Natural number ← −1 0 1 → −1 0 1 2 3 4 5 6 7 8 9 → List of numbers Integers ← 0 10 20 30 40 50 60 70 80 90 → Cardinal 0, zero, nought, naught, nil, \"oh\" ( / oʊ / ) Ordinal Zeroth, noughth, 0th Latin prefix nulli- Binary 0 2 Ternary 0 3 Senary 0 6 Octal 0 8 Duodecimal 0 12 Hexadecimal 0 16 Arabic , Kurdish , Persian , Sindhi , Urdu ٠ Hindu numerals ० Santali ᱐ Chinese 零, 〇 Burmese ၀ Khmer ០ Thai ๐ Assamese, Bengali ০ Maya numerals 𝋠 Morse code _ _ _ _ _ This article contains special characters. Common names for the number 0 in English include zero , nought , naught ( / n ɔː t / ), and nil. Etymology Main articles: Names for the number 0 and Names for the number 0 in English The word zero came into the English language via French zéro from the Italian zero , a contraction of the Venetian zevero form of Italian zefiro via ṣafira or ṣifr.",
     "topic": "Zero trust basics",
