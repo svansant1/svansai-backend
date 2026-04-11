@@ -1,5 +1,15 @@
 [
   {
+    "title": "Typography-Wikipedia",
+    "content": "Typography - Wikipedia Jump to content Checked From Wikipedia, the free encyclopedia This is the latest accepted revision , reviewed on 19 March 2026. A specimen sheet of the Trajan typeface, which is based on the letter forms of capitalis monumentalis or Roman square capitals used for the inscription at the base of Trajan's Column , from which the typeface takes its name Movable type being assembled on a composing stick using pieces that are stored in the type case shown below it Typography is the art and technique of arranging type to make written language legible , readable and appealing when displayed. [ 1 ] The term typography is also applied to the style, arrangement, and appearance of the letters, numbers, and symbols created by the process. Type design is a closely related craft, sometimes considered part of typography; most typographers do not design typefaces, and some type designers do not consider themselves typographers. [ 2 ] [ 3 ] Typography also may be used as an ornamental and decorative device, unrelated to the communication of information. Typography is also the work of graphic designers , art directors , manga artists , comic book artists , and, now, anyone who arranges words, letters, numbers, and symbols for publication, display, or distribution, from clerical workers and newsletter writers to anyone self-publishing materials.",
+    "topic": "Typography basics",
+    "url": "https://en.wikipedia.org/wiki/Typography",
+    "source": "trusted_web",
+    "createdAt": "2026-04-11T08:57:18.057923+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Central processing unit-Wikipedia",
     "content": "Central processing unit - Wikipedia Jump to content From Wikipedia, the free encyclopedia Central computer component that executes instructions \"CPU\" redirects here. For other uses, see CPU (disambiguation). A high-end consumer CPU made by Intel : an Intel Core i9-14900KF Inside a central processing unit: The integrated circuit of Intel's Xeon 3060 , first manufactured in 2006 A central processing unit ( CPU ), also known as a central processor , main processor , or simply processor , is the primary processor in a given computer. The form, design , and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged. [ 7 ] Principal components of a CPU include the arithmetic–logic unit (ALU) that performs arithmetic and logic operations , processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) , decoding and execution (of instructions) by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area to caches and instruction-level parallelism to increase performance and to CPU modes to support operating systems and virtualization.",
     "topic": "CPU architecture basics",
