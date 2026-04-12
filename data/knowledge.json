@@ -1,5 +1,15 @@
 [
   {
+    "title": "Userinterfacedesign- Wikipedia",
+    "content": "User interface design - Wikipedia Jump to content From Wikipedia, the free encyclopedia Planned operator–machine interaction The graphical user interface is presented (displayed) on the computer screen. User interface ( UI ) design or user interface engineering is the design of user interfaces for machines and software , such as computers , home appliances , mobile devices , and other electronic devices , with the focus on maximizing usability and the user experience. In computer or software design, user interface (UI) design primarily focuses on information architecture. UI design refers to graphical user interfaces and other forms of interface design. The goal of user interface design is to make the user 's interaction as simple and efficient as possible, in terms of accomplishing user goals ( user-centered design ). User-centered design is typically accomplished through the execution of modern design thinking which involves empathizing with the target audience, defining a problem statement, ideating potential solutions, prototyping wireframes , and testing prototypes in order to refine final interface mockups.",
+    "topic": "UI design principles",
+    "url": "https://en.wikipedia.org/wiki/User_interface_design",
+    "source": "trusted_web",
+    "createdAt": "2026-04-12T00:29:06.405664+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "ThePythonTutorial—Python3.14.3 documentation",
     "content": "The Python Tutorial — Python 3.14.4 documentation Navigation index modules | next | previous | Python » 3.14.4 Documentation » The Python Tutorial | Theme Auto Light Dark | The Python Tutorial Â¶ Tip This tutorial is designed for programmers that are new to the Python language, not beginners who are new to programming. Python is an easy to learn, powerful programming language. Pythonâs elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python website, https://www.python.org/ , and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation. The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C).",
     "topic": "Python basics",
