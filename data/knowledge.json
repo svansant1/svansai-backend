@@ -1,5 +1,15 @@
 [
   {
+    "title": "Monitoring and Logging - Introduction to AWS Security",
+    "content": "Monitoring and Logging - Introduction to AWS Security Monitoring and Logging - Introduction to AWS Security Documentation AWS Whitepapers AWS Whitepaper This whitepaper is for historical reference only. Some content might be outdated and some links might not be available. Monitoring and Logging AWS provides tools and features that enable you to see whatâs happening in your AWS environment. These include: With AWS CloudTrail , you can monitor your AWS deployments in the cloud by getting a history of AWS API calls for your account, including API calls made via the AWS Management Console, the AWS SDKs, the command line tools, and higher-level AWS services. You can also identify which users and accounts called AWS APIs for services that support CloudTrail, the source IP address the calls were made from, and when the calls occurred. Amazon CloudWatch provides a reliable, scalable, and flexible monitoring solution that you can start using within minutes.",
+    "topic": "Monitoring and logging",
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/monitoring-and-logging.html",
+    "source": "trusted_web",
+    "createdAt": "2026-04-12T00:17:44.235739+00:00",
+    "validation_status": "trusted",
+    "confidence": 0.85
+  },
+  {
     "title": "Cybersecurity Basics|NIST",
     "content": "Cybersecurity Basics | NIST Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics Information Technology Laboratory Small Business Cybersecurity Corner Connect with us X (Twitter) Cybersecurity Basics Share Facebook Linkedin X.com Email Cybersecurity is a continuous process. Because your business, technologies, regulations/laws, and cybersecurity threats continue to change, your goal should be to always strive for continuous improvement in your cybersecurity risk management. There are many ways you can improve your business’ cybersecurity. Here are a few basic steps to get you started: Understand that cyber threats are a business risk, and having strong cybersecurity is a competitive advantage. Train employees on basic cybersecurity hygiene.",
     "topic": "Cybersecurity basics",
