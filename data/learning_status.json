@@ -1,0 +1,11 @@
+{
+  "running": true,
+  "last_started_at": "2026-04-07T20:03:23.019466+00:00",
+  "last_completed_at": "2026-04-07T19:35:29.881786+00:00",
+  "last_error_at": "2026-04-07T19:31:54.567649+00:00",
+  "last_error_message": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Shawn Vansant\\\\OneDrive - DeVry University\\\\Desktop\\\\Vansant Platform\\\\svansai_parent\\\\backend\\\\data\\\\render_knowledge_backup.json'",
+  "topics_attempted_today": 115,
+  "entries_saved_today": 41,
+  "mode": "training",
+  "message": "Please wait \u2014 I am still learning."
+}

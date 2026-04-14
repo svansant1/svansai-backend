@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+pydantic
+python-dotenv
+duckduckgo-search
+resend
+ddgs
+google-generativeai
