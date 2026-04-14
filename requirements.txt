@@ -8,3 +8,4 @@ duckduckgo-search
 resend
 ddgs
 google-generativeai
+openai>=1.0.0
