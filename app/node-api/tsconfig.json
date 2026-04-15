@@ -9,7 +9,6 @@
     "types": ["node"],
     "rootDir": ".",
     "outDir": "dist",
-    "ignoreDeprecations": "6.0"
   },
   "include": ["**/*.ts"],
   "exclude": ["dist", "node_modules"]
