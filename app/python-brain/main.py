@@ -7,8 +7,11 @@ from pydantic import BaseModel
 from config import settings
 from learning_status import load_learning_status
 from search_client import search_topic
+from browser_bridge_routes import router as browser_router
 
 app = FastAPI(title=settings.app_name)
+
+app.include_router(browser_router)
 
 app.add_middleware(
     CORSMiddleware,
