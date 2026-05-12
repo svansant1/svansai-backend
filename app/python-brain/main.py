@@ -8,8 +8,10 @@ from config import settings
 from learning_status import load_learning_status
 from search_client import search_topic
 from browser_bridge_routes import router as browser_router
+from mythos_engine import SVANSAIMythosEngine
 
 app = FastAPI(title=settings.app_name)
+mythos_engine = SVANSAIMythosEngine()
 
 app.include_router(browser_router)
 
@@ -24,6 +26,11 @@ app.add_middleware(
 
 class ChatRequest(BaseModel):
     message: str
+
+
+class MythosUpdateRequest(BaseModel):
+    attemptSuccess: bool = False
+    note: str = ""
 
 
 # =========================
@@ -327,6 +334,23 @@ def manual_learn():
 @app.get("/learning/status")
 def learning_status():
     return {"ok": True, "status": load_learning_status()}
+
+
+@app.post("/mythos/reset")
+def mythos_reset():
+    mythos_engine.reset()
+    return mythos_engine.snapshot()
+
+
+@app.get("/mythos/state")
+def mythos_state():
+    return mythos_engine.snapshot()
+
+
+@app.post("/mythos/update")
+def mythos_update(payload: MythosUpdateRequest):
+    mythos_engine.update_state(payload.attemptSuccess, payload.note)
+    return mythos_engine.snapshot()
 
 
 @app.get("/learning/data")

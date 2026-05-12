@@ -9,14 +9,14 @@ const router = Router();
 
 router.post("/", async (req, res) => {
   const { message, sessionId } = req.body || {};
-  const question = String(message || "").trim();
+  const userMessage = String(message || "").trim();
 
-  if (!question) {
+  if (!userMessage) {
     return res.status(400).json({ error: "Message is required." });
   }
 
   emitStatus(sessionId, "cache-check");
-  const cached = await getCachedAnswer(question);
+  const cached = await getCachedAnswer(userMessage);
   if (cached) {
     emitStatus(sessionId, "cache-hit");
     return res.json({
@@ -29,11 +29,11 @@ router.post("/", async (req, res) => {
   }
 
   emitStatus(sessionId, "semantic-route");
-  const routed = await semanticRoute(question);
+  const routed = await semanticRoute(userMessage);
 
   if (routed.strong && routed.matches[0]) {
     const answer = routed.matches[0].answer;
-    await setCachedAnswer(question, answer);
+    await setCachedAnswer(userMessage, answer);
     emitStatus(sessionId, "local-memory-hit");
     return res.json({
       answer,
@@ -45,14 +45,18 @@ router.post("/", async (req, res) => {
   }
 
   emitStatus(sessionId, "fallback-provider");
-  const system = "You are SVANSAI. Answer directly and naturally.";
-  const prompt = `Question:\n${question}\n\nKnown context:\n${routed.matches.map((m: any) => `- ${m.answer}`).join("\n")}`;
+  const system = [
+    "You are SVANSAI. Answer directly and naturally.",
+    "The user may send a question, statement, instruction, greeting, correction, opinion, or fragment.",
+    "Respond to the actual message and continue the conversation without requiring the user to rephrase it as a question."
+  ].join(" ");
+  const prompt = `User message:\n${userMessage}\n\nKnown context:\n${routed.matches.map((m: any) => `- ${m.answer}`).join("\n")}`;
   const fallback = await tieredFallback(prompt, system);
 
   if (fallback.answer) {
-    await setCachedAnswer(question, fallback.answer);
+    await setCachedAnswer(userMessage, fallback.answer);
     await logLearnedAnswer({
-      question,
+      question: userMessage,
       answer: fallback.answer,
       provider: fallback.provider,
       confidence: 0.78
@@ -69,7 +73,7 @@ router.post("/", async (req, res) => {
 
   emitStatus(sessionId, "fallback-failed");
   return res.json({
-    answer: "I couldn't generate a strong answer just now.",
+    answer: "I received your message, but I couldn't generate a strong response just now. Try sending it again and I’ll respond directly.",
     routeUsed: "final-fallback",
     providerUsed: "local",
     confidence: 0,
